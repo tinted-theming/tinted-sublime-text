@@ -1,0 +1,397 @@
+{
+  "name": "{{scheme-name}}",
+
+  "globals": {
+    "background": "#{{base00-hex}}",
+    "foreground": "#{{base04-hex}}",
+    "invisibles": "#{{base04-hex}}99",
+    "caret": "#{{base0A-hex}}",
+    "block_caret": "#{{base0A-hex}}99",
+    "line_highlight": "#{{base00-hex}}{{#scheme-is-light-variant}}02{{/scheme-is-light-variant}}",
+
+    "accent": "#{{base0A-hex}}",
+
+    "popup_css": "html, body {\n background-color: #{{base03-hex}};\n color: #{{base04-hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{base03-hex}};\n --mdpopups-link: #{{base0D-hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{base0D-rgb-r}}, {{base0D-rgb-g}}, {{base0D-rgb-b}}, 0.7);\n }",
+
+    "gutter": "#{{base00-hex}}",
+    "gutter_foreground": "#{{base03-hex}}{{#scheme-is-light-variant}}66{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}99{{/scheme-is-light-variant}}",
+
+    "line_diff_width": "2",
+    "line_diff_added": "#{{base0B-hex}}b2",
+    "line_diff_modified": "#{{base0D-hex}}b2",
+    "line_diff_deleted": "#{{base08-hex}}b2",
+
+    "selection": "#{{base0D-hex}}{{#scheme-is-light-variant}}26{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}4c{{/scheme-is-light-variant}}",
+    "selection_border":
+    "{{base0D-hex}}{{#scheme-is-light-variant}}26{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}4c{{/scheme-is-light-variant}}",
+    "selection_border_width": "1",
+    "inactive_selection": "#{{base0D-hex}}{{#scheme-is-light-variant}}b2{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}21{{/scheme-is-light-variant}}",
+    "inactive_selection_border": "#{{base0D-hex}}{{#scheme-is-light-variant}}b2{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}21{{/scheme-is-light-variant}}",
+    "selection_corner_style": "round",
+    "selection_corner_radius": "4",
+
+    "highlight": "#{{base0A-hex}}66",
+    "find_highlight": "#{{base0A-hex}}",
+    "find_highlight_foreground": "#{{base00-hex}}",
+
+    "guide": "#{{base03-hex}}{{#scheme-is-light-variant}}2d{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}33{{/scheme-is-light-variant}}",
+    "active_guide": "#{{base03-hex}}{{#scheme-is-light-variant}}59{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}7f{{/scheme-is-light-variant}}",
+    "stack_guide": "#{{base03-hex}}66",
+
+    "shadow": "#{{base00-hex}}4c",
+    "shadow_width": "3"
+  },
+
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "font_style": "italic",
+      "foreground": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    },
+
+    {
+      "name": "String",
+      "scope": "string - meta.template, constant.other.symbol, string.quoted",
+      "foreground": "#{{base0B-hex}}"
+    },
+    {
+      "name": "Regular Expressions and Escape Characters",
+      "scope": "string.regexp, constant.character, constant.other",
+      "foreground": "#{{base0C-hex}}"
+    },
+
+
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "Built-in constants",
+      "scope": "constant.language",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "Constants",
+      "scope": "meta.constant, entity.name.constant",
+      "foreground": "#{{base0E-hex}}"
+    },
+
+
+    {
+      "name": "Variable",
+      "scope": "variable",
+      "foreground": "#{{base04-hex}}"
+    },
+    {
+      "name": "Member Variable",
+      "scope": "variable.member",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "Language variable",
+      "scope": "variable.language",
+      "font_style": "italic",
+      "foreground": "#{{base0D-hex}}"
+    },
+
+
+    {
+      "name": "Storage",
+      "scope": "storage, storage.type.keyword",
+      "foreground": "#{{base09-hex}}"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword",
+      "foreground": "#{{base09-hex}}"
+    },
+    {
+      "name": "Java keyword fixes",
+      "scope": "source.java meta.class.java meta.class.identifier.java storage.type.java",
+      "foreground": "#{{base09-hex}}"
+    },
+
+
+    {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "foreground": "#{{base0F-hex}}"
+    },
+
+
+    {
+      "name": "Separators like ; or ,",
+      "scope": "punctuation.separator, punctuation.terminator",
+      "foreground": "#{{base04-hex}}b2"
+    },
+    {
+      "name": "Punctuation",
+      "scope": "punctuation.section",
+      "foreground": "#{{base04-hex}}"
+    },
+    {
+      "name": "Accessor",
+      "scope": "punctuation.accessor",
+      "foreground": "#{{base0F-hex}}"
+    },
+
+    {
+      "name": "JavaScript/TypeScript interpolation punctuation",
+      "scope": "punctuation.definition.template-expression",
+      "foreground": "#{{base09-hex}}"
+    },
+    {
+      "name": "Ruby interpolation punctuation",
+      "scope": "punctuation.section.interpolation",
+      "foreground": "#{{base09-hex}}"
+    },
+
+    {
+      "name": "Types fixes",
+      "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.zig storage.type",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Inherited class type",
+      "scope": "entity.other.inherited-class",
+      "foreground": "#{{base0D-hex}}"
+    },
+
+    {
+      "name": "Lambda arrow",
+      "scope": "storage.type.function",
+      "foreground": "#{{base09-hex}}"
+    },
+    {
+      "name": "Java primitive variable types",
+      "scope": "source.java storage.type.primitive",
+      "foreground": "#{{base0D-hex}}"
+    },
+
+
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "Function arguments",
+      "scope": "variable.parameter, meta.parameter",
+      "foreground": "#{{base0E-hex}}"
+    },
+    {
+      "name": "Function call",
+      "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function, support.macro",
+      "foreground": "#{{base08-hex}}"
+    },
+
+
+    {
+      "name": "Imports and packages",
+      "scope": "entity.name.import, entity.name.package",
+      "foreground": "#{{base0B-hex}}"
+    },
+
+
+    {
+      "name": "Entity name",
+      "scope": "entity.name, source.js meta.function-call.constructor variable.type",
+      "foreground": "#{{base0D-hex}}"
+    },
+
+
+    {
+      "name": "Tag",
+      "scope": "entity.name.tag, meta.tag.sgml",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Tag start/end",
+      "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
+      "foreground": "#{{base0D-hex}}7f"
+    },
+    {
+      "name": "Tag attribute",
+      "scope": "entity.other.attribute-name",
+      "foreground": "#{{base0A-hex}}"
+    },
+
+
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "font_style": "italic",
+      "foreground": "#{{base0F-hex}}"
+    },
+    {
+      "name": "Library class/type",
+      "scope": "support.type, support.class, source.go storage.type",
+      "foreground": "#{{base0D-hex}}"
+    },
+
+
+    {
+      "name": "Decorators/annotation",
+      "scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
+      "foreground": "#{{base0F-hex}}"
+    },
+
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "diff.header",
+      "scope": "meta.diff, meta.diff.header",
+      "foreground": "#c594c5"
+    },
+    {
+      "name": "Ruby class methods",
+      "scope": "source.ruby variable.other.readwrite",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "CSS tag names",
+      "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "CSS browser prefix",
+      "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
+      "foreground": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    },
+    {
+      "name": "CSS Properties",
+      "scope": "support.type.property-name",
+      "font_style": "normal",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Search Results Nums",
+      "scope": "constant.numeric.line-number.find-in-files - match",
+      "foreground":
+      "{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    },
+    {
+      "name": "Search Results Match Nums",
+      "scope": "constant.numeric.line-number.match",
+      "foreground": "#{{base09-hex}}"
+    },
+    {
+      "name": "Search Results Lines",
+      "scope": "entity.name.filename.find-in-files",
+      "foreground": "#{{base0B-hex}}"
+    },
+    {
+      "scope": "message.error",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "Markup heading",
+      "scope": "markup.heading, markup.heading entity.name",
+      "font_style": "bold",
+      "foreground": "#{{base0B-hex}}"
+    },
+    {
+      "name": "Markup links",
+      "scope": "markup.underline.link, string.other.link",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Markup Italic",
+      "scope": "markup.italic",
+      "font_style": "italic",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "Markup Bold",
+      "scope": "markup.bold",
+      "font_style": "bold",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "Markup Bold/italic",
+      "scope": "markup.italic markup.bold, markup.bold markup.italic",
+      "font_style": "bold italic"
+    },
+    {
+      "name": "Markup Code",
+      "scope": "markup.raw",
+      "background": "#{{base04-hex}}05"
+    },
+    {
+      "name": "Markup Code Inline",
+      "scope": "markup.raw.inline",
+      "background": "#{{base04-hex}}0f"
+    },
+    {
+      "name": "Markdown Separator",
+      "scope": "meta.separator",
+      "font_style": "bold",
+      "background": "#{{base04-hex}}0f",
+      "foreground": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    },
+    {
+      "name": "Markup Blockquote",
+      "scope": "markup.quote",
+      "foreground": "#{{base0C-hex}}",
+      "font_style": "italic"
+    },
+    {
+      "name": "Markup List Bullet",
+      "scope": "markup.list punctuation.definition.list.begin",
+      "foreground": "#{{base0A-hex}}"
+    },
+    {
+      "name": "Markup added",
+      "scope": "markup.inserted",
+      "foreground": "#{{base0B-hex}}"
+    },
+    {
+      "name": "Markup modified",
+      "scope": "markup.changed",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Markup removed",
+      "scope": "markup.deleted",
+      "foreground": "#{{base08-hex}}"
+    },
+    {
+      "name": "Markup Strike",
+      "scope": "markup.strike",
+      "foreground": "#{{base0F-hex}}"
+    },
+    {
+      "name": "Markup Table",
+      "scope": "markup.table",
+      "background": "#{{base04-hex}}0f",
+      "foreground": "#{{base0D-hex}}"
+    },
+    {
+      "name": "Markup Raw Inline",
+      "scope": "text.html.markdown markup.inline.raw",
+      "foreground": "#{{base0F-hex}}"
+    },
+    {
+      "name": "Markdown - Line Break",
+      "scope": "text.html.markdown meta.dummy.line-break",
+      "background": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}",
+      "foreground": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    },
+    {
+      "name": "Markdown - Raw Block Fenced",
+      "scope": "punctuation.definition.markdown",
+      "background": "#{{base04-hex}}",
+      "foreground": "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+color_schemes_dir="./color-schemes"
+themes_file="./themes.py"
+
+if [ ! -d "$color_schemes_dir" ]; then
+    echo "Generate template with a builder first and then run this script again..."
+    exit 1
+fi
+
+concatenated_names=""
+
+for file in "$color_schemes_dir"/*.sublime-color-scheme; do
+    name=$(basename "$file" .sublime-color-scheme)
+
+    concatenated_names="$concatenated_names\"$name\", "
+done
+
+echo "THEMES = [${concatenated_names%??}]" > "$themes_file"

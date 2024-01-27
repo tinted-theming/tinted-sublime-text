@@ -1,0 +1,15 @@
+sublime-theme: 
+    extension: .sublime-theme
+    output:
+
+color-scheme: 
+    extension: .sublime-color-scheme
+    output: color-schemes
+
+widget:
+    extension: .stTheme
+    output: widgets
+
+widget-settings:
+    extension: .sublime-theme
+    output: widgets
