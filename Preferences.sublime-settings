@@ -1,10 +1,10 @@
 {
-    // base16-sublime-text theme: Use native titlebars on macOs
+    // base16_sublime_text theme: Use native titlebars on macOs
     "ui_native_titlebar": false,
 
-    // base16-sublime-text theme: Show separators between panels
+    // base16_sublime_text theme: Show separators between panels
     "ui_separator": false,
 
-    // base16-sublime-text theme: Display wider scrollbars
+    // base16_sublime_text theme: Display wider scrollbars
     "ui_wide_scrollbars": false
 }
