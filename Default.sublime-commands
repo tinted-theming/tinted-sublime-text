@@ -1,6 +1,6 @@
 [
   {
-    "caption": "ayu: Activate theme",
-    "command": "ayu_activate"
+    "caption": "Tinted Theming: Activate theme",
+    "command": "base16_sublime_text_activate"
   }
 ]

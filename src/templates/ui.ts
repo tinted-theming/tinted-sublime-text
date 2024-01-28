@@ -1,6 +1,7 @@
-import { Scheme } from 'ayu'
+import { ColorScheme } from "tinted-theming-colors";
+import { appName } from "../constants";
 
-export default (scheme: Scheme, kind: string) => [
+export default (scheme: ColorScheme) => [
   // WINDOWS
   {
     "class": "title_bar",
@@ -25,7 +26,7 @@ export default (scheme: Scheme, kind: string) => [
     "class": "sidebar_container",
     "settings": ["ui_separator"],
     "layer0.tint": scheme.ui.bg.hex(),
-    "layer1.texture": "ayu/assets/separator-sidebar.png",
+    "layer1.texture": `${appName}/assets/separator-sidebar.png`,
     "layer1.inner_margin": [0, 38, 2, 1],
     "layer1.opacity": 1,
     "layer1.tint": scheme.ui.line.hex()
@@ -53,12 +54,12 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "tree_row",
-    "layer0.texture": "ayu/assets/tree-highlight.png",
+    "layer0.texture": `${appName}/assets/tree-highlight.png`,
     "layer0.tint": scheme.ui.selection.active.alpha(0).hex(),
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 
-    "layer1.texture": "ayu/assets/tree-highlight-border.png",
+    "layer1.texture": `${appName}/assets/tree-highlight-border.png`,
     "layer1.tint": scheme.ui.selection.active.hex(),
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
@@ -150,7 +151,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "close_button",
     "content_margin": [6, 8],
-    "layer0.texture": "ayu/assets/close.png",
+    "layer0.texture": `${appName}/assets/close.png`,
     "layer0.opacity": 0,
     "layer0.inner_margin": [0, 0],
     "layer0.tint": scheme.ui.fg.hex()
@@ -163,7 +164,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "close_button",
     "attributes": ["dirty"],
-    "layer0.texture": "ayu/assets/dirty.png",
+    "layer0.texture": `${appName}/assets/dirty.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0
   },
@@ -181,11 +182,11 @@ export default (scheme: Scheme, kind: string) => [
     "layer0.tint": scheme.ui.bg.hex(),
     "layer0.opacity": 0,
 
-    "layer1.texture": "ayu/assets/folder.png",
+    "layer1.texture": `${appName}/assets/folder.png`,
     "layer1.tint": scheme.ui.fg.alpha(.75).hex(),
     "layer1.opacity": 1,
 
-    "layer2.texture": "ayu/assets/folder-open.png",
+    "layer2.texture": `${appName}/assets/folder-open.png`,
     "layer2.tint": scheme.common.accent.hex(),
     "layer2.opacity": 0.0
   },
@@ -205,19 +206,19 @@ export default (scheme: Scheme, kind: string) => [
     "parents": [{ "class": "tree_row", "attributes": ["expanded", "hover"] }],
     "layer2.texture": {
       "keyframes": [
-        "ayu/assets/folder-open-1.png",
-        "ayu/assets/folder-open-1.png",
-        "ayu/assets/folder-open-2.png",
-        "ayu/assets/folder-open-3.png",
-        "ayu/assets/folder-open-4.png",
-        "ayu/assets/folder-open-5.png",
-        "ayu/assets/folder-open-5.png",
-        "ayu/assets/folder-open-5.png",
-        "ayu/assets/folder-open-6.png",
-        "ayu/assets/folder-open-6.png",
-        "ayu/assets/folder-open-6.png",
-        "ayu/assets/folder-open-6.png",
-        "ayu/assets/folder-open.png"
+        `${appName}/assets/folder-open-1.png`,
+        `${appName}/assets/folder-open-1.png`,
+        `${appName}/assets/folder-open-2.png`,
+        `${appName}/assets/folder-open-3.png`,
+        `${appName}/assets/folder-open-4.png`,
+        `${appName}/assets/folder-open-5.png`,
+        `${appName}/assets/folder-open-5.png`,
+        `${appName}/assets/folder-open-5.png`,
+        `${appName}/assets/folder-open-6.png`,
+        `${appName}/assets/folder-open-6.png`,
+        `${appName}/assets/folder-open-6.png`,
+        `${appName}/assets/folder-open-6.png`,
+        `${appName}/assets/folder-open.png`
       ],
       "loop": false,
       "frame_time": 0.020
@@ -236,18 +237,18 @@ export default (scheme: Scheme, kind: string) => [
     "class": "icon_folder_loading",
     "layer1.texture": {
       "keyframes": [
-        "ayu/assets/spinner11.png",
-        "ayu/assets/spinner10.png",
-        "ayu/assets/spinner9.png",
-        "ayu/assets/spinner8.png",
-        "ayu/assets/spinner7.png",
-        "ayu/assets/spinner6.png",
-        "ayu/assets/spinner5.png",
-        "ayu/assets/spinner4.png",
-        "ayu/assets/spinner3.png",
-        "ayu/assets/spinner2.png",
-        "ayu/assets/spinner1.png",
-        "ayu/assets/spinner.png"
+        `${appName}/assets/spinner11.png`,
+        `${appName}/assets/spinner10.png`,
+        `${appName}/assets/spinner9.png`,
+        `${appName}/assets/spinner8.png`,
+        `${appName}/assets/spinner7.png`,
+        `${appName}/assets/spinner6.png`,
+        `${appName}/assets/spinner5.png`,
+        `${appName}/assets/spinner4.png`,
+        `${appName}/assets/spinner3.png`,
+        `${appName}/assets/spinner2.png`,
+        `${appName}/assets/spinner1.png`,
+        `${appName}/assets/spinner.png`
       ],
       "loop": true,
       "frame_time": 0.075
@@ -262,11 +263,11 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "icon_folder_dup",
     "content_margin": [9, 9],
-    "layer0.texture": "ayu/assets/folder.png",
+    "layer0.texture": `${appName}/assets/folder.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
 
-    "layer1.texture": "ayu/assets/folder-symlink.png",
+    "layer1.texture": `${appName}/assets/folder-symlink.png`,
     "layer1.tint": scheme.ui.fg.hex(),
     "layer1.opacity": 0.3
   },
@@ -315,7 +316,7 @@ export default (scheme: Scheme, kind: string) => [
   },
   {
     "class": "sheet_contents",
-    "settings": { "inactive_sheet_dimming": true, },
+    "settings": ["inactive_sheet_dimming"],
     "attributes": ["!highlighted"],
     "background_modifier": `blend(${scheme.ui.bg.hex()} 0%)`
   },
@@ -346,7 +347,7 @@ export default (scheme: Scheme, kind: string) => [
     "content_margin": [0, 0, 0, 0],
     "layer0.tint": scheme.ui.bg.hex(),
 
-    "layer1.texture": "ayu/assets/tabset-border.png",
+    "layer1.texture": `${appName}/assets/tabset-border.png`,
     "layer1.tint": scheme.ui.line.hex(),
     "layer1.inner_margin": [1, 1, 1, 6],
     "layer1.opacity": 1,
@@ -378,7 +379,7 @@ export default (scheme: Scheme, kind: string) => [
     "class": "tab_control",
     "settings": ["!ui_separator"],
 
-    "layer0.texture": "ayu/assets/separator-bottom.png",
+    "layer0.texture": `${appName}/assets/separator-bottom.png`,
     "layer0.tint": scheme.ui.line.hex(),
     "layer0.inner_margin": [0, 0, 0, 2],
     "layer0.opacity": 0.0,
@@ -390,11 +391,11 @@ export default (scheme: Scheme, kind: string) => [
     "class": "tab_control",
     "settings": ["ui_separator"],
 
-    "layer1.texture": "ayu/assets/tab.png",
+    "layer1.texture": `${appName}/assets/tab.png`,
     "layer1.inner_margin": [9, 0, 9, 0],
     "layer1.opacity": 0,
 
-    "layer2.texture": "ayu/assets/tab-border.png",
+    "layer2.texture": `${appName}/assets/tab-border.png`,
     "layer2.inner_margin": [9, 0, 9, 0],
     "layer2.tint": scheme.ui.line.hex(),
     "layer2.opacity": 0,
@@ -488,12 +489,12 @@ export default (scheme: Scheme, kind: string) => [
     "content_margin": [0, 0],
 
     // Close Icon
-    "layer0.texture": "ayu/assets/close.png",
+    "layer0.texture": `${appName}/assets/close.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
 
     // Dirty Icon
-    "layer1.texture": "ayu/assets/dirty.png",
+    "layer1.texture": `${appName}/assets/dirty.png`,
     "layer1.tint": scheme.ui.fg.hex(),
     "layer1.opacity": 0,
   },
@@ -547,7 +548,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "scroll_tabs_left_button",
     "content_margin": [12, 15],
-    "layer0.texture": "ayu/assets/arrow-left.png",
+    "layer0.texture": `${appName}/assets/arrow-left.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0
   },
@@ -561,7 +562,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "scroll_tabs_right_button",
     "content_margin": [12, 15],
-    "layer0.texture": "ayu/assets/arrow-right.png",
+    "layer0.texture": `${appName}/assets/arrow-right.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0
   },
@@ -574,7 +575,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "show_tabs_dropdown_button",
     "content_margin": [12, 12],
-    "layer0.texture": "ayu/assets/overflow-menu.png",
+    "layer0.texture": `${appName}/assets/overflow-menu.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [0, 0]
@@ -590,17 +591,17 @@ export default (scheme: Scheme, kind: string) => [
   // QUICK PANEL
   {
     "class": "overlay_control",
-    "layer0.texture": "ayu/assets/overlay-shadow.png",
+    "layer0.texture": `${appName}/assets/overlay-shadow.png`,
     "layer0.inner_margin": [15, 35, 15, 25],
     "layer0.opacity": 1,
     "layer0.tint": scheme.ui.popup.shadow.hex(),
 
-    "layer1.texture": "ayu/assets/overlay-border.png",
+    "layer1.texture": `${appName}/assets/overlay-border.png`,
     "layer1.inner_margin": [15, 35, 15, 25],
     "layer1.opacity": 1.0,
     "layer1.tint": scheme.ui.line.hex(),
 
-    "layer2.texture": "ayu/assets/overlay-bg.png",
+    "layer2.texture": `${appName}/assets/overlay-bg.png`,
     "layer2.inner_margin": [15, 35, 15, 25],
     "layer2.opacity": 1.0,
     "layer2.tint": scheme.ui.popup.bg.hex(),
@@ -626,12 +627,12 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "mini_quick_panel_row",
-    "layer0.texture": "ayu/assets/tree-highlight.png",
+    "layer0.texture": `${appName}/assets/tree-highlight.png`,
     "layer0.tint": scheme.ui.selection.active.hex(),
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
-    "layer1.texture": "ayu/assets/tree-highlight-border.png",
+    "layer1.texture": `${appName}/assets/tree-highlight-border.png`,
     "layer1.tint": scheme.ui.selection.active.hex(),
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
@@ -646,12 +647,12 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "quick_panel_row",
-    "layer0.texture": "ayu/assets/tree-highlight.png",
+    "layer0.texture": `${appName}/assets/tree-highlight.png`,
     "layer0.tint": scheme.ui.selection.active.hex(),
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
-    "layer1.texture": "ayu/assets/tree-highlight-border.png",
+    "layer1.texture": `${appName}/assets/tree-highlight-border.png`,
     "layer1.tint": scheme.ui.selection.active.hex(),
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
@@ -727,7 +728,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "fold_button_control",
-    "layer0.texture": "ayu/assets/unfold.png",
+    "layer0.texture": `${appName}/assets/unfold.png`,
     "layer0.opacity": 1.0,
     "layer0.inner_margin": 0,
     "layer0.tint": scheme.ui.fg.hex(),
@@ -741,19 +742,19 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "fold_button_control",
     "attributes": ["expanded"],
-    "layer0.texture": "ayu/assets/fold.png"
+    "layer0.texture": `${appName}/assets/fold.png`
   },
 
 
   {
     "class": "popup_shadow",
-    "layer0.texture": "ayu/assets/popup-shadow.png",
+    "layer0.texture": `${appName}/assets/popup-shadow.png`,
     "layer0.inner_margin": [14, 11, 14, 15],
     "layer0.opacity": 1,
     "layer0.tint": scheme.ui.popup.shadow.hex(),
     "layer0.draw_center": false,
 
-    "layer1.texture": "ayu/assets/popup-border.png",
+    "layer1.texture": `${appName}/assets/popup-border.png`,
     "layer1.inner_margin": [14, 11, 14, 15],
     "layer1.opacity": 1,
     "layer1.tint": scheme.ui.line.hex(),
@@ -764,7 +765,7 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "popup_control",
 
-    "layer0.texture": "ayu/assets/popup-bg.png",
+    "layer0.texture": `${appName}/assets/popup-bg.png`,
     "layer0.inner_margin": [4, 4, 4, 4],
     "layer0.opacity": 1,
     "layer0.tint": scheme.ui.popup.bg.hex(),
@@ -779,12 +780,12 @@ export default (scheme: Scheme, kind: string) => [
   },
   {
     "class": "table_row",
-    "layer0.texture": "ayu/assets/tree-highlight.png",
+    "layer0.texture": `${appName}/assets/tree-highlight.png`,
     "layer0.tint": scheme.ui.selection.active.hex(),
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
-    "layer1.texture": "ayu/assets/tree-highlight-border.png",
+    "layer1.texture": `${appName}/assets/tree-highlight-border.png`,
     "layer1.tint": scheme.ui.selection.active.hex(),
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
@@ -812,17 +813,17 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "kind_container",
-    "layer0.texture": "ayu/assets/kind-bg.png",
+    "layer0.texture": `${appName}/assets/kind-bg.png`,
     "layer0.tint": scheme.ui.popup.bg.hex(),
     "layer0.inner_margin": [4, 4, 7, 4],
     "layer0.opacity": 0,
 
-    "layer1.texture": "ayu/assets/kind-bg.png",
+    "layer1.texture": `${appName}/assets/kind-bg.png`,
     "layer1.tint": scheme.ui.popup.bg.alpha(0).hex(),
     "layer1.inner_margin": [4, 4, 7, 4],
     "layer1.opacity": 0.3,
 
-    "layer2.texture": "ayu/assets/kind-border.png",
+    "layer2.texture": `${appName}/assets/kind-border.png`,
     "layer2.tint": scheme.ui.popup.bg.alpha(0).hex(),
     "layer2.inner_margin": [4, 4, 7, 4],
     "layer2.opacity": 0.1,
@@ -1081,7 +1082,7 @@ export default (scheme: Scheme, kind: string) => [
     "class": "panel_control",
     "settings": ["ui_separator"],
     "layer0.tint": scheme.ui.bg.hex(),
-    "layer1.texture": "ayu/assets/separator-top.png",
+    "layer1.texture": `${appName}/assets/separator-top.png`,
     "layer1.tint": scheme.ui.line.hex(),
     "layer1.inner_margin": [1, 2, 1, 0],
     "layer1.opacity": 1
@@ -1095,7 +1096,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "panel_close_button",
-    "layer0.texture": "ayu/assets/close.png",
+    "layer0.texture": `${appName}/assets/close.png`,
     "layer0.opacity": 1.0,
     "layer0.tint": scheme.ui.fg.hex(),
     "content_margin": [0, 0] // 8,8 to show
@@ -1114,7 +1115,7 @@ export default (scheme: Scheme, kind: string) => [
     "layer0.texture": "",
     "layer0.tint": scheme.editor.bg.hex(),
     "layer0.opacity": 1,
-    "layer1.texture": "ayu/assets/separator-top.png",
+    "layer1.texture": `${appName}/assets/separator-top.png`,
     "layer1.tint": scheme.ui.line.hex(),
     "layer1.inner_margin": [1, 2, 1, 0],
     "content_margin": [10, 2]
@@ -1129,7 +1130,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "panel_button_control",
-    "layer0.texture": "ayu/assets/switch-panel.png",
+    "layer0.texture": `${appName}/assets/switch-panel.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0
   },
@@ -1207,7 +1208,7 @@ export default (scheme: Scheme, kind: string) => [
     "layer0.tint": scheme.ui.bg.hex(),
     "layer0.opacity": 1.0,
 
-    "layer1.texture": "ayu/assets/scrollbar-vertical-wide.png",
+    "layer1.texture": `${appName}/assets/scrollbar-vertical-wide.png`,
     "layer1.tint": scheme.ui.fg.hex(),
     "layer1.opacity": 0.1,
     "layer1.inner_margin": [0, 10]
@@ -1220,34 +1221,34 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
-    "layer1.texture": "ayu/assets/scrollbar-horizontal-wide.png",
+    "layer1.texture": `${appName}/assets/scrollbar-horizontal-wide.png`,
     "layer1.inner_margin": [10, 0]
   },
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "layer0.opacity": 0,
-    "layer1.texture": "ayu/assets/scrollbar-vertical.png",
+    "layer1.texture": `${appName}/assets/scrollbar-vertical.png`,
     "layer1.inner_margin": [4, 6, 6, 6]
   },
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars", "ui_wide_scrollbars"],
-    "layer0.texture": "ayu/assets/scrollbar-vertical-wide.png"
+    "layer0.texture": `${appName}/assets/scrollbar-vertical-wide.png`
   },
   {
     "class": "scroll_bar_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
     "layer0.opacity": 0,
-    "layer1.texture": "ayu/assets/scrollbar-horizontal.png",
+    "layer1.texture": `${appName}/assets/scrollbar-horizontal.png`,
     "layer1.inner_margin": [6, 4, 6, 6]
   },
   {
     "class": "scroll_bar_control",
     "attributes": ["horizontal"],
     "settings": ["overlay_scroll_bars", "ui_wide_scrollbars"],
-    "layer0.texture": "ayu/assets/scrollbar-horizontal-wide.png"
+    "layer0.texture": `${appName}/assets/scrollbar-horizontal-wide.png`
   },
 
 
@@ -1267,7 +1268,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "puck_control",
-    "layer0.texture": "ayu/assets/scrollbar-vertical-wide.png",
+    "layer0.texture": `${appName}/assets/scrollbar-vertical-wide.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 0.3,
     "layer0.inner_margin": [0, 10],
@@ -1276,27 +1277,27 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "puck_control",
     "attributes": ["horizontal"],
-    "layer0.texture": "ayu/assets/scrollbar-horizontal-wide.png",
+    "layer0.texture": `${appName}/assets/scrollbar-horizontal-wide.png`,
     "layer0.inner_margin": [10, 0],
     "content_margin": [12, 6]
   },
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
-    "layer0.texture": "ayu/assets/scrollbar-vertical.png",
+    "layer0.texture": `${appName}/assets/scrollbar-vertical.png`,
     "layer0.inner_margin": [4, 6, 6, 6],
     "content_margin": [5, 20]
   },
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars", "ui_wide_scrollbars"],
-    "layer0.texture": "ayu/assets/scrollbar-vertical-wide.png"
+    "layer0.texture": `${appName}/assets/scrollbar-vertical-wide.png`
   },
   {
     "class": "puck_control",
     "settings": ["overlay_scroll_bars"],
     "attributes": ["horizontal"],
-    "layer0.texture": "ayu/assets/scrollbar-horizontal.png",
+    "layer0.texture": `${appName}/assets/scrollbar-horizontal.png`,
     "layer0.inner_margin": [6, 4, 6, 6],
     "content_margin": [20, 5]
   },
@@ -1304,7 +1305,7 @@ export default (scheme: Scheme, kind: string) => [
     "class": "puck_control",
     "attributes": ["horizontal"],
     "settings": ["overlay_scroll_bars", "ui_wide_scrollbars"],
-    "layer0.texture": "ayu/assets/scrollbar-horizontal-wide.png"
+    "layer0.texture": `${appName}/assets/scrollbar-horizontal-wide.png`
   },
 
 
@@ -1312,12 +1313,12 @@ export default (scheme: Scheme, kind: string) => [
   // INPUTS
   {
     "class": "text_line_control",
-    "layer0.texture": "ayu/assets/input-bg.png",
+    "layer0.texture": `${appName}/assets/input-bg.png`,
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
     "layer0.tint": scheme.ui.popup.bg.hex(),
 
-    "layer1.texture": "ayu/assets/input-border.png",
+    "layer1.texture": `${appName}/assets/input-border.png`,
     "layer1.opacity": 1,
     "layer1.inner_margin": [10, 8],
     "layer1.tint": scheme.ui.line.hex(),
@@ -1329,7 +1330,7 @@ export default (scheme: Scheme, kind: string) => [
     "parents": [{ "class": "overlay_control" }],
     "layer0.texture": "",
     "layer0.opacity": 0,
-    "layer1.texture": "ayu/assets/input-prompt.png",
+    "layer1.texture": `${appName}/assets/input-prompt.png`,
     "layer1.opacity": 1,
     "layer1.tint": scheme.ui.fg.alpha(1).hex(),
     "layer1.inner_margin": [36, 26, 0, 0],
@@ -1338,34 +1339,34 @@ export default (scheme: Scheme, kind: string) => [
   {
     "class": "text_line_control",
     "parents": [{ "class": "overlay_control goto_file" }],
-    "layer1.texture": "ayu/assets/input-search.png"
+    "layer1.texture": `${appName}/assets/input-search.png`
   },
   {
     "class": "text_line_control",
     "parents": [{ "class": "overlay_control command_palette" }],
-    "layer1.texture": "ayu/assets/input-command.png"
+    "layer1.texture": `${appName}/assets/input-command.png`
   },
   {
     "class": "text_line_control",
     "parents": [{ "class": "overlay_control goto_symbol" }],
-    "layer1.texture": "ayu/assets/input-symbol.png"
+    "layer1.texture": `${appName}/assets/input-symbol.png`
   },
   {
     "class": "text_line_control",
     "parents": [{ "class": "overlay_control goto_symbol_in_project" }],
-    "layer1.texture": "ayu/assets/input-symbol.png"
+    "layer1.texture": `${appName}/assets/input-symbol.png`
   },
   {
     "class": "text_line_control",
     "parents": [{ "class": "overlay_control goto_word" }],
-    "layer1.texture": "ayu/assets/input-word.png"
+    "layer1.texture": `${appName}/assets/input-word.png`
   },
 
 
   {
     "class": "dropdown_button_control",
     "content_margin": [12, 12],
-    "layer0.texture": "ayu/assets/overflow-menu.png",
+    "layer0.texture": `${appName}/assets/overflow-menu.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0
   },
@@ -1383,7 +1384,7 @@ export default (scheme: Scheme, kind: string) => [
     "content_margin": [15, 9, 15, 10],
     "min_size": [60, 0],
     "layer0.tint": scheme.common.accent.hex(),
-    "layer0.texture": "ayu/assets/input-bg.png",
+    "layer0.texture": `${appName}/assets/input-bg.png`,
     "layer0.inner_margin": [10, 8],
     "layer0.opacity": 0
   },
@@ -1406,7 +1407,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_regex",
-    "layer0.texture": "ayu/assets/regex.png",
+    "layer0.texture": `${appName}/assets/regex.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1420,7 +1421,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_case",
-    "layer0.texture": "ayu/assets/matchcase.png",
+    "layer0.texture": `${appName}/assets/matchcase.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1434,7 +1435,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_whole_word",
-    "layer0.texture": "ayu/assets/word.png",
+    "layer0.texture": `${appName}/assets/word.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1448,7 +1449,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_wrap",
-    "layer0.texture": "ayu/assets/wrap.png",
+    "layer0.texture": `${appName}/assets/wrap.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1462,7 +1463,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_in_selection",
-    "layer0.texture": "ayu/assets/inselection.png",
+    "layer0.texture": `${appName}/assets/inselection.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1476,7 +1477,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_highlight",
-    "layer0.texture": "ayu/assets/highlight.png",
+    "layer0.texture": `${appName}/assets/highlight.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1490,7 +1491,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_preserve_case",
-    "layer0.texture": "ayu/assets/replace-preserve-case.png",
+    "layer0.texture": `${appName}/assets/replace-preserve-case.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1504,7 +1505,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_context",
-    "layer0.texture": "ayu/assets/context.png",
+    "layer0.texture": `${appName}/assets/context.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1518,7 +1519,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_use_buffer",
-    "layer0.texture": "ayu/assets/buffer.png",
+    "layer0.texture": `${appName}/assets/buffer.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1531,7 +1532,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "icon_use_gitignore",
-    "layer0.texture": "ayu/assets/gitignore.png",
+    "layer0.texture": `${appName}/assets/gitignore.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]
@@ -1544,7 +1545,7 @@ export default (scheme: Scheme, kind: string) => [
 
   {
     "class": "sidebar_button_control",
-    "layer0.texture": "ayu/assets/sidebar.png",
+    "layer0.texture": `${appName}/assets/sidebar.png`,
     "layer0.tint": scheme.ui.fg.hex(),
     "layer0.opacity": 1.0,
     "content_margin": [12, 12]

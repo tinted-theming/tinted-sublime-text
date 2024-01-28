@@ -19,3 +19,7 @@ jspm_packages
 
 # color scheme gens
 /ayu-*.yml
+
+color-schemes/
+widgets/
+base16-*.sublime-theme

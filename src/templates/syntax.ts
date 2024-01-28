@@ -1,7 +1,7 @@
-import { Scheme } from 'ayu'
+import { ColorScheme } from "tinted-theming-colors";
 
-export default (scheme: Scheme) => ({
-  name: "ayu",
+export default (scheme: ColorScheme) => ({
+  name: scheme.meta.name,
 
   globals: {
     background: scheme.editor.bg.hex(),

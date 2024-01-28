@@ -3,11 +3,10 @@
 import sublime
 import sublime_plugin
 import functools
+from base16_sublime_text.themes import THEMES
 
 NO_SELECTION = -1
 PREFERENCES = 'Preferences.sublime-settings'
-THEMES = [ 'ayu-light', 'ayu-mirage', 'ayu-dark' ]
-
 
 def get_color_scheme():
   return sublime.load_settings(PREFERENCES).get('color_scheme', '')
@@ -55,8 +54,7 @@ def commit():
   return sublime.save_settings(PREFERENCES)
 
 
-class AyuActivateCommand(sublime_plugin.WindowCommand):
-
+class Base16SublimeTextActivateCommand(sublime_plugin.WindowCommand):
   def display_list(self, themes):
     self.themes = themes
     self.initial_color_scheme = get_color_scheme()
@@ -84,7 +82,7 @@ class AyuActivateCommand(sublime_plugin.WindowCommand):
     activate_ui_theme(ui_theme)
 
   def _quick_list_to_scheme(self, index):
-    return 'Packages/ayu/%s.sublime-color-scheme' % THEMES[index]
+    return 'Packages/base16_sublime_text/color-schemes/%s.sublime-color-scheme' % THEMES[index]
 
   def _quick_list_to_theme(self, index):
     return '%s.sublime-theme' % THEMES[index]

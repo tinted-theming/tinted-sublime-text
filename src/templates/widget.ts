@@ -1,17 +1,18 @@
-import { Scheme } from 'ayu'
+import { ColorScheme } from "tinted-theming-colors";
+import { appName } from "../constants";
 
-export default (scheme: Scheme, name: string) => `<?xml version="1.0" encoding="UTF-8"?>
+export default (scheme: ColorScheme) => `<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Ike Ku</string>
+  <string>${scheme.meta.author}</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>ayu</string>
+  <string>${scheme.meta.name}</string>
   <key>semanticClass</key>
-  <string>ayu.${name}</string>
+  <string>${appName}.${scheme.meta.slug}</string>
   <key>settings</key>
   <array>
     <dict>
@@ -94,4 +95,4 @@ export default (scheme: Scheme, name: string) => `<?xml version="1.0" encoding="
     </dict>
   </array>
 </dict>
-</plist>`
+</plist>`;
