@@ -1,6 +1,6 @@
 [
   {
     "caption": "Tinted Theming: Activate theme",
-    "command": "base16_sublime_text_activate"
+    "command": "tinted_theming_activate"
   }
 ]

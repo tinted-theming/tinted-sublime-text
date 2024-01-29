@@ -1,8 +1,8 @@
-# Base16 Sublime Text
+# Tinted Theming for Sublime Text
 
-Base16 themes for [Sublime Text]. Have a look at the [base16-gallery] to
-get a preview of the supported themes and go to [Tinted Theming] for
-more information about this theming project.
+Tinted themes for [Sublime Text]. Have a look at the [base16-gallery] to
+get a preview of some of the supported themes and go to [Tinted Theming]
+for more information about this theming project.
 
 ## Installation
 
@@ -10,18 +10,18 @@ more information about this theming project.
    the path of this directory opening sublime text and in the menu
    selecting `Preferences -> Browse Packages...`.
 2. Navigate to the `Packages/` directory in the command line. `cd
-   path/to/sublime-text/Packages`
+   path/to/SublimeText/Packages`
 3. Clone this GitHub repo into the above directory.
 
 *IMPORTANT NOTE*: The directory in Sublime Text's `Package/` directory
-must be called `base16_sublime_text`. So the path would be:
-`path/to/sublime-text/Packages/base16_sublime_text`. This is the
+must be called `tinted_theming`. So the path would be:
+`path/to/sublime-text/Packages/tinted_theming`. This is the
 package's internal name and any other directory name for the repo won't
 work.
 
 ```shell
 cd path/to/sublime-text/Packages
-git clone https://github.com/tinted-theming/base16_sublime_text
+git clone https://github.com/tinted-theming/sublime-text tinted_theming
 ```
 
 ## Usage

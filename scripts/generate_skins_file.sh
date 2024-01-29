@@ -1,5 +1,5 @@
 color_schemes_dir="./color-schemes"
-skins_file="./base16_sublime_text.skins"
+skins_file="./tinted_theming.skins"
 
 if [ ! -d "$color_schemes_dir" ]; then
     echo "Generate template with a builder first and then run this script again..."
@@ -15,8 +15,8 @@ for file in "$color_schemes_dir"/*.sublime-color-scheme; do
     # Generate json
     concatenated_names="$concatenated_names\"$slug\": "
       concatenated_names="$concatenated_names{ \"Preferences\": {"
-        concatenated_names="$concatenated_names \"color_scheme\": \"Packages/base16_sublime_text/color_scheme/$name.sublime-color-scheme\", "
-        concatenated_names="$concatenated_names \"theme\": \"Packages/base16_sublime_text/$name.sublime-theme\""
+        concatenated_names="$concatenated_names \"color_scheme\": \"Packages/tinted_theming/color_scheme/$name.sublime-color-scheme\", "
+        concatenated_names="$concatenated_names \"theme\": \"Packages/tinted_theming/$name.sublime-theme\""
       concatenated_names="$concatenated_names }"
     concatenated_names="$concatenated_names },"
 done
