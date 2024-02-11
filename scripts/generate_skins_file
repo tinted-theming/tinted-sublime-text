@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 color_schemes_dir="./color-schemes"
 skins_file="./tinted_theming.skins"
 

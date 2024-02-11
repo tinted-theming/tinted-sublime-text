@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 color_schemes_dir="./color-schemes"
 themes_file="./themes.py"
 

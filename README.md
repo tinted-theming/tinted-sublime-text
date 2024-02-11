@@ -1,4 +1,4 @@
-# Tinted Theming for Sublime Text
+# Tinted Sublime Text
 
 Tinted themes for [Sublime Text]. Have a look at the [base16-gallery] to
 get a preview of some of the supported themes and go to [Tinted Theming]
