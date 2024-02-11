@@ -1,15 +1,15 @@
-sublime-theme: 
+base16-sublime-theme: 
     extension: .sublime-theme
     output:
 
-color-scheme: 
+base16-color-scheme: 
     extension: .sublime-color-scheme
     output: color-schemes
 
-widget:
+base16-widget:
     extension: .stTheme
     output: widgets
 
-widget-settings:
+base16-widget-settings:
     extension: .sublime-theme
     output: widgets
