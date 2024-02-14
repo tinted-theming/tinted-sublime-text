@@ -10,6 +10,22 @@ base16-widget:
     extension: .stTheme
     output: widgets
 
-base16-widget-settings:
+base24-sublime-theme: 
+    extension: .sublime-theme
+    output:
+    supported-systems: [base24]
+
+base24-color-scheme: 
+    extension: .sublime-color-scheme
+    output: color-schemes
+    supported-systems: [base24]
+
+base24-widget:
+    extension: .stTheme
+    output: widgets
+    supported-systems: [base24]
+
+widget-settings:
     extension: .sublime-theme
     output: widgets
+    supported-systems: [base16, base24]

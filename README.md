@@ -2,7 +2,8 @@
 
 Tinted themes for [Sublime Text]. Have a look at the [base16-gallery] to
 get a preview of some of the supported themes and go to [Tinted Theming]
-for more information about this theming project.
+for more information about this theming project. This project contains
+themes for both [Base16] and [Base24] scheme systems.
 
 ## Installation
 
@@ -40,3 +41,5 @@ project as a template for this repo.
 [base16-gallery]: https://tinted-theming.github.io/base16-gallery
 [Tinted Theming]: https://github.com/tinted-theming
 [Ayu]: https://github.com/dempfi/ayu
+[Base16]: https://github.com/tinted-theming/home/blob/main/styling.md
+[Base24]: https://github.com/tinted-theming/base24/blob/master/styling.md
