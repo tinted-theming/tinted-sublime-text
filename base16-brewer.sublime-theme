@@ -41,7 +41,7 @@
 
   {
     "class": "sidebar_heading",
-    "color": "#959697",
+    "color": "#515253",
     "font.bold": true,
     "font.size": 11
   },
@@ -50,52 +50,52 @@
   {
     "class": "tree_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#b7b8b900",
+    "layer0.tint": "#515253",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#b7b8b93f",
+    "layer1.tint": "#5152533f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "hover"],
-    "layer0.tint": "#b7b8b93f",
+    "layer0.tint": "#5152533f",
     "layer1.opacity": 1
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected"],
-    "layer0.tint": "#b7b8b933"
+    "layer0.tint": "#51525333"
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected", "hover"],
-    "layer0.tint": "#b7b8b93f"
+    "layer0.tint": "#5152533f"
   },
 
 
   {
     "class": "sidebar_label",
-    "fg": "#959697",
+    "fg": "#dadbdc",
     "font.size": 12
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "fg": "#959697"
+    "fg": "#dadbdc"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "fg": "#959697"
+    "fg": "#dadbdc"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
-    "fg": "#959697",
+    "fg": "#dadbdc",
     "font.bold": false
   },
   {
@@ -107,12 +107,12 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable", "hover"] }],
-    "fg": "#959697"
+    "fg": "#dadbdc"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-    "fg": "#959697"
+    "fg": "#dadbdc"
   },
   {
     "class": "sidebar_label",
@@ -128,7 +128,7 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-    "fg": "#9596977f"
+    "fg": "#dadbdc7f"
   },
 
 
@@ -626,7 +626,7 @@
 
   {
     "class": "quick_panel_label",
-    "fg": "#959697",
+    "fg": "#dadbdc",
     "match_fg": "#dca060",
     "selected_fg": "#959697",
     "selected_match_fg": "#dca060"
@@ -634,15 +634,15 @@
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
-    "fg": "#959697",
+    "fg": "#dadbdc",
     "match_fg": "#dca060",
     "selected_fg": "#959697",
     "selected_match_fg": "#dca060"
   },
   {
     "class": "quick_panel_path_label",
-    "fg": "#959697",
-    "match_fg": "#959697",
+    "fg": "#dadbdc",
+    "match_fg": "#b7b8b9",
     "selected_fg": "#959697",
     "selected_match_fg": "#959697"
   },
@@ -1117,7 +1117,7 @@
 
   {
     "class": "vcs_changes_annotation",
-    "border_color": "#959697"
+    "border_color": "#959697b2"
   },
 
 
@@ -1284,7 +1284,7 @@
     "layer0.opacity": 0,
     "layer1.texture": "tinted_theming/assets/input-prompt.png",
     "layer1.opacity": 1,
-    "layer1.tint": "#b7b8b9ff",
+    "layer1.tint": "#b7b8b9",
     "layer1.inner_margin": [36, 26, 0, 0],
     "content_margin": [38, 5, 10, 5]
   },

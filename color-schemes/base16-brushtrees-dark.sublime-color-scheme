@@ -14,7 +14,7 @@
     "popup_css": "html, body {\n background-color: #8299a1;\n color: #98afb5;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #8299a1;\n --mdpopups-link: #868cb3;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(134, 140, 179, 0.7);\n }",
 
     "gutter": "#485867",
-    "gutter_foreground": "#8299a199",
+    "gutter_foreground": "#8299a166",
 
     "line_diff_width": "2",
     "line_diff_added": "#87b386b2",

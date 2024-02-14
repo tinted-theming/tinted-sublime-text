@@ -16,17 +16,17 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>abb0b6</string>
+        <string>#abb0b6</string>
         <key>caret</key>
-        <string>f2ae49</string>
+        <string>#f2ae49</string>
         <key>foreground</key>
-        <string>828c99</string>
+        <string>#828c99</string>
         <key>invisibles</key>
         <string>#abb0b666</string>
         <key>lineHighlight</key>
         <string>#f3f4f519</string>
         <key>inactiveSelection</key>
-        <string>#36a3d9b2</string>
+        <string>#36a3d911</string>
         <key>selection</key>
         <string>#36a3d926</string>
         <key>selectionBorder</key>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>a37acc</string>
+        <string>#a37acc</string>
       </dict>
     </dict>
     <dict>

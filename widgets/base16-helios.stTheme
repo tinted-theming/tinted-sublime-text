@@ -16,11 +16,11 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>6f7579</string>
+        <string>#6f7579</string>
         <key>caret</key>
-        <string>f19d1a</string>
+        <string>#f19d1a</string>
         <key>foreground</key>
-        <string>cdcdcd</string>
+        <string>#cdcdcd</string>
         <key>invisibles</key>
         <string>#6f757999</string>
         <key>lineHighlight</key>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>be4264</string>
+        <string>#be4264</string>
       </dict>
     </dict>
     <dict>

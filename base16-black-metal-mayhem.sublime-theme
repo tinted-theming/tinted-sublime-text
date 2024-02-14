@@ -41,7 +41,7 @@
 
   {
     "class": "sidebar_heading",
-    "color": "#999999",
+    "color": "#222222",
     "font.bold": true,
     "font.size": 11
   },
@@ -50,30 +50,30 @@
   {
     "class": "tree_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#c1c1c100",
+    "layer0.tint": "#222222",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#c1c1c13f",
+    "layer1.tint": "#2222223f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "hover"],
-    "layer0.tint": "#c1c1c13f",
+    "layer0.tint": "#2222223f",
     "layer1.opacity": 1
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected"],
-    "layer0.tint": "#c1c1c133"
+    "layer0.tint": "#22222233"
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected", "hover"],
-    "layer0.tint": "#c1c1c13f"
+    "layer0.tint": "#2222223f"
   },
 
 
@@ -642,7 +642,7 @@
   {
     "class": "quick_panel_path_label",
     "fg": "#999999",
-    "match_fg": "#999999",
+    "match_fg": "#c1c1c1",
     "selected_fg": "#999999",
     "selected_match_fg": "#999999"
   },
@@ -1117,7 +1117,7 @@
 
   {
     "class": "vcs_changes_annotation",
-    "border_color": "#999999"
+    "border_color": "#999999b2"
   },
 
 
@@ -1284,7 +1284,7 @@
     "layer0.opacity": 0,
     "layer1.texture": "tinted_theming/assets/input-prompt.png",
     "layer1.opacity": 1,
-    "layer1.tint": "#c1c1c1ff",
+    "layer1.tint": "#c1c1c1",
     "layer1.inner_margin": [36, 26, 0, 0],
     "content_margin": [38, 5, 10, 5]
   },

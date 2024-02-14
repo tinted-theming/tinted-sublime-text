@@ -7,14 +7,14 @@
     "invisibles": "#66758199",
     "caret": "#e4b51c",
     "block_caret": "#e4b51c99",
-    "line_highlight": "#f5f7fa02",
+    "line_highlight": "#f5f7fa19",
 
     "accent": "#e4b51c",
 
     "popup_css": "html, body {\n background-color: #85939e;\n color: #667581;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #85939e;\n --mdpopups-link: #33b5e1;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(51, 181, 225, 0.7);\n }",
 
     "gutter": "#f5f7fa",
-    "gutter_foreground": "#85939e66",
+    "gutter_foreground": "#85939ecc",
 
     "line_diff_width": "2",
     "line_diff_added": "#7cc844b2",
@@ -25,8 +25,8 @@
     "selection_border":
     "33b5e126",
     "selection_border_width": "1",
-    "inactive_selection": "#33b5e1b2",
-    "inactive_selection_border": "#33b5e1b2",
+    "inactive_selection": "#33b5e111",
+    "inactive_selection_border": "#33b5e111",
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
