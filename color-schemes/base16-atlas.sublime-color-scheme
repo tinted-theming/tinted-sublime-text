@@ -11,22 +11,22 @@
 
     "accent": "#ffcc1b",
 
-    "popup_css": "html, body {\n background-color: #6c8b91;\n color: #869696;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #6c8b91;\n --mdpopups-link: #5dd7b9;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(93, 215, 185, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #6c8b91;\n color: #869696;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #6c8b91;\n --mdpopups-link: #14747e;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(20, 116, 126, 0.7);\n }",
 
     "gutter": "#002635",
     "gutter_foreground": "#6c8b9166",
 
     "line_diff_width": "2",
     "line_diff_added": "#7fc06eb2",
-    "line_diff_modified": "#5dd7b9b2",
+    "line_diff_modified": "#14747eb2",
     "line_diff_deleted": "#ff5a67b2",
 
-    "selection": "#5dd7b94c",
+    "selection": "#14747e4c",
     "selection_border":
-    "5dd7b94c",
+    "14747e4c",
     "selection_border_width": "1",
-    "inactive_selection": "#5dd7b921",
-    "inactive_selection_border": "#5dd7b921",
+    "inactive_selection": "#14747e21",
+    "inactive_selection_border": "#14747e21",
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
@@ -58,7 +58,7 @@
     {
       "name": "Regular Expressions and Escape Characters",
       "scope": "string.regexp, constant.character, constant.other",
-      "foreground": "#14747e"
+      "foreground": "#5dd7b9"
     },
 
 
@@ -93,7 +93,7 @@
       "name": "Language variable",
       "scope": "variable.language",
       "font_style": "italic",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
 
 
@@ -151,12 +151,12 @@
     {
       "name": "Types fixes",
       "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.zig storage.type",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Inherited class type",
       "scope": "entity.other.inherited-class",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
 
     {
@@ -167,7 +167,7 @@
     {
       "name": "Java primitive variable types",
       "scope": "source.java storage.type.primitive",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
 
 
@@ -203,19 +203,19 @@
     {
       "name": "Entity name",
       "scope": "entity.name, source.js meta.function-call.constructor variable.type",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
 
 
     {
       "name": "Tag",
       "scope": "entity.name.tag, meta.tag.sgml",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "#5dd7b97f"
+      "foreground": "#14747e7f"
     },
     {
       "name": "Tag attribute",
@@ -233,7 +233,7 @@
     {
       "name": "Library class/type",
       "scope": "support.type, support.class, source.go storage.type",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
 
 
@@ -261,7 +261,7 @@
     {
       "name": "CSS tag names",
       "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "CSS browser prefix",
@@ -272,7 +272,7 @@
       "name": "CSS Properties",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Search Results Nums",
@@ -303,7 +303,7 @@
     {
       "name": "Markup links",
       "scope": "markup.underline.link, string.other.link",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Markup Italic",
@@ -342,7 +342,7 @@
     {
       "name": "Markup Blockquote",
       "scope": "markup.quote",
-      "foreground": "#14747e",
+      "foreground": "#5dd7b9",
       "font_style": "italic"
     },
     {
@@ -358,7 +358,7 @@
     {
       "name": "Markup modified",
       "scope": "markup.changed",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Markup removed",
@@ -374,7 +374,7 @@
       "name": "Markup Table",
       "scope": "markup.table",
       "background": "#8696960f",
-      "foreground": "#5dd7b9"
+      "foreground": "#14747e"
     },
     {
       "name": "Markup Raw Inline",

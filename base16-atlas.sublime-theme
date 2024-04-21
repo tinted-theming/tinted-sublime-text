@@ -291,7 +291,7 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["modified"],
-    "layer0.tint": "#5dd7b966"
+    "layer0.tint": "#14747e66"
   },
   {
     "class": "vcs_status_badge",
@@ -648,7 +648,7 @@
   },
   {
     "class": "quick_panel_detail_label",
-    "link_color": "#5dd7b9"
+    "link_color": "#14747e"
   },
 
 
@@ -825,24 +825,24 @@
   {
     "class": "kind_container kind_markup",
     "layer0.opacity": 1,
-    "layer1.tint": "#5dd7b9",
-    "layer2.tint": "#5dd7b9"
+    "layer1.tint": "#14747e",
+    "layer2.tint": "#14747e"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_markup" }],
-    "color": "#5dd7b9"
+    "color": "#14747e"
   },
   {
     "class": "kind_container kind_namespace",
     "layer0.opacity": 1,
-    "layer1.tint": "#5dd7b9",
-    "layer2.tint": "#5dd7b9"
+    "layer1.tint": "#14747e",
+    "layer2.tint": "#14747e"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_namespace" }],
-    "color": "#5dd7b9"
+    "color": "#14747e"
   },
   {
     "class": "kind_container kind_navigation",
@@ -869,13 +869,13 @@
   {
     "class": "kind_container kind_type",
     "layer0.opacity": 1,
-    "layer1.tint": "#5dd7b9",
-    "layer2.tint": "#5dd7b9"
+    "layer1.tint": "#14747e",
+    "layer2.tint": "#14747e"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_type" }],
-    "color": "#5dd7b9"
+    "color": "#14747e"
   },
   {
     "class": "kind_container kind_variable",
@@ -935,24 +935,24 @@
   {
     "class": "kind_container kind_color_cyanish",
     "layer0.opacity": 1,
-    "layer1.tint": "#14747e",
-    "layer2.tint": "#14747e"
-  },
-  {
-    "class": "kind_label",
-    "parents": [{ "class": "kind_container kind_color_cyanish" }],
-    "color": "#14747e"
-  },
-  {
-    "class": "kind_container kind_color_bluish",
-    "layer0.opacity": 1,
     "layer1.tint": "#5dd7b9",
     "layer2.tint": "#5dd7b9"
   },
   {
     "class": "kind_label",
-    "parents": [{ "class": "kind_container kind_color_bluish" }],
+    "parents": [{ "class": "kind_container kind_color_cyanish" }],
     "color": "#5dd7b9"
+  },
+  {
+    "class": "kind_container kind_color_bluish",
+    "layer0.opacity": 1,
+    "layer1.tint": "#14747e",
+    "layer2.tint": "#14747e"
+  },
+  {
+    "class": "kind_label",
+    "parents": [{ "class": "kind_container kind_color_bluish" }],
+    "color": "#14747e"
   },
   {
     "class": "kind_container kind_color_purplish",
@@ -1530,7 +1530,7 @@
   {
     "class": "label_control",
     "parents": [{ "class": "button_control", "attributes": ["hover"] }],
-    "color": "#5dd7b9"
+    "color": "#14747e"
   },
 
 
