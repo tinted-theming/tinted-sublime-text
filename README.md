@@ -25,6 +25,23 @@ cd path/to/sublime-text/Packages
 git clone https://github.com/tinted-theming/sublime-text tinted_theming
 ```
 
+### [Package Control](https://packagecontrol.io/) users
+
+1. Open command palette > Preferences: Package Control Settings
+2. Add the following to `Package Control.sublime-settings` and save:
+
+```json
+"repositories": [
+	"https://github.com/tinted-theming/tinted-sublime-text"
+],
+"package_name_map": {
+   "tinted-sublime-text": "tinted_theming",
+}
+```
+
+3. Open command palette > Package Control: Install Package
+4. Search for "tinted_theming" and select it
+
 ## Usage
 
 1. Open the Command Palette (Mac: `CMD + SHIFT + P`, Linux: `CTRL + SHIFT + C`)
