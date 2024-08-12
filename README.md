@@ -32,7 +32,7 @@ git clone https://github.com/tinted-theming/sublime-text tinted_theming
 
 ```json
 "repositories": [
-	"https://github.com/tinted-theming/tinted-sublime-text"
+    "https://github.com/tinted-theming/tinted-sublime-text"
 ],
 "package_name_map": {
     "tinted-sublime-text": "tinted_theming",
