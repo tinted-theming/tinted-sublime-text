@@ -2,7 +2,7 @@
   "name": "Windows 10",
 
   "globals": {
-    "background": "#0c0c0c",
+    "background": "#2f2f2f",
     "foreground": "#b9b9b9",
     "invisibles": "#b9b9b999",
     "caret": "#f9f1a5",

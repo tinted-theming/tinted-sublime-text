@@ -2,7 +2,7 @@
   "name": "Mellow Purple",
 
   "globals": {
-    "background": "#1e0528",
+    "background": "#1a092d",
     "foreground": "#873582",
     "invisibles": "#87358299",
     "caret": "#955ae7",

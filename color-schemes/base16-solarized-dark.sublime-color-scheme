@@ -2,7 +2,7 @@
   "name": "Solarized Dark",
 
   "globals": {
-    "background": "#002b36",
+    "background": "#073642",
     "foreground": "#839496",
     "invisibles": "#83949699",
     "caret": "#b58900",

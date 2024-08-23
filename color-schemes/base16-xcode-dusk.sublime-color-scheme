@@ -2,7 +2,7 @@
   "name": "XCode Dusk",
 
   "globals": {
-    "background": "#282b35",
+    "background": "#3d4048",
     "foreground": "#7e8086",
     "invisibles": "#7e808699",
     "caret": "#438288",

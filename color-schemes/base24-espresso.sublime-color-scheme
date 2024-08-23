@@ -2,7 +2,7 @@
   "name": "Espresso",
 
   "globals": {
-    "background": "#262626",
+    "background": "#343434",
     "foreground": "#c7c7c5",
     "invisibles": "#a0a09f99",
     "caret": "#efb5f7",

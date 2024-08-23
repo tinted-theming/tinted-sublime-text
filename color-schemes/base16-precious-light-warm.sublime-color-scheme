@@ -2,7 +2,7 @@
   "name": "Precious Light Warm",
 
   "globals": {
-    "background": "#fff5e5",
+    "background": "#ece4d6",
     "foreground": "#5d6065",
     "invisibles": "#5d606599",
     "caret": "#876500",

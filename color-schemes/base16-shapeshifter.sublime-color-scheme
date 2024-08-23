@@ -2,7 +2,7 @@
   "name": "Shapeshifter",
 
   "globals": {
-    "background": "#f9f9f9",
+    "background": "#e0e0e0",
     "foreground": "#343434",
     "invisibles": "#34343499",
     "caret": "#dddd13",

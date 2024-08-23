@@ -2,7 +2,7 @@
   "name": "Equilibrium Dark",
 
   "globals": {
-    "background": "#0c1118",
+    "background": "#181c22",
     "foreground": "#949088",
     "invisibles": "#94908899",
     "caret": "#bb8801",

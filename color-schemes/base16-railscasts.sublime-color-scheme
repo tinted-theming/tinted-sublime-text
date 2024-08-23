@@ -2,7 +2,7 @@
   "name": "Railscasts",
 
   "globals": {
-    "background": "#2b2b2b",
+    "background": "#272935",
     "foreground": "#d4cfc9",
     "invisibles": "#d4cfc999",
     "caret": "#ffc66d",

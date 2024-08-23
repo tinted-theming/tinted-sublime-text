@@ -2,7 +2,7 @@
   "name": "Edge Dark",
 
   "globals": {
-    "background": "#262729",
+    "background": "#88909f",
     "foreground": "#73b3e7",
     "invisibles": "#73b3e799",
     "caret": "#dbb774",

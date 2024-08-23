@@ -2,7 +2,7 @@
   "name": "Moonlight",
 
   "globals": {
-    "background": "#212337",
+    "background": "#403c64",
     "foreground": "#a1abe0",
     "invisibles": "#a1abe099",
     "caret": "#ffc777",

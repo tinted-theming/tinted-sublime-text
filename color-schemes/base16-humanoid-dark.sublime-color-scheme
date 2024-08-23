@@ -2,7 +2,7 @@
   "name": "Humanoid dark",
 
   "globals": {
-    "background": "#232629",
+    "background": "#333b3d",
     "foreground": "#c0c0bd",
     "invisibles": "#c0c0bd99",
     "caret": "#ffb627",

@@ -2,7 +2,7 @@
   "name": "Spaceduck",
 
   "globals": {
-    "background": "#16172d",
+    "background": "#1b1c36",
     "foreground": "#818596",
     "invisibles": "#81859699",
     "caret": "#f2ce00",

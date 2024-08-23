@@ -2,7 +2,7 @@
   "name": "UwUnicorn",
 
   "globals": {
-    "background": "#241b26",
+    "background": "#2f2a3f",
     "foreground": "#7e5f83",
     "invisibles": "#7e5f8399",
     "caret": "#a84a73",

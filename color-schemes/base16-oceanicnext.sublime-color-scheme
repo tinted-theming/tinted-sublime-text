@@ -2,7 +2,7 @@
   "name": "OceanicNext",
 
   "globals": {
-    "background": "#1b2b34",
+    "background": "#343d46",
     "foreground": "#a7adba",
     "invisibles": "#a7adba99",
     "caret": "#fac863",

@@ -2,7 +2,7 @@
   "name": "Macintosh",
 
   "globals": {
-    "background": "#000000",
+    "background": "#404040",
     "foreground": "#808080",
     "invisibles": "#80808099",
     "caret": "#fbf305",

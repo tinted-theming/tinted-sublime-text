@@ -2,7 +2,7 @@
   "name": "Framer",
 
   "globals": {
-    "background": "#181818",
+    "background": "#151515",
     "foreground": "#b9b9b9",
     "invisibles": "#b9b9b999",
     "caret": "#fecb6e",

@@ -2,7 +2,7 @@
   "name": "Gruvbox Material Light, Medium",
 
   "globals": {
-    "background": "#fbf1c7",
+    "background": "#f2e5bc",
     "foreground": "#665c54",
     "invisibles": "#665c5499",
     "caret": "#b47109",

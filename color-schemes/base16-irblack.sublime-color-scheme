@@ -2,7 +2,7 @@
   "name": "IR Black",
 
   "globals": {
-    "background": "#000000",
+    "background": "#242422",
     "foreground": "#918f88",
     "invisibles": "#918f8899",
     "caret": "#ffffb6",

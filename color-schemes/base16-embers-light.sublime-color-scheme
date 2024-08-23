@@ -2,7 +2,7 @@
   "name": "Embers Light",
 
   "globals": {
-    "background": "#d1d6db",
+    "background": "#aeb6be",
     "foreground": "#47505a",
     "invisibles": "#47505a99",
     "caret": "#57826d",

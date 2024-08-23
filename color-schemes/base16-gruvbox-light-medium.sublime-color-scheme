@@ -2,7 +2,7 @@
   "name": "Gruvbox light, medium",
 
   "globals": {
-    "background": "#fbf1c7",
+    "background": "#ebdbb2",
     "foreground": "#665c54",
     "invisibles": "#665c5499",
     "caret": "#b57614",

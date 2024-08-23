@@ -2,7 +2,7 @@
   "name": "Snazzy",
 
   "globals": {
-    "background": "#282a36",
+    "background": "#34353e",
     "foreground": "#a5a5a9",
     "invisibles": "#a5a5a999",
     "caret": "#f3f99d",

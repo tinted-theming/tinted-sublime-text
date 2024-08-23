@@ -2,7 +2,7 @@
   "name": "Outrun Dark",
 
   "globals": {
-    "background": "#00002a",
+    "background": "#20204a",
     "foreground": "#b0b0da",
     "invisibles": "#b0b0da99",
     "caret": "#f3e877",

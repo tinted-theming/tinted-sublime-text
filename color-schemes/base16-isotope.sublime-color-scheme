@@ -2,7 +2,7 @@
   "name": "Isotope",
 
   "globals": {
-    "background": "#000000",
+    "background": "#404040",
     "foreground": "#c0c0c0",
     "invisibles": "#c0c0c099",
     "caret": "#ff0099",

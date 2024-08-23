@@ -2,7 +2,7 @@
   "name": "Atelier Heath",
 
   "globals": {
-    "background": "#1b181b",
+    "background": "#292329",
     "foreground": "#9e8f9e",
     "invisibles": "#9e8f9e99",
     "caret": "#bb8a35",

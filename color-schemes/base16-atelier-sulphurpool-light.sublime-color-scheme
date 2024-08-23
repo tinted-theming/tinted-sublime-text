@@ -2,7 +2,7 @@
   "name": "Atelier Sulphurpool Light",
 
   "globals": {
-    "background": "#f5f7ff",
+    "background": "#dfe2f1",
     "foreground": "#6b7394",
     "invisibles": "#6b739499",
     "caret": "#c08b30",

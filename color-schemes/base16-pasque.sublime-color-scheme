@@ -2,7 +2,7 @@
   "name": "Pasque",
 
   "globals": {
-    "background": "#271c3a",
+    "background": "#100323",
     "foreground": "#bebcbf",
     "invisibles": "#bebcbf99",
     "caret": "#804ead",

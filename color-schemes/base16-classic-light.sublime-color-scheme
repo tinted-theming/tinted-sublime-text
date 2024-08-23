@@ -2,7 +2,7 @@
   "name": "Classic Light",
 
   "globals": {
-    "background": "#f5f5f5",
+    "background": "#e0e0e0",
     "foreground": "#505050",
     "invisibles": "#50505099",
     "caret": "#f4bf75",

@@ -2,7 +2,7 @@
   "name": "Horizon Light",
 
   "globals": {
-    "background": "#fdf0ed",
+    "background": "#fadad1",
     "foreground": "#948c8a",
     "invisibles": "#948c8a99",
     "caret": "#fbe0d9",

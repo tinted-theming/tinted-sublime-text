@@ -2,7 +2,7 @@
   "name": "Default Light",
 
   "globals": {
-    "background": "#f8f8f8",
+    "background": "#e8e8e8",
     "foreground": "#585858",
     "invisibles": "#58585899",
     "caret": "#f7ca88",

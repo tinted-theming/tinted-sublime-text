@@ -2,7 +2,7 @@
   "name": "Aztec",
 
   "globals": {
-    "background": "#101600",
+    "background": "#1a1e01",
     "foreground": "#ffd129",
     "invisibles": "#ffd12999",
     "caret": "#eebb00",

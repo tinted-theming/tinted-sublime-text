@@ -2,7 +2,7 @@
   "name": "Cupertino",
 
   "globals": {
-    "background": "#ffffff",
+    "background": "#c0c0c0",
     "foreground": "#808080",
     "invisibles": "#80808099",
     "caret": "#826b28",

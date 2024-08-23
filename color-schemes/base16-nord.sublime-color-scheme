@@ -2,7 +2,7 @@
   "name": "Nord",
 
   "globals": {
-    "background": "#2e3440",
+    "background": "#3b4252",
     "foreground": "#d8dee9",
     "invisibles": "#d8dee999",
     "caret": "#ebcb8b",

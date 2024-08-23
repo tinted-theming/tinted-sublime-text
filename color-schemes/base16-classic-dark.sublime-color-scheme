@@ -2,7 +2,7 @@
   "name": "Classic Dark",
 
   "globals": {
-    "background": "#151515",
+    "background": "#202020",
     "foreground": "#b0b0b0",
     "invisibles": "#b0b0b099",
     "caret": "#f4bf75",

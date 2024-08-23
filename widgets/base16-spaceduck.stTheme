@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Guillermo Rodriguez (https://github.com/pineapplegiant), packaged by Gabriel Fontes (https://github.com/Misterio77)</string>
+  <string>Guillermo Rodriguez (https://github.com/pineapplegiant),
+packaged by Gabriel Fontes (https://github.com/Misterio77)
+</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>

@@ -2,7 +2,7 @@
   "name": "selenized-dark",
 
   "globals": {
-    "background": "#103c48",
+    "background": "#184956",
     "foreground": "#72898f",
     "invisibles": "#72898f99",
     "caret": "#dbb32d",

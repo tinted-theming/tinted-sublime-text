@@ -2,7 +2,7 @@
   "name": "Dracula",
 
   "globals": {
-    "background": "#21222c",
+    "background": "#282a36",
     "foreground": "#e9e9f4",
     "invisibles": "#62648399",
     "caret": "#ff92df",

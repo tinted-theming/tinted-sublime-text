@@ -2,7 +2,7 @@
   "name": "Oxocarbon Dark",
 
   "globals": {
-    "background": "#161616",
+    "background": "#262626",
     "foreground": "#dde1e6",
     "invisibles": "#dde1e699",
     "caret": "#ee5396",

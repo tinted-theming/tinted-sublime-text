@@ -2,7 +2,7 @@
   "name": "Primer Light",
 
   "globals": {
-    "background": "#fafbfc",
+    "background": "#e1e4e8",
     "foreground": "#444d56",
     "invisibles": "#444d5699",
     "caret": "#ffd33d",

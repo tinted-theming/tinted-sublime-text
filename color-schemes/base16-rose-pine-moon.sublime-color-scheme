@@ -2,7 +2,7 @@
   "name": "Rosé Pine Moon",
 
   "globals": {
-    "background": "#232136",
+    "background": "#2a273f",
     "foreground": "#908caa",
     "invisibles": "#908caa99",
     "caret": "#ea9a97",

@@ -2,7 +2,7 @@
   "name": "Horizon Dark",
 
   "globals": {
-    "background": "#1c1e26",
+    "background": "#232530",
     "foreground": "#9da0a2",
     "invisibles": "#9da0a299",
     "caret": "#efb993",

@@ -2,7 +2,7 @@
   "name": "eris",
 
   "globals": {
-    "background": "#0a0920",
+    "background": "#13133a",
     "foreground": "#4a5293",
     "invisibles": "#4a529399",
     "caret": "#faaea2",

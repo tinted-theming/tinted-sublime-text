@@ -2,7 +2,7 @@
   "name": "PaperColor Dark",
 
   "globals": {
-    "background": "#1c1c1c",
+    "background": "#af005f",
     "foreground": "#5fafd7",
     "invisibles": "#5fafd799",
     "caret": "#afd700",

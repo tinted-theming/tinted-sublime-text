@@ -2,7 +2,7 @@
   "name": "Cupcake",
 
   "globals": {
-    "background": "#fbf1f2",
+    "background": "#f2f1f4",
     "foreground": "#a59daf",
     "invisibles": "#a59daf99",
     "caret": "#dcb16c",

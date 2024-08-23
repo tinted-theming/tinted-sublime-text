@@ -2,7 +2,7 @@
   "name": "Grayscale Dark",
 
   "globals": {
-    "background": "#101010",
+    "background": "#252525",
     "foreground": "#ababab",
     "invisibles": "#ababab99",
     "caret": "#a0a0a0",

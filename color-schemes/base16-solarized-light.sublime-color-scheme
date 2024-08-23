@@ -2,7 +2,7 @@
   "name": "Solarized Light",
 
   "globals": {
-    "background": "#fdf6e3",
+    "background": "#eee8d5",
     "foreground": "#657b83",
     "invisibles": "#657b8399",
     "caret": "#b58900",

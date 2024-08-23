@@ -2,7 +2,7 @@
   "name": "One Light",
 
   "globals": {
-    "background": "#e7e7e9",
+    "background": "#dfdfe1",
     "foreground": "#383a42",
     "invisibles": "#696c7799",
     "caret": "#d02fcd",

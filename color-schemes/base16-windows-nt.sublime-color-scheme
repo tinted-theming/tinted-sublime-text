@@ -2,7 +2,7 @@
   "name": "Windows NT",
 
   "globals": {
-    "background": "#000000",
+    "background": "#2a2a2a",
     "foreground": "#a1a1a1",
     "invisibles": "#a1a1a199",
     "caret": "#ffff00",

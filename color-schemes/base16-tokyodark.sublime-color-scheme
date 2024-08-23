@@ -2,7 +2,7 @@
   "name": "Tokyodark",
 
   "globals": {
-    "background": "#11121d",
+    "background": "#151621",
     "foreground": "#1b1c27",
     "invisibles": "#1b1c2799",
     "caret": "#7199ee",

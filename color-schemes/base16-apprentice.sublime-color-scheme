@@ -2,7 +2,7 @@
   "name": "Apprentice",
 
   "globals": {
-    "background": "#262626",
+    "background": "#af5f5f",
     "foreground": "#5f87af",
     "invisibles": "#5f87af99",
     "caret": "#87af87",

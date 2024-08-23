@@ -2,7 +2,7 @@
   "name": "Github",
 
   "globals": {
-    "background": "#f4f4f4",
+    "background": "#3e3e3e",
     "foreground": "#d8d8d8",
     "invisibles": "#b2b2b299",
     "caret": "#ffa29f",

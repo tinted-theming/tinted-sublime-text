@@ -2,7 +2,7 @@
   "name": "Primer Dark Dimmed",
 
   "globals": {
-    "background": "#1c2128",
+    "background": "#373e47",
     "foreground": "#768390",
     "invisibles": "#76839099",
     "caret": "#c69026",

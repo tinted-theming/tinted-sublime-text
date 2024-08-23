@@ -2,7 +2,7 @@
   "name": "Heetch Light",
 
   "globals": {
-    "background": "#feffff",
+    "background": "#392551",
     "foreground": "#ddd6e5",
     "invisibles": "#ddd6e599",
     "caret": "#5ba2b6",

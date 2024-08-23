@@ -2,7 +2,7 @@
   "name": "Solar Flare Light",
 
   "globals": {
-    "background": "#f5f7fa",
+    "background": "#e8e9ed",
     "foreground": "#667581",
     "invisibles": "#66758199",
     "caret": "#e4b51c",

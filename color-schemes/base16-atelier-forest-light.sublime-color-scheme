@@ -2,7 +2,7 @@
   "name": "Atelier Forest Light",
 
   "globals": {
-    "background": "#f1efee",
+    "background": "#e6e2e0",
     "foreground": "#766e6b",
     "invisibles": "#766e6b99",
     "caret": "#c38418",

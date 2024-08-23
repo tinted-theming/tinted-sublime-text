@@ -2,7 +2,7 @@
   "name": "Twilight",
 
   "globals": {
-    "background": "#1e1e1e",
+    "background": "#323537",
     "foreground": "#838184",
     "invisibles": "#83818499",
     "caret": "#f9ee98",

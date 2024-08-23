@@ -2,7 +2,7 @@
   "name": "PaperColor Light",
 
   "globals": {
-    "background": "#eeeeee",
+    "background": "#af0000",
     "foreground": "#0087af",
     "invisibles": "#0087af99",
     "caret": "#d70087",

@@ -2,7 +2,7 @@
   "name": "Gotham",
 
   "globals": {
-    "background": "#0c1014",
+    "background": "#11151c",
     "foreground": "#245361",
     "invisibles": "#24536199",
     "caret": "#edb443",
