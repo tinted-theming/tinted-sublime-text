@@ -20,7 +20,7 @@ must be called `tinted_theming`. So the path would be:
 package's internal name and any other directory name for the repo won't
 work.
 
-```shell
+```sh
 cd path/to/sublime-text/Packages
 git clone https://github.com/tinted-theming/sublime-text tinted_theming
 ```
