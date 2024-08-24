@@ -2,7 +2,7 @@
   "name": "Woodland",
 
   "globals": {
-    "background": "#231e18",
+    "background": "#302b25",
     "foreground": "#b4a490",
     "invisibles": "#b4a49099",
     "caret": "#e0ac16",

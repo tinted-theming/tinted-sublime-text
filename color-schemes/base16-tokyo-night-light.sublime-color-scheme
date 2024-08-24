@@ -2,7 +2,7 @@
   "name": "Tokyo Night Light",
 
   "globals": {
-    "background": "#d5d6db",
+    "background": "#cbccd1",
     "foreground": "#4c505e",
     "invisibles": "#4c505e99",
     "caret": "#166775",

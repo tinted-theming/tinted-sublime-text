@@ -2,7 +2,7 @@
   "name": "DanQing",
 
   "globals": {
-    "background": "#2d302f",
+    "background": "#434846",
     "foreground": "#cad8d2",
     "invisibles": "#cad8d299",
     "caret": "#f0c239",

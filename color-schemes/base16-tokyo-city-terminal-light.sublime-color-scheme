@@ -2,7 +2,7 @@
   "name": "Tokyo City Terminal Light",
 
   "globals": {
-    "background": "#fbfbfd",
+    "background": "#f6f6f8",
     "foreground": "#526270",
     "invisibles": "#52627099",
     "caret": "#8f5e15",

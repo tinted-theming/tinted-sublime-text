@@ -2,7 +2,7 @@
   "name": "Tomorrow",
 
   "globals": {
-    "background": "#ffffff",
+    "background": "#e0e0e0",
     "foreground": "#969896",
     "invisibles": "#96989699",
     "caret": "#eab700",

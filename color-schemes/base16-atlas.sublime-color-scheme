@@ -2,7 +2,7 @@
   "name": "Atlas",
 
   "globals": {
-    "background": "#002635",
+    "background": "#00384d",
     "foreground": "#869696",
     "invisibles": "#86969699",
     "caret": "#ffcc1b",

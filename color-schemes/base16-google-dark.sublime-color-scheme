@@ -2,7 +2,7 @@
   "name": "Google Dark",
 
   "globals": {
-    "background": "#1d1f21",
+    "background": "#282a2e",
     "foreground": "#b4b7b4",
     "invisibles": "#b4b7b499",
     "caret": "#fba922",

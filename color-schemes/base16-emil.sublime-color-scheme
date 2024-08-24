@@ -2,7 +2,7 @@
   "name": "emil",
 
   "globals": {
-    "background": "#efefef",
+    "background": "#bebed2",
     "foreground": "#505063",
     "invisibles": "#50506399",
     "caret": "#ff669b",

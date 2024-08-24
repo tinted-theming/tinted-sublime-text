@@ -2,7 +2,7 @@
   "name": "Mountain",
 
   "globals": {
-    "background": "#0f0f0f",
+    "background": "#191919",
     "foreground": "#ac8a8c",
     "invisibles": "#ac8a8c99",
     "caret": "#aca98a",

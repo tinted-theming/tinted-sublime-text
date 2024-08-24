@@ -2,7 +2,7 @@
   "name": "Tokyo Night Storm",
 
   "globals": {
-    "background": "#24283b",
+    "background": "#16161e",
     "foreground": "#787c99",
     "invisibles": "#787c9999",
     "caret": "#0db9d7",

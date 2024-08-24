@@ -2,7 +2,7 @@
   "name": "Atelier Estuary",
 
   "globals": {
-    "background": "#22221b",
+    "background": "#302f27",
     "foreground": "#878573",
     "invisibles": "#87857399",
     "caret": "#a5980d",

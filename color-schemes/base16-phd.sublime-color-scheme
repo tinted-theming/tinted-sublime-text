@@ -2,7 +2,7 @@
   "name": "PhD",
 
   "globals": {
-    "background": "#061229",
+    "background": "#2a3448",
     "foreground": "#9a99a3",
     "invisibles": "#9a99a399",
     "caret": "#fbd461",

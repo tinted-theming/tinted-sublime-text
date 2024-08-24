@@ -2,7 +2,7 @@
   "name": "Atelier Savanna Light",
 
   "globals": {
-    "background": "#ecf4ee",
+    "background": "#dfe7e2",
     "foreground": "#5f6d64",
     "invisibles": "#5f6d6499",
     "caret": "#a07e3b",

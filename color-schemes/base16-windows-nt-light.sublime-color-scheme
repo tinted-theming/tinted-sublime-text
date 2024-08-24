@@ -2,7 +2,7 @@
   "name": "Windows NT Light",
 
   "globals": {
-    "background": "#ffffff",
+    "background": "#eaeaea",
     "foreground": "#a0a0a0",
     "invisibles": "#a0a0a099",
     "caret": "#808000",

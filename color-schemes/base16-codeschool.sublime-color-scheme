@@ -2,7 +2,7 @@
   "name": "Codeschool",
 
   "globals": {
-    "background": "#232c31",
+    "background": "#1c3657",
     "foreground": "#84898c",
     "invisibles": "#84898c99",
     "caret": "#a03b1e",

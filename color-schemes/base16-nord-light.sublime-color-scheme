@@ -2,7 +2,7 @@
   "name": "Nord Light",
 
   "globals": {
-    "background": "#e5e9f0",
+    "background": "#c2d0e7",
     "foreground": "#60728c",
     "invisibles": "#60728c99",
     "caret": "#9a7500",

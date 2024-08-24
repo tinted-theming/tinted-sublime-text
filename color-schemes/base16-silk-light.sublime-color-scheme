@@ -2,7 +2,7 @@
   "name": "Silk Light",
 
   "globals": {
-    "background": "#e9f1ef",
+    "background": "#ccd4d3",
     "foreground": "#4b5b5f",
     "invisibles": "#4b5b5f99",
     "caret": "#cfad25",

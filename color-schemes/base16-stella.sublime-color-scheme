@@ -2,7 +2,7 @@
   "name": "Stella",
 
   "globals": {
-    "background": "#2b213c",
+    "background": "#362b48",
     "foreground": "#7f7192",
     "invisibles": "#7f719299",
     "caret": "#c7c691",

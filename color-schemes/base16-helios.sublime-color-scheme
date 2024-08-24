@@ -2,7 +2,7 @@
   "name": "Helios",
 
   "globals": {
-    "background": "#1d2021",
+    "background": "#383c3e",
     "foreground": "#cdcdcd",
     "invisibles": "#cdcdcd99",
     "caret": "#f19d1a",

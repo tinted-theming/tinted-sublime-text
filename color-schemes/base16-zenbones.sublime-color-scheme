@@ -2,7 +2,7 @@
   "name": "Zenbones",
 
   "globals": {
-    "background": "#191919",
+    "background": "#de6e7c",
     "foreground": "#6099c0",
     "invisibles": "#6099c099",
     "caret": "#8bae68",

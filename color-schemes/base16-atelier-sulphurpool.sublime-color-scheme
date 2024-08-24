@@ -2,7 +2,7 @@
   "name": "Atelier Sulphurpool",
 
   "globals": {
-    "background": "#202746",
+    "background": "#293256",
     "foreground": "#898ea4",
     "invisibles": "#898ea499",
     "caret": "#c08b30",

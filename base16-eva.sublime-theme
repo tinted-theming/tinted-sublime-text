@@ -50,7 +50,7 @@
   {
     "class": "tree_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#4b6988",
+    "layer0.tint": "#2a3b4d",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 

@@ -2,7 +2,7 @@
   "name": "Bright",
 
   "globals": {
-    "background": "#000000",
+    "background": "#303030",
     "foreground": "#d0d0d0",
     "invisibles": "#d0d0d099",
     "caret": "#fda331",

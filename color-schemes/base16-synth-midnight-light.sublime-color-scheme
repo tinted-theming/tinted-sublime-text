@@ -2,7 +2,7 @@
   "name": "Synth Midnight Terminal Light",
 
   "globals": {
-    "background": "#dddfe0",
+    "background": "#cfd1d2",
     "foreground": "#474849",
     "invisibles": "#47484999",
     "caret": "#c9d364",

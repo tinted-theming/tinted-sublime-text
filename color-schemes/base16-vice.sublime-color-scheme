@@ -2,7 +2,7 @@
   "name": "vice",
 
   "globals": {
-    "background": "#17191e",
+    "background": "#22262d",
     "foreground": "#555e70",
     "invisibles": "#555e7099",
     "caret": "#f0ffaa",

@@ -2,7 +2,7 @@
   "name": "Sakura",
 
   "globals": {
-    "background": "#feedf3",
+    "background": "#f8e2e7",
     "foreground": "#665055",
     "invisibles": "#66505599",
     "caret": "#c29461",

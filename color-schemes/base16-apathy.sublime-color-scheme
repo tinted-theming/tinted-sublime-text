@@ -2,7 +2,7 @@
   "name": "Apathy",
 
   "globals": {
-    "background": "#031a16",
+    "background": "#0b342d",
     "foreground": "#5f9c92",
     "invisibles": "#5f9c9299",
     "caret": "#3e4c96",

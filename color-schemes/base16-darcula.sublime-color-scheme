@@ -2,7 +2,7 @@
   "name": "Darcula",
 
   "globals": {
-    "background": "#2b2b2b",
+    "background": "#323232",
     "foreground": "#a4a3a3",
     "invisibles": "#a4a3a399",
     "caret": "#bbb529",

@@ -2,7 +2,7 @@
   "name": "Tokyo City Terminal Dark",
 
   "globals": {
-    "background": "#171d23",
+    "background": "#1d252c",
     "foreground": "#b7c5d3",
     "invisibles": "#b7c5d399",
     "caret": "#ebbf83",

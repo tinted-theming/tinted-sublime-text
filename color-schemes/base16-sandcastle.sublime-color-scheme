@@ -2,7 +2,7 @@
   "name": "Sandcastle",
 
   "globals": {
-    "background": "#282c34",
+    "background": "#2c323b",
     "foreground": "#928374",
     "invisibles": "#92837499",
     "caret": "#a07e3b",

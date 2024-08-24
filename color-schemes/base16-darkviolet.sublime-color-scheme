@@ -2,7 +2,7 @@
   "name": "Dark Violet",
 
   "globals": {
-    "background": "#000000",
+    "background": "#231a40",
     "foreground": "#00ff00",
     "invisibles": "#00ff0099",
     "caret": "#f29df2",

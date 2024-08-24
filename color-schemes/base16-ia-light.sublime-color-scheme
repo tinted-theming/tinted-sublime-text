@@ -2,7 +2,7 @@
   "name": "iA Light",
 
   "globals": {
-    "background": "#f6f6f6",
+    "background": "#dedede",
     "foreground": "#767676",
     "invisibles": "#76767699",
     "caret": "#c48218",

@@ -2,7 +2,7 @@
   "name": "Windows High Contrast",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1c1c1c",
     "foreground": "#a2a2a2",
     "invisibles": "#a2a2a299",
     "caret": "#fcfc54",

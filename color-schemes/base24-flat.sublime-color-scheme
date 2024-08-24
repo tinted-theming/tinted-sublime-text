@@ -2,7 +2,7 @@
   "name": "Flat",
 
   "globals": {
-    "background": "#082845",
+    "background": "#1d2845",
     "foreground": "#8c939a",
     "invisibles": "#68717b99",
     "caret": "#8230a7",

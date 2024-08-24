@@ -2,7 +2,7 @@
   "name": "standardized-light",
 
   "globals": {
-    "background": "#ffffff",
+    "background": "#eeeeee",
     "foreground": "#767676",
     "invisibles": "#76767699",
     "caret": "#ad8200",

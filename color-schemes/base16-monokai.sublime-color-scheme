@@ -2,7 +2,7 @@
   "name": "Monokai",
 
   "globals": {
-    "background": "#272822",
+    "background": "#383830",
     "foreground": "#a59f85",
     "invisibles": "#a59f8599",
     "caret": "#f4bf75",

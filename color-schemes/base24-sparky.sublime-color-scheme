@@ -2,7 +2,7 @@
   "name": "Sparky",
 
   "globals": {
-    "background": "#072b31",
+    "background": "#00313c",
     "foreground": "#f4f5f0",
     "invisibles": "#00778b99",
     "caret": "#f99fc9",

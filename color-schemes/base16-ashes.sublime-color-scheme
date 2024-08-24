@@ -2,7 +2,7 @@
   "name": "Ashes",
 
   "globals": {
-    "background": "#1c2023",
+    "background": "#393f45",
     "foreground": "#adb3ba",
     "invisibles": "#adb3ba99",
     "caret": "#aec795",

@@ -2,7 +2,7 @@
   "name": "Da One Paper",
 
   "globals": {
-    "background": "#faf0dc",
+    "background": "#c8c8c8",
     "foreground": "#282828",
     "invisibles": "#28282899",
     "caret": "#b3684f",

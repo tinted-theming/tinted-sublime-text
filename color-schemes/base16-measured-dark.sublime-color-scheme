@@ -2,7 +2,7 @@
   "name": "Measured Dark",
 
   "globals": {
-    "background": "#00211f",
+    "background": "#003a38",
     "foreground": "#c3c3c3",
     "invisibles": "#c3c3c399",
     "caret": "#bfac4e",

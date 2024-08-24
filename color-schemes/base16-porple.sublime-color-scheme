@@ -2,7 +2,7 @@
   "name": "Porple",
 
   "globals": {
-    "background": "#292c36",
+    "background": "#333344",
     "foreground": "#b8b8b8",
     "invisibles": "#b8b8b899",
     "caret": "#efa16b",

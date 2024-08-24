@@ -2,7 +2,7 @@
   "name": "selenized-light",
 
   "globals": {
-    "background": "#fbf3db",
+    "background": "#ece3cc",
     "foreground": "#909995",
     "invisibles": "#90999599",
     "caret": "#a78300",

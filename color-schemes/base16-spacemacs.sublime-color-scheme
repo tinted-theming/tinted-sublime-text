@@ -2,7 +2,7 @@
   "name": "Spacemacs",
 
   "globals": {
-    "background": "#1f2022",
+    "background": "#282828",
     "foreground": "#b8b8b8",
     "invisibles": "#b8b8b899",
     "caret": "#b1951d",

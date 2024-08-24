@@ -2,7 +2,7 @@
   "name": "Blueish",
 
   "globals": {
-    "background": "#182430",
+    "background": "#243c54",
     "foreground": "#74afe7",
     "invisibles": "#74afe799",
     "caret": "#82aaff",

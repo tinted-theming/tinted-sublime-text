@@ -2,7 +2,7 @@
   "name": "One Dark",
 
   "globals": {
-    "background": "#282c34",
+    "background": "#3f4451",
     "foreground": "#abb2bf",
     "invisibles": "#9196a199",
     "caret": "#de73ff",

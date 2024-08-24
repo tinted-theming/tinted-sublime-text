@@ -2,7 +2,7 @@
   "name": "Embers",
 
   "globals": {
-    "background": "#16130f",
+    "background": "#2c2620",
     "foreground": "#8a8075",
     "invisibles": "#8a807599",
     "caret": "#6d8257",

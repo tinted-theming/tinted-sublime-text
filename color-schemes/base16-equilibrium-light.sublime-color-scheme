@@ -2,7 +2,7 @@
   "name": "Equilibrium Light",
 
   "globals": {
-    "background": "#f5f0e7",
+    "background": "#e7e2d9",
     "foreground": "#5a5f66",
     "invisibles": "#5a5f6699",
     "caret": "#9d6f00",

@@ -2,7 +2,7 @@
   "name": "Evenok Dark",
 
   "globals": {
-    "background": "#000000",
+    "background": "#202020",
     "foreground": "#b0b0b0",
     "invisibles": "#b0b0b099",
     "caret": "#b8a300",

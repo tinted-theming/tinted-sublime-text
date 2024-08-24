@@ -2,7 +2,7 @@
   "name": "Tokyo City Dark",
 
   "globals": {
-    "background": "#171d23",
+    "background": "#1d252c",
     "foreground": "#b7c5d3",
     "invisibles": "#b7c5d399",
     "caret": "#b7c5d3",

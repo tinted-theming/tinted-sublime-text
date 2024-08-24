@@ -2,7 +2,7 @@
   "name": "ShadeSmear Dark",
 
   "globals": {
-    "background": "#232323",
+    "background": "#1c1c1c",
     "foreground": "#e4e4e4",
     "invisibles": "#e4e4e499",
     "caret": "#307878",

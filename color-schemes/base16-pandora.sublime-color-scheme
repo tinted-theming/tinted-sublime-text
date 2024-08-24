@@ -2,7 +2,7 @@
   "name": "pandora",
 
   "globals": {
-    "background": "#131213",
+    "background": "#2f1823",
     "foreground": "#9b2a46",
     "invisibles": "#9b2a4699",
     "caret": "#ffcc00",

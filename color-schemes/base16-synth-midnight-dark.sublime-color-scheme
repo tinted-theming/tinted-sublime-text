@@ -2,7 +2,7 @@
   "name": "Synth Midnight Terminal Dark",
 
   "globals": {
-    "background": "#050608",
+    "background": "#1a1b1c",
     "foreground": "#a3a5a6",
     "invisibles": "#a3a5a699",
     "caret": "#c9d364",

@@ -2,7 +2,7 @@
   "name": "Material Darker",
 
   "globals": {
-    "background": "#212121",
+    "background": "#303030",
     "foreground": "#b2ccd6",
     "invisibles": "#b2ccd699",
     "caret": "#ffcb6b",

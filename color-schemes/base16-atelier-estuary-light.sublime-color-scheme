@@ -2,7 +2,7 @@
   "name": "Atelier Estuary Light",
 
   "globals": {
-    "background": "#f4f3ec",
+    "background": "#e7e6df",
     "foreground": "#6c6b5a",
     "invisibles": "#6c6b5a99",
     "caret": "#a5980d",

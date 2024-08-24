@@ -2,7 +2,7 @@
   "name": "Da One Ocean",
 
   "globals": {
-    "background": "#171726",
+    "background": "#22273d",
     "foreground": "#c8c8c8",
     "invisibles": "#c8c8c899",
     "caret": "#ff9470",

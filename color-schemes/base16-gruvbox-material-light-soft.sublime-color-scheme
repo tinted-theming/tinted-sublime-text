@@ -2,7 +2,7 @@
   "name": "Gruvbox Material Light, Soft",
 
   "globals": {
-    "background": "#f2e5bc",
+    "background": "#ebdbb2",
     "foreground": "#665c54",
     "invisibles": "#665c5499",
     "caret": "#b47109",

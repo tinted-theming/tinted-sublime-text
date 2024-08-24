@@ -2,7 +2,7 @@
   "name": "Catppuccin Frappe",
 
   "globals": {
-    "background": "#303446",
+    "background": "#292c3c",
     "foreground": "#626880",
     "invisibles": "#62688099",
     "caret": "#e5c890",

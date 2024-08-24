@@ -2,7 +2,7 @@
   "name": "Grayscale Light",
 
   "globals": {
-    "background": "#f7f7f7",
+    "background": "#e3e3e3",
     "foreground": "#525252",
     "invisibles": "#52525299",
     "caret": "#a0a0a0",

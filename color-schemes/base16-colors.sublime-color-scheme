@@ -2,7 +2,7 @@
   "name": "Colors",
 
   "globals": {
-    "background": "#111111",
+    "background": "#333333",
     "foreground": "#999999",
     "invisibles": "#99999999",
     "caret": "#ffdc00",

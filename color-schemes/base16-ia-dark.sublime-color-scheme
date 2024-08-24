@@ -2,7 +2,7 @@
   "name": "iA Dark",
 
   "globals": {
-    "background": "#1a1a1a",
+    "background": "#222222",
     "foreground": "#b8b8b8",
     "invisibles": "#b8b8b899",
     "caret": "#b99353",

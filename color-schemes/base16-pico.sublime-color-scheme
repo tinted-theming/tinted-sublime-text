@@ -2,7 +2,7 @@
   "name": "Pico",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1d2b53",
     "foreground": "#ab5236",
     "invisibles": "#ab523699",
     "caret": "#fff024",

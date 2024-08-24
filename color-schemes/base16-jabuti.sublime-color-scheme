@@ -2,7 +2,7 @@
   "name": "Jabuti",
 
   "globals": {
-    "background": "#292a37",
+    "background": "#343545",
     "foreground": "#50526b",
     "invisibles": "#50526b99",
     "caret": "#e1c697",

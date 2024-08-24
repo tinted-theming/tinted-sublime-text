@@ -2,7 +2,7 @@
   "name": "Tokyo Night Moon",
 
   "globals": {
-    "background": "#222436",
+    "background": "#1e2030",
     "foreground": "#828bb8",
     "invisibles": "#828bb899",
     "caret": "#ffc777",

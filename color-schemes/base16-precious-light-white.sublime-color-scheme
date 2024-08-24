@@ -2,7 +2,7 @@
   "name": "Precious Light White",
 
   "globals": {
-    "background": "#ffffff",
+    "background": "#ededed",
     "foreground": "#636363",
     "invisibles": "#63636399",
     "caret": "#876500",

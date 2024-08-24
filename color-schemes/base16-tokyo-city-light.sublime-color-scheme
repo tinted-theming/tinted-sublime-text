@@ -2,7 +2,7 @@
   "name": "Tokyo City Light",
 
   "globals": {
-    "background": "#fbfbfd",
+    "background": "#f6f6f8",
     "foreground": "#4c505e",
     "invisibles": "#4c505e99",
     "caret": "#4c505e",

@@ -2,7 +2,7 @@
   "name": "ShadeSmear Light",
 
   "globals": {
-    "background": "#dbdbdb",
+    "background": "#e4e4e4",
     "foreground": "#1c1c1c",
     "invisibles": "#1c1c1c99",
     "caret": "#307878",

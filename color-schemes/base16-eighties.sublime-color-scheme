@@ -2,7 +2,7 @@
   "name": "Eighties",
 
   "globals": {
-    "background": "#2d2d2d",
+    "background": "#393939",
     "foreground": "#a09f93",
     "invisibles": "#a09f9399",
     "caret": "#ffcc66",
