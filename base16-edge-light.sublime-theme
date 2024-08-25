@@ -568,13 +568,23 @@
     "content_margin": [10, 35, 10, 20]
   },
 
-
+  {
+    "class": "quick_panel",
+    "row_padding": [13, 7],
+    "layer0.tint": "#d69822",
+    "layer0.opacity": 1.0
+  },
   {
     "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
     "layer0.tint": "#d69822",
     "layer0.opacity": 1.0
+  },
+  {
+    "class": "quick_panel",
+    "parents": [{ "class": "switch_project_window", "attributes": ["selected"] }],
+    "layer0.tint": "#6587bf",
   },
 
 

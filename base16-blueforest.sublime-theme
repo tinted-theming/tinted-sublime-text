@@ -568,13 +568,23 @@
     "content_margin": [10, 35, 10, 20]
   },
 
-
+  {
+    "class": "quick_panel",
+    "row_padding": [13, 7],
+    "layer0.tint": "#273e5c",
+    "layer0.opacity": 1.0
+  },
   {
     "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
     "layer0.tint": "#273e5c",
     "layer0.opacity": 1.0
+  },
+  {
+    "class": "quick_panel",
+    "parents": [{ "class": "switch_project_window", "attributes": ["selected"] }],
+    "layer0.tint": "#1e5c1e",
   },
 
 
@@ -601,7 +611,7 @@
   {
     "class": "quick_panel_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#a0ffa03f",
+    "layer0.tint": "#ffcc333f",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
