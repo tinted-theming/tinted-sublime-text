@@ -552,12 +552,12 @@
     "layer0.texture": "tinted_theming/assets/overlay-shadow.png",
     "layer0.inner_margin": [15, 35, 15, 25],
     "layer0.opacity": 1,
-    "layer0.tint": "#{{base02-hex}}",
+    "layer0.tint": "{{#scheme-is-light-variant}}#{{base03-hex}}{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}#{{base02-hex}}{{/scheme-is-light-variant}}",
 
     "layer1.texture": "tinted_theming/assets/overlay-border.png",
     "layer1.inner_margin": [15, 35, 15, 25],
     "layer1.opacity": 1.0,
-    "layer1.tint":  "#{{base01-hex}}",
+    "layer1.tint": "#{{base03-hex}}",
 
     "layer2.texture": "tinted_theming/assets/overlay-bg.png",
     "layer2.inner_margin": [15, 35, 15, 25],
@@ -570,15 +570,9 @@
 
   {
     "class": "quick_panel",
-    "row_padding": [13, 7],
-    "layer0.tint": "#{{base01-hex}}",
-    "layer0.opacity": 1.0
-  },
-  {
-    "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
-    "layer0.tint": "#{{base01-hex}}",
+    "layer0.tint": "#{{base02-hex}}",
     "layer0.opacity": 1.0
   },
 
@@ -625,29 +619,25 @@
 
   {
     "class": "quick_panel_label",
-    "fg": "#{{base04-hex}}",
-    "match_fg": "#{{base17-hex}}",
-    "selected_fg": "#{{base05-hex}}",
-    "selected_match_fg": "#{{base17-hex}}"
+    "fg": "#{{base06-hex}}",
+    "match_fg": "#{{base0A-hex}}",
+    "selected_fg": "#{{base07-hex}}",
+    "selected_match_fg": "#{{base0A-hex}}"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
-    "fg": "#{{base04-hex}}",
-    "match_fg": "#{{base17-hex}}",
-    "selected_fg": "#{{base05-hex}}",
-    "selected_match_fg": "#{{base17-hex}}"
+    "fg": "#{{base06-hex}}",
+    "match_fg": "#{{base0A-hex}}",
+    "selected_fg": "#{{base07-hex}}",
+    "selected_match_fg": "#{{base0A-hex}}"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#{{base04-hex}}",
-    "match_fg": "#{{base05-hex}}",
-    "selected_fg": "#{{base03-hex}}",
-    "selected_match_fg": "#{{base05-hex}}" 
-  },
-  {
-    "class": "quick_panel_detail_label",
-    "link_color": "#{{base0D}}"
+    "match_fg": "#{{base0A-hex}}",
+    "selected_fg": "#{{base05-hex}}",
+    "selected_match_fg": "#{{base0A-hex}}"
   },
 
 
@@ -756,9 +746,9 @@
 
   {
     "class": "auto_complete_label",
-    "fg": "transparent",
+    "fg": "#{{base06-hex}}",
     "match_fg": "#{{base17-hex}}",
-    "selected_fg": "transparent",
+    "selected_fg": "#{{base07-hex}}",
     "selected_match_fg": "#{{base17-hex}}",
     "fg_blend": true
   },
@@ -1210,6 +1200,18 @@
     "layer0.tint": "#{{base00-hex}}",
     "layer0.opacity": 1.0
   },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "overlay_control" }],
+    "layer0.tint": "#{{base02-hex}}",
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "popup_control" }],
+    "layer0.tint": "#{{base02-hex}}",
+    "layer0.opacity": 1.0
+  },
 
 
   {
@@ -1269,6 +1271,7 @@
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
     "layer0.tint": "#{{base02-hex}}",
+    "color_scheme_tint": "#{{base02-hex}}",
 
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,
