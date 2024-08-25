@@ -557,7 +557,7 @@
     "layer1.texture": "tinted_theming/assets/overlay-border.png",
     "layer1.inner_margin": [15, 35, 15, 25],
     "layer1.opacity": 1.0,
-    "layer1.tint":  "#141414",
+    "layer1.tint": "#636363",
 
     "layer2.texture": "tinted_theming/assets/overlay-bg.png",
     "layer2.inner_margin": [15, 35, 15, 25],
@@ -570,15 +570,9 @@
 
   {
     "class": "quick_panel",
-    "row_padding": [13, 7],
-    "layer0.tint": "#141414",
-    "layer0.opacity": 1.0
-  },
-  {
-    "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
-    "layer0.tint": "#141414",
+    "layer0.tint": "#414141",
     "layer0.opacity": 1.0
   },
 
@@ -625,29 +619,25 @@
 
   {
     "class": "quick_panel_label",
-    "fg": "#868686",
-    "match_fg": "#cebbff",
-    "selected_fg": "#a9a9a9",
-    "selected_match_fg": "#cebbff"
+    "fg": "#cccccc",
+    "match_fg": "#33bbff",
+    "selected_fg": "#ffffff",
+    "selected_match_fg": "#33bbff"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
-    "fg": "#868686",
-    "match_fg": "#cebbff",
-    "selected_fg": "#a9a9a9",
-    "selected_match_fg": "#cebbff"
+    "fg": "#cccccc",
+    "match_fg": "#33bbff",
+    "selected_fg": "#ffffff",
+    "selected_match_fg": "#33bbff"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#868686",
-    "match_fg": "#a9a9a9",
-    "selected_fg": "#636363",
-    "selected_match_fg": "#a9a9a9" 
-  },
-  {
-    "class": "quick_panel_detail_label",
-    "link_color": "#"
+    "match_fg": "#33bbff",
+    "selected_fg": "#a9a9a9",
+    "selected_match_fg": "#33bbff"
   },
 
 
@@ -756,9 +746,9 @@
 
   {
     "class": "auto_complete_label",
-    "fg": "transparent",
+    "fg": "#cccccc",
     "match_fg": "#cebbff",
-    "selected_fg": "transparent",
+    "selected_fg": "#ffffff",
     "selected_match_fg": "#cebbff",
     "fg_blend": true
   },
@@ -1210,6 +1200,18 @@
     "layer0.tint": "#111111",
     "layer0.opacity": 1.0
   },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "overlay_control" }],
+    "layer0.tint": "#414141",
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "popup_control" }],
+    "layer0.tint": "#414141",
+    "layer0.opacity": 1.0
+  },
 
 
   {
@@ -1269,6 +1271,7 @@
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
     "layer0.tint": "#414141",
+    "color_scheme_tint": "#414141",
 
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,

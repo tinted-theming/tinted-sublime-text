@@ -552,12 +552,12 @@
     "layer0.texture": "tinted_theming/assets/overlay-shadow.png",
     "layer0.inner_margin": [15, 35, 15, 25],
     "layer0.opacity": 1,
-    "layer0.tint": "#cacace",
+    "layer0.tint": "#a0a1a7",
 
     "layer1.texture": "tinted_theming/assets/overlay-border.png",
     "layer1.inner_margin": [15, 35, 15, 25],
     "layer1.opacity": 1.0,
-    "layer1.tint":  "#dfdfe1",
+    "layer1.tint": "#a0a1a7",
 
     "layer2.texture": "tinted_theming/assets/overlay-bg.png",
     "layer2.inner_margin": [15, 35, 15, 25],
@@ -570,15 +570,9 @@
 
   {
     "class": "quick_panel",
-    "row_padding": [13, 7],
-    "layer0.tint": "#dfdfe1",
-    "layer0.opacity": 1.0
-  },
-  {
-    "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
-    "layer0.tint": "#dfdfe1",
+    "layer0.tint": "#cacace",
     "layer0.opacity": 1.0
   },
 
@@ -625,29 +619,25 @@
 
   {
     "class": "quick_panel_label",
-    "fg": "#696c77",
-    "match_fg": "#d02fcd",
-    "selected_fg": "#383a42",
-    "selected_match_fg": "#d02fcd"
+    "fg": "#202227",
+    "match_fg": "#febb2a",
+    "selected_fg": "#090a0b",
+    "selected_match_fg": "#febb2a"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
-    "fg": "#696c77",
-    "match_fg": "#d02fcd",
-    "selected_fg": "#383a42",
-    "selected_match_fg": "#d02fcd"
+    "fg": "#202227",
+    "match_fg": "#febb2a",
+    "selected_fg": "#090a0b",
+    "selected_match_fg": "#febb2a"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#696c77",
-    "match_fg": "#383a42",
-    "selected_fg": "#a0a1a7",
-    "selected_match_fg": "#383a42" 
-  },
-  {
-    "class": "quick_panel_detail_label",
-    "link_color": "#"
+    "match_fg": "#febb2a",
+    "selected_fg": "#383a42",
+    "selected_match_fg": "#febb2a"
   },
 
 
@@ -756,9 +746,9 @@
 
   {
     "class": "auto_complete_label",
-    "fg": "transparent",
+    "fg": "#202227",
     "match_fg": "#d02fcd",
-    "selected_fg": "transparent",
+    "selected_fg": "#090a0b",
     "selected_match_fg": "#d02fcd",
     "fg_blend": true
   },
@@ -1210,6 +1200,18 @@
     "layer0.tint": "#e7e7e9",
     "layer0.opacity": 1.0
   },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "overlay_control" }],
+    "layer0.tint": "#cacace",
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "scroll_track_control",
+    "parents" : [{ "class": "popup_control" }],
+    "layer0.tint": "#cacace",
+    "layer0.opacity": 1.0
+  },
 
 
   {
@@ -1269,6 +1271,7 @@
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
     "layer0.tint": "#cacace",
+    "color_scheme_tint": "#cacace",
 
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,
