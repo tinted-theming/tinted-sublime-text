@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Iolar Demartini Junior (http://github.com/demartini
-based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode).
-</string>
+  <string>Iolar Demartini Junior (http://github.com/demartini), based on Shades of Purple Theme (https://github.com/ahmadawais/shades-of-purple-vscode)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>

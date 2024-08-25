@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Jon Leopard (http://github.com/jonleopard)
-based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
-</string>
+  <string>Jon Leopard (http://github.com/jonleopard), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>

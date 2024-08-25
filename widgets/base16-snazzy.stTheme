@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Chawye Hsu (https://github.com/chawyehsu)
-based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
-</string>
+  <string>Chawye Hsu (https://github.com/chawyehsu), based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
