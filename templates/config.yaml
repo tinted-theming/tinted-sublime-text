@@ -26,6 +26,6 @@ base24-widget:
     supported-systems: [base24]
 
 widget-settings:
-    extension: .sublime-theme
+    extension: .sublime-settings
     output: widgets
     supported-systems: [base16, base24]
