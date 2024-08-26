@@ -1292,17 +1292,6 @@
   },
   {
     "class": "text_line_control",
-    "parents": [{ "class": "switch_project_window" }],
-    "layer0.texture": "",
-    "layer0.opacity": 0,
-    "layer1.texture": "tinted_theming/assets/input-prompt.png",
-    "layer1.opacity": 1,
-    "layer1.tint": "red",
-    "layer1.inner_margin": [36, 26, 0, 0],
-    "content_margin": [38, 5, 10, 5]
-  },
-  {
-    "class": "text_line_control",
     "parents": [{ "class": "overlay_control" }],
     "layer0.texture": "",
     "layer0.opacity": 0,
