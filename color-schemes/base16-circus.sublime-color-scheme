@@ -3,7 +3,7 @@
 
   "globals": {
     "background": "#202020",
-    "foreground": "#505050",
+    "foreground": "#a7a7a7",
     "invisibles": "#50505099",
     "caret": "#c3ba63",
     "block_caret": "#c3ba6399",

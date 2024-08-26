@@ -1285,13 +1285,13 @@
     "layer0.texture": "tinted_theming/assets/input-bg.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
-    "layer0.tint": "#7f8c8d",
-    "color_scheme_tint": "#7f8c8d",
+    "layer0.tint": "#34495e",
+    "color_scheme_tint": "#34495e",
 
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,
     "layer1.inner_margin": [10, 8],
-    "layer1.tint": "#34495e",
+    "layer1.tint": "#2c3e50",
     "content_margin": [10, 7, 10, 5]
   },
   {
@@ -1299,6 +1299,7 @@
     "parents": [{ "class": "overlay_control" }],
     "layer0.texture": "",
     "layer0.opacity": 0,
+    "color_scheme_tint": "#7f8c8d",
     "layer1.texture": "tinted_theming/assets/input-prompt.png",
     "layer1.opacity": 1,
     "layer1.tint": "#e0e0e0",
