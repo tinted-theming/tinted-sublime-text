@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Fetch the repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@9a9194f87191a7e9055e3e9b95b8cfb13023bb08 # v4.1.7
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
 
@@ -23,7 +23,7 @@ jobs:
         run: ./scripts/generate_skins_file
 
       - name: Commit the changes, if any
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@ac8823709a85c7ce090849ac3e5fe24d006f6e18 # v5.0.1
         with:
           commit_message: Update with the latest colorschemes
           branch: ${{ github.head_ref }}
