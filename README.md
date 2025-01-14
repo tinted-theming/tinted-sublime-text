@@ -1,6 +1,6 @@
 # Tinted Sublime Text
 
-Tinted themes for [Sublime Text]. Have a look at the [base16-gallery] to
+Tinted themes for [Sublime Text]. Have a look at the [tinted-gallery] to
 get a preview of some of the supported themes and go to [Tinted Theming]
 for more information about this theming project. This project contains
 themes for both [Base16] and [Base24] scheme systems.
@@ -25,7 +25,7 @@ cd path/to/sublime-text/Packages
 git clone https://github.com/tinted-theming/sublime-text tinted_theming
 ```
 
-### [Package Control](https://packagecontrol.io/) users
+### [Package Control] users
 
 1. Open command palette > Preferences: Package Control Settings
 2. Add the following to `Package Control.sublime-settings` and save:
@@ -55,8 +55,9 @@ Thanks to [Ayu] for their great Sublime Text themes. I used their
 project as a template for this repo.
 
 [Sublime Text]: https://www.sublimetext.com
-[base16-gallery]: https://tinted-theming.github.io/base16-gallery
+[tinted-gallery]: https://tinted-theming.github.io/tinted-gallery
 [Tinted Theming]: https://github.com/tinted-theming
 [Ayu]: https://github.com/dempfi/ayu
 [Base16]: https://github.com/tinted-theming/home/blob/main/styling.md
 [Base24]: https://github.com/tinted-theming/base24/blob/master/styling.md
+[Package Control]: https://packagecontrol.io/
