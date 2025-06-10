@@ -16,13 +16,13 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#4c4c4c</string>
+        <string>#393939</string>
         <key>caret</key>
         <string>#aca98a</string>
         <key>foreground</key>
-        <string>#ac8a8c</string>
+        <string>#4c4c4c</string>
         <key>invisibles</key>
-        <string>#4c4c4c99</string>
+        <string>#39393999</string>
         <key>lineHighlight</key>
         <string>#191919ff</string>
         <key>inactiveSelection</key>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#ac8a8c8c</string>
+        <string>#4c4c4c8c</string>
       </dict>
     </dict>
     <dict>

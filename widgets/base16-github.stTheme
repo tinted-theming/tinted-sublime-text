@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Defman21</string>
+  <string>Tinted Theming (https://github.com/tinted-theming)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#969896</string>
+        <string>#8c959f</string>
         <key>caret</key>
-        <string>#795da3</string>
+        <string>#bf8700</string>
         <key>foreground</key>
-        <string>#e8e8e8</string>
+        <string>#6e7781</string>
         <key>invisibles</key>
-        <string>#96989666</string>
+        <string>#8c959f66</string>
         <key>lineHighlight</key>
-        <string>#f5f5f519</string>
+        <string>#d0d7de19</string>
         <key>inactiveSelection</key>
-        <string>#795da311</string>
+        <string>#218bff11</string>
         <key>selection</key>
-        <string>#795da326</string>
+        <string>#218bff26</string>
         <key>selectionBorder</key>
-        <string>#795da326</string>
+        <string>#218bff26</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#e8e8e899</string>
+        <string>#6e778199</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#0086b3</string>
+        <string>#e16f24</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a71d5d</string>
+        <string>#a475f9</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#183691</string>
+        <string>#2da44e</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#183691</string>
+        <string>#339d9b</string>
       </dict>
     </dict>
   </array>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>spearkkk (https://github.com/spearkkk/deep-oceanic-next)</string>
+  <string>spearkkk (https://github.com/spearkkk)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#007a8a</string>
+        <string>#004852</string>
         <key>caret</key>
-        <string>#a366ff</string>
+        <string>#b788ff</string>
         <key>foreground</key>
-        <string>#dce3e8</string>
+        <string>#d4e1e8</string>
         <key>invisibles</key>
         <string>#0093a399</string>
         <key>lineHighlight</key>
-        <string>#004f5eff</string>
+        <string>#002931ff</string>
         <key>inactiveSelection</key>
-        <string>#66cccc21</string>
+        <string>#4de3e321</string>
         <key>selection</key>
-        <string>#66cccc4c</string>
+        <string>#4de3e34c</string>
         <key>selectionBorder</key>
-        <string>#66cccc4c</string>
+        <string>#4de3e34c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#007a8a8c</string>
+        <string>#0048528c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#000a0d</string>
+        <string>#2a2f30</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#4da6ff</string>
+        <string>#5caeff</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#85b57a</string>
+        <string>#63b784</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#4da6a6</string>
+        <string>#4fb7ae</string>
       </dict>
     </dict>
   </array>

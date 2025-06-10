@@ -2,29 +2,29 @@
   {
     "class": "title_bar",
     "settings": ["!ui_native_titlebar"],
-    "bg": "#003b46",
+    "bg": "#001c1f",
     "fg": "#0093a3"
   },
   {
     "class": "title_bar",
     "settings": ["!ui_native_titlebar", "ui_separator"],
-    "bg": "#003b46"
+    "bg": "#001c1f"
   },
 
   {
     "class": "sidebar_container",
     "content_margin": [0, 6, 0, 0],
     "layer0.opacity": 1,
-    "layer0.tint": "#003b46"
+    "layer0.tint": "#001c1f"
   },
   {
     "class": "sidebar_container",
     "settings": ["ui_separator"],
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer1.texture": "tinted_theming/assets/separator-sidebar.png",
     "layer1.inner_margin": [0, 38, 2, 1],
     "layer1.opacity": 1,
-    "layer1.tint": "#004f5e"
+    "layer1.tint": "#002931"
   },
 
 
@@ -41,7 +41,7 @@
 
   {
     "class": "sidebar_heading",
-    "color": "#006374",
+    "color": "#003640",
     "font.bold": true,
     "font.size": 11
   },
@@ -50,52 +50,52 @@
   {
     "class": "tree_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#0063743f",
+    "layer1.tint": "#0036403f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "hover"],
-    "layer0.tint": "#0063743f",
+    "layer0.tint": "#0036403f",
     "layer1.opacity": 1
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected"],
-    "layer0.tint": "#00637433"
+    "layer0.tint": "#00364033"
   },
   {
     "class": "tree_row",
     "attributes": ["selectable", "selected", "hover"],
-    "layer0.tint": "#0063743f"
+    "layer0.tint": "#0036403f"
   },
 
 
   {
     "class": "sidebar_label",
-    "fg": "#e6ebf0",
+    "fg": "#e0e9ef",
     "font.size": 12
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "fg": "#e6ebf0"
+    "fg": "#e0e9ef"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "fg": "#e6ebf0"
+    "fg": "#e0e9ef"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
-    "fg": "#e6ebf0",
+    "fg": "#e0e9ef",
     "font.bold": false
   },
   {
@@ -107,12 +107,12 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable", "hover"] }],
-    "fg": "#e6ebf0"
+    "fg": "#e0e9ef"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-    "fg": "#e6ebf0"
+    "fg": "#e0e9ef"
   },
   {
     "class": "sidebar_label",
@@ -128,7 +128,7 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-    "fg": "#e6ebf07f"
+    "fg": "#e0e9ef7f"
   },
 
 
@@ -162,14 +162,14 @@
     "class": "close_button",
     "attributes": ["hover"],
     "layer0.opacity": 1.0,
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
   {
     "class": "icon_folder",
     "content_margin": [9, 9],
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/folder.png",
@@ -177,7 +177,7 @@
     "layer1.opacity": 1,
 
     "layer2.texture": "tinted_theming/assets/folder-open.png",
-    "layer2.tint": "#ffcc66",
+    "layer2.tint": "#f3b863",
     "layer2.opacity": 0.0
   },
   {
@@ -189,7 +189,7 @@
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer1.tint": "#ffcc66"
+    "layer1.tint": "#f3b863"
   },
   {
     "class": "icon_folder",
@@ -219,7 +219,7 @@
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "layer1.tint": "#ffcc66"
+    "layer1.tint": "#f3b863"
   },
 
 
@@ -243,7 +243,7 @@
       "loop": true,
       "frame_time": 0.075
     },
-    "layer1.tint": "#ffcc66",
+    "layer1.tint": "#f3b863",
 
     "layer0.opacity": 0.0,
     "content_margin": [8, 8]
@@ -264,12 +264,12 @@
   {
     "class": "icon_folder_dup",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
   {
     "class": "icon_folder_dup",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -281,22 +281,22 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["ignored"],
-    "layer0.tint": "#dce3e84c"
+    "layer0.tint": "#d4e1e84c"
   },
   {
     "class": "vcs_status_badge",
     "attributes": ["added"],
-    "layer0.tint": "#85b57a66"
+    "layer0.tint": "#63b78466"
   },
   {
     "class": "vcs_status_badge",
     "attributes": ["modified"],
-    "layer0.tint": "#3a82e666"
+    "layer0.tint": "#568ccf66"
   },
   {
     "class": "vcs_status_badge",
     "attributes": ["deleted"],
-    "layer0.tint": "#e6454b66"
+    "layer0.tint": "#d3464d66"
   },
 
   {
@@ -307,7 +307,7 @@
     "class": "sheet_contents",
     "settings": ["inactive_sheet_dimming"],
     "attributes": ["!highlighted"],
-    "background_modifier": "blend(#003b46 0%)"
+    "background_modifier": "blend(#001c1f 0%)"
   },
 
   {
@@ -318,7 +318,7 @@
     "tab_height": 38,
     "tab_width": 100,
 
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0,
     "content_margin": [10, 0]
   },
@@ -333,10 +333,10 @@
     "tab_overlap": 8,
     "connector_height": 2,
     "content_margin": [0, 0, 0, 0],
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
 
     "layer1.texture": "tinted_theming/assets/tabset-border.png",
-    "layer1.tint": "#004f5e",
+    "layer1.tint": "#002931",
     "layer1.inner_margin": [1, 1, 1, 6],
     "layer1.opacity": 1
   },
@@ -354,7 +354,7 @@
     "settings": ["!ui_separator"],
 
     "layer0.texture": "tinted_theming/assets/separator-bottom.png",
-    "layer0.tint": "#004f5e",
+    "layer0.tint": "#002931",
     "layer0.inner_margin": [0, 0, 0, 2],
     "layer0.opacity": 0.0,
 
@@ -371,7 +371,7 @@
 
     "layer2.texture": "tinted_theming/assets/tab-border.png",
     "layer2.inner_margin": [9, 0, 9, 0],
-    "layer2.tint": "#004f5e",
+    "layer2.tint": "#002931",
     "layer2.opacity": 0,
 
     "content_margin": [16, 5, 11, 4],
@@ -381,28 +381,28 @@
   {
     "class": "tab_control", "attributes": ["selected"],
     "settings": ["!ui_separator"],
-    "layer0.tint": "#ffcc66",
+    "layer0.tint": "#f3b863",
     "layer0.opacity": 1.0
   },
   {
     "class": "tab_control", "attributes": ["selected", "!highlighted"],
     "settings": ["ui_separator"],
     "layer1.opacity": 1,
-    "layer1.tint": "#003b46",
+    "layer1.tint": "#001c1f",
     "layer2.opacity": 1
   },
   {
     "class": "tab_control", "attributes": ["selected", "highlighted"],
     "settings": ["ui_separator"],
     "layer1.opacity": { "target": 1, "speed": 1.0, "interpolation": "smoothstep" },
-    "layer1.tint": "#003b46",
+    "layer1.tint": "#001c1f",
     "layer2.opacity": 1
   },
 
   {
     "class": "tab_control", "attributes": ["hover"],
     "settings": ["!ui_separator"],
-    "layer0.tint": "#ffcc66",
+    "layer0.tint": "#f3b863",
     "layer0.opacity": 1.0
   },
   {
@@ -433,7 +433,7 @@
     "settings": ["highlight_modified_tabs"],
     "font.italic": true,
     "attributes": ["dirty"],
-    "fg": "#ffcc66"
+    "fg": "#f3b863"
   },
   {
     "class": "tab_label",
@@ -473,7 +473,7 @@
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons", "highlight_modified_tabs"],
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
   {
     "class": "tab_close_button",
@@ -494,7 +494,7 @@
     "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
     "layer0.opacity": 0,
     "layer1.opacity": 1.0,
-    "layer1.tint": "#ffcc66"
+    "layer1.tint": "#f3b863"
   },
   {
     "class": "tab_close_button",
@@ -515,7 +515,7 @@
   {
     "class": "scroll_tabs_left_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -529,7 +529,7 @@
   {
     "class": "scroll_tabs_right_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
   {
@@ -543,7 +543,7 @@
   {
     "class": "show_tabs_dropdown_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -553,17 +553,17 @@
     "layer0.texture": "tinted_theming/assets/overlay-shadow.png",
     "layer0.inner_margin": [15, 35, 15, 25],
     "layer0.opacity": 1,
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
 
     "layer1.texture": "tinted_theming/assets/overlay-border.png",
     "layer1.inner_margin": [15, 35, 15, 25],
     "layer1.opacity": 1.0,
-    "layer1.tint": "#007a8a",
+    "layer1.tint": "#004852",
 
     "layer2.texture": "tinted_theming/assets/overlay-bg.png",
     "layer2.inner_margin": [15, 35, 15, 25],
     "layer2.opacity": 1.0,
-    "layer2.tint": "#006374",
+    "layer2.tint": "#003640",
 
     "content_margin": [10, 35, 10, 20]
   },
@@ -571,14 +571,14 @@
   {
     "class": "quick_panel",
     "row_padding": [13, 7],
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
     "layer0.opacity": 1.0
   },
   {
     "class": "quick_panel",
     "parents": [{ "class": "overlay_control" }],
     "row_padding": [13, 7],
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
     "layer0.opacity": 1.0
   },
   {
@@ -591,12 +591,12 @@
   {
     "class": "mini_quick_panel_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#dce3e83f",
+    "layer0.tint": "#d4e1e83f",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#dce3e83f",
+    "layer1.tint": "#d4e1e83f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
@@ -611,12 +611,12 @@
   {
     "class": "quick_panel_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#dce3e83f",
+    "layer0.tint": "#d4e1e83f",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#dce3e83f",
+    "layer1.tint": "#d4e1e83f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
@@ -630,36 +630,36 @@
 
   {
     "class": "quick_panel_label",
-    "fg": "#e6ebf0",
-    "match_fg": "#ffcc66",
-    "selected_fg": "#f0f5f5",
-    "selected_match_fg": "#ffcc66"
+    "fg": "#e0e9ef",
+    "match_fg": "#f3b863",
+    "selected_fg": "#f2f7f9",
+    "selected_match_fg": "#f3b863"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
-    "fg": "#e6ebf0",
-    "match_fg": "#ffcc66",
-    "selected_fg": "#f0f5f5",
-    "selected_match_fg": "#ffcc66"
+    "fg": "#e0e9ef",
+    "match_fg": "#f3b863",
+    "selected_fg": "#f2f7f9",
+    "selected_match_fg": "#f3b863"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#0093a3",
-    "match_fg": "#ffcc66",
-    "selected_fg": "#dce3e8",
-    "selected_match_fg": "#ffcc66"
+    "match_fg": "#f3b863",
+    "selected_fg": "#d4e1e8",
+    "selected_match_fg": "#f3b863"
   },
   {
     "class": "quick_panel_detail_label",
-    "link_color": "#3a82e6"
+    "link_color": "#568ccf"
   },
 
 
   {
     "class": "grid_layout_control",
     "border_size": 0,
-    "border_color": "#004f5e"
+    "border_color": "#002931"
   },
   {
     "class": "grid_layout_control",
@@ -699,7 +699,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
   {
     "class": "fold_button_control",
@@ -713,13 +713,13 @@
     "layer0.texture": "tinted_theming/assets/popup-shadow.png",
     "layer0.inner_margin": [14, 11, 14, 15],
     "layer0.opacity": 1,
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
     "layer0.draw_center": false,
 
     "layer1.texture": "tinted_theming/assets/popup-border.png",
     "layer1.inner_margin": [14, 11, 14, 15],
     "layer1.opacity": 1,
-    "layer1.tint": "#004f5e",
+    "layer1.tint": "#002931",
     "layer1.draw_center": false,
 
     "content_margin": [10, 7, 10, 13]
@@ -730,7 +730,7 @@
     "layer0.texture": "tinted_theming/assets/popup-bg.png",
     "layer0.inner_margin": [4, 4, 4, 4],
     "layer0.opacity": 1,
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
 
     "content_margin": [0, 4]
   },
@@ -743,12 +743,12 @@
   {
     "class": "table_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#dce3e83f",
+    "layer0.tint": "#d4e1e83f",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/tree-highlight-border.png",
-    "layer1.tint": "#dce3e83f",
+    "layer1.tint": "#d4e1e83f",
     "layer1.inner_margin": [8, 4],
     "layer1.opacity": 0
   },
@@ -761,10 +761,10 @@
 
   {
     "class": "auto_complete_label",
-    "fg": "#e6ebf0",
-    "match_fg": "#ffcc66",
-    "selected_fg": "#f0f5f5",
-    "selected_match_fg": "#ffcc66",
+    "fg": "#e0e9ef",
+    "match_fg": "#f3b863",
+    "selected_fg": "#f2f7f9",
+    "selected_match_fg": "#f3b863",
     "fg_blend": true
   },
   {
@@ -776,17 +776,17 @@
   {
     "class": "kind_container",
     "layer0.texture": "tinted_theming/assets/kind-bg.png",
-    "layer0.tint": "#007a8a",
+    "layer0.tint": "#004852",
     "layer0.inner_margin": [4, 4, 7, 4],
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/kind-bg.png",
-    "layer1.tint": "#007a8a00",
+    "layer1.tint": "#00485200",
     "layer1.inner_margin": [4, 4, 7, 4],
     "layer1.opacity": 0.3,
 
     "layer2.texture": "tinted_theming/assets/kind-border.png",
-    "layer2.tint": "#007a8a00",
+    "layer2.tint": "#00485200",
     "layer2.inner_margin": [4, 4, 7, 4],
     "layer2.opacity": 0.1,
 
@@ -807,79 +807,79 @@
   {
     "class": "kind_container kind_function",
     "layer0.opacity": 1,
-    "layer1.tint": "#ffcc66",
-    "layer2.tint": "#ffcc66"
+    "layer1.tint": "#f3b863",
+    "layer2.tint": "#f3b863"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_function" }],
-    "color": "#ffcc66"
+    "color": "#f3b863"
   },
   {
     "class": "kind_container kind_keyword",
     "layer0.opacity": 1,
-    "layer1.tint": "#ff6a4b",
-    "layer2.tint": "#ff6a4b"
+    "layer1.tint": "#e37552",
+    "layer2.tint": "#e37552"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_keyword" }],
-    "color": "#ff6a4b"
+    "color": "#e37552"
   },
   {
     "class": "kind_container kind_markup",
     "layer0.opacity": 1,
-    "layer1.tint": "#3a82e6",
-    "layer2.tint": "#3a82e6"
+    "layer1.tint": "#568ccf",
+    "layer2.tint": "#568ccf"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_markup" }],
-    "color": "#3a82e6"
+    "color": "#568ccf"
   },
   {
     "class": "kind_container kind_namespace",
     "layer0.opacity": 1,
-    "layer1.tint": "#3a82e6",
-    "layer2.tint": "#3a82e6"
+    "layer1.tint": "#568ccf",
+    "layer2.tint": "#568ccf"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_namespace" }],
-    "color": "#3a82e6"
+    "color": "#568ccf"
   },
   {
     "class": "kind_container kind_navigation",
     "layer0.opacity": 1,
-    "layer1.tint": "#e673a3",
-    "layer2.tint": "#e673a3"
+    "layer1.tint": "#d0658e",
+    "layer2.tint": "#d0658e"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_navigation" }],
-    "color": "#e673a3"
+    "color": "#d0658e"
   },
   {
     "class": "kind_container kind_snippet",
     "layer0.opacity": 1,
-    "layer1.tint": "#e6454b",
-    "layer2.tint": "#e6454b"
+    "layer1.tint": "#d3464d",
+    "layer2.tint": "#d3464d"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_snippet" }],
-    "color": "#e6454b"
+    "color": "#d3464d"
   },
   {
     "class": "kind_container kind_type",
     "layer0.opacity": 1,
-    "layer1.tint": "#3a82e6",
-    "layer2.tint": "#3a82e6"
+    "layer1.tint": "#568ccf",
+    "layer2.tint": "#568ccf"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_type" }],
-    "color": "#3a82e6"
+    "color": "#568ccf"
   },
   {
     "class": "kind_container kind_variable",
@@ -895,90 +895,90 @@
   {
     "class": "kind_container kind_color_redish",
     "layer0.opacity": 1,
-    "layer1.tint": "#e6454b",
-    "layer2.tint": "#e6454b"
+    "layer1.tint": "#d3464d",
+    "layer2.tint": "#d3464d"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_redish" }],
-    "color": "#e6454b"
+    "color": "#d3464d"
   },
   {
     "class": "kind_container kind_color_orangish",
     "layer0.opacity": 1,
-    "layer1.tint": "#ff6a4b",
-    "layer2.tint": "#ff6a4b"
+    "layer1.tint": "#e37552",
+    "layer2.tint": "#e37552"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_orangish" }],
-    "color": "#ff6a4b"
+    "color": "#e37552"
   },
   {
     "class": "kind_container kind_color_yellowish",
     "layer0.opacity": 1,
-    "layer1.tint": "#ffcc66",
-    "layer2.tint": "#ffcc66"
+    "layer1.tint": "#f3b863",
+    "layer2.tint": "#f3b863"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_yellowish" }],
-    "color": "#ffcc66"
+    "color": "#f3b863"
   },
   {
     "class": "kind_container kind_color_greenish",
     "layer0.opacity": 1,
-    "layer1.tint": "#85b57a",
-    "layer2.tint": "#85b57a"
+    "layer1.tint": "#63b784",
+    "layer2.tint": "#63b784"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_greenish" }],
-    "color": "#85b57a"
+    "color": "#63b784"
   },
   {
     "class": "kind_container kind_color_cyanish",
     "layer0.opacity": 1,
-    "layer1.tint": "#4da6a6",
-    "layer2.tint": "#4da6a6"
+    "layer1.tint": "#4fb7ae",
+    "layer2.tint": "#4fb7ae"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_cyanish" }],
-    "color": "#4da6a6"
+    "color": "#4fb7ae"
   },
   {
     "class": "kind_container kind_color_bluish",
     "layer0.opacity": 1,
-    "layer1.tint": "#3a82e6",
-    "layer2.tint": "#3a82e6"
+    "layer1.tint": "#568ccf",
+    "layer2.tint": "#568ccf"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_bluish" }],
-    "color": "#3a82e6"
+    "color": "#568ccf"
   },
   {
     "class": "kind_container kind_color_purplish",
     "layer0.opacity": 1,
-    "layer1.tint": "#8c4de6",
-    "layer2.tint": "#8c4de6"
+    "layer1.tint": "#8b66d6",
+    "layer2.tint": "#8b66d6"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_purplish" }],
-    "color": "#8c4de6"
+    "color": "#8b66d6"
   },
   {
     "class": "kind_container kind_color_pinkish",
     "layer0.opacity": 1,
-    "layer1.tint": "#e673a3",
-    "layer2.tint": "#e673a3"
+    "layer1.tint": "#d0658e",
+    "layer2.tint": "#d0658e"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_pinkish" }],
-    "color": "#e673a3"
+    "color": "#d0658e"
   },
   {
     "class": "kind_container kind_color_dark",
@@ -1013,9 +1013,9 @@
   {
     "class": "auto_complete_detail_pane",
     "layer0.opacity": 1.0,
-    "layer0.tint": "#007a8a",
+    "layer0.tint": "#004852",
     "layer1.opacity": 1,
-    "layer1.tint": "#007a8a",
+    "layer1.tint": "#004852",
 
     "content_margin": [8, 10, 8, 5]
   },
@@ -1027,24 +1027,24 @@
   },
   {
     "class": "auto_complete_details",
-    "background_color": "#007a8a",
-    "monospace_background_color": "#007a8a"
+    "background_color": "#004852",
+    "monospace_background_color": "#004852"
   },
 
 
 
   {
     "class": "panel_control",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0,
     "content_margin": [0, 5]
   },
   {
     "class": "panel_control",
     "settings": ["ui_separator"],
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer1.texture": "tinted_theming/assets/separator-top.png",
-    "layer1.tint": "#004f5e",
+    "layer1.tint": "#002931",
     "layer1.inner_margin": [1, 2, 1, 0],
     "layer1.opacity": 1
   },
@@ -1065,7 +1065,7 @@
   {
     "class": "panel_close_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1073,17 +1073,17 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1,
     "layer1.texture": "tinted_theming/assets/separator-top.png",
-    "layer1.tint": "#004f5e",
+    "layer1.tint": "#002931",
     "layer1.inner_margin": [1, 2, 1, 0],
     "content_margin": [10, 2]
   },
   {
     "class": "status_bar",
     "settings": ["ui_separator"],
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer1.opacity": 1
   },
 
@@ -1097,7 +1097,7 @@
   {
     "class": "panel_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1128,21 +1128,21 @@
 
   {
     "class": "dialog",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0
   },
 
 
   {
     "class": "progress_bar_control",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0
   },
 
 
   {
     "class": "progress_gauge_control",
-    "layer0.tint": "#ffcc66",
+    "layer0.tint": "#f3b863",
     "layer0.opacity": 1.0,
     "content_margin": [0, 6]
   },
@@ -1163,7 +1163,7 @@
 
   {
     "class": "scroll_bar_control",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0,
 
     "layer1.texture": "tinted_theming/assets/scrollbar-vertical-wide.png",
@@ -1174,7 +1174,7 @@
   {
     "class": "scroll_bar_control",
     "parents": [{ "class": "overlay_control" }],
-    "layer0.tint": "#007a8a"
+    "layer0.tint": "#004852"
   },
   {
     "class": "scroll_bar_control",
@@ -1212,26 +1212,26 @@
 
   {
     "class": "scroll_track_control",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0
   },
   {
     "class": "scroll_track_control",
     "parents" : [{ "class": "overlay_control" }],
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
     "layer0.opacity": 1.0
   },
   {
     "class": "scroll_track_control",
     "parents" : [{ "class": "popup_control" }],
-    "layer0.tint": "#006374",
+    "layer0.tint": "#003640",
     "layer0.opacity": 1.0
   },
 
 
   {
     "class": "scroll_corner_control",
-    "layer0.tint": "#003b46",
+    "layer0.tint": "#001c1f",
     "layer0.opacity": 1.0
   },
 
@@ -1285,13 +1285,13 @@
     "layer0.texture": "tinted_theming/assets/input-bg.png",
     "layer0.opacity": 1,
     "layer0.inner_margin": [10, 8],
-    "layer0.tint": "#004f5e",
-    "color_scheme_tint": "#004f5e",
+    "layer0.tint": "#002931",
+    "color_scheme_tint": "#002931",
 
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,
     "layer1.inner_margin": [10, 8],
-    "layer1.tint": "#003b46",
+    "layer1.tint": "#001c1f",
     "content_margin": [10, 7, 10, 5]
   },
   {
@@ -1299,10 +1299,10 @@
     "parents": [{ "class": "overlay_control" }],
     "layer0.texture": "",
     "layer0.opacity": 0,
-    "color_scheme_tint": "#006374",
+    "color_scheme_tint": "#003640",
     "layer1.texture": "tinted_theming/assets/input-prompt.png",
     "layer1.opacity": 1,
-    "layer1.tint": "#dce3e8",
+    "layer1.tint": "#d4e1e8",
     "layer1.inner_margin": [36, 26, 0, 0],
     "content_margin": [38, 5, 10, 5]
   },
@@ -1343,7 +1343,7 @@
   {
     "class": "dropdown_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1352,7 +1352,7 @@
     "class": "button_control",
     "content_margin": [15, 9, 15, 10],
     "min_size": [60, 0],
-    "layer0.tint": "#ffcc66",
+    "layer0.tint": "#f3b863",
     "layer0.texture": "tinted_theming/assets/input-bg.png",
     "layer0.inner_margin": [10, 8],
     "layer0.opacity": 0
@@ -1384,7 +1384,7 @@
   {
     "class": "icon_regex",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1398,7 +1398,7 @@
   {
     "class": "icon_case",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1412,7 +1412,7 @@
   {
     "class": "icon_whole_word",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1426,7 +1426,7 @@
   {
     "class": "icon_wrap",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1440,7 +1440,7 @@
   {
     "class": "icon_in_selection",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1454,7 +1454,7 @@
   {
     "class": "icon_highlight",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1468,7 +1468,7 @@
   {
     "class": "icon_preserve_case",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1482,7 +1482,7 @@
   {
     "class": "icon_context",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1496,7 +1496,7 @@
   {
     "class": "icon_use_buffer",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
   {
@@ -1509,7 +1509,7 @@
   {
     "class": "icon_use_gitignore",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
   {
@@ -1522,7 +1522,7 @@
   {
     "class": "sidebar_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ffcc66"
+    "layer0.tint": "#f3b863"
   },
 
 
@@ -1548,13 +1548,13 @@
   {
     "class": "label_control",
     "parents": [{ "class": "button_control", "attributes": ["hover"] }],
-    "color": "#3a82e6"
+    "color": "#568ccf"
   },
 
 
   {
     "class": "title_label_control",
-    "color": "#ffcc66"
+    "color": "#f3b863"
   },
 
 
@@ -1570,7 +1570,7 @@
 
   {
     "class": "tool_tip_label_control",
-    "color": "#003b46",
+    "color": "#001c1f",
     "font.size": 12
   }
 ]
