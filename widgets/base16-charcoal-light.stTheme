@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Chris Kempson (http://chriskempson.com)</string>
+  <string>Mubin Muhammad (https://github.com/mubin6th)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Tomorrow</string>
+  <string>Charcoal Light</string>
   <key>semanticClass</key>
-  <string>tinted_theming.tomorrow</string>
+  <string>tinted_theming.charcoal-light</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#b4b7b4</string>
+        <string>#887254</string>
         <key>caret</key>
-        <string>#eab700</string>
+        <string>#292016</string>
         <key>foreground</key>
-        <string>#969896</string>
+        <string>#1e1812</string>
         <key>invisibles</key>
-        <string>#b4b7b466</string>
+        <string>#88725466</string>
         <key>lineHighlight</key>
-        <string>#e0e0e019</string>
+        <string>#c0a17919</string>
         <key>inactiveSelection</key>
-        <string>#4271ae11</string>
+        <string>#120f0911</string>
         <key>selection</key>
-        <string>#4271ae26</string>
+        <string>#120f0926</string>
         <key>selectionBorder</key>
-        <string>#4271ae26</string>
+        <string>#120f0926</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#96989699</string>
+        <string>#1e181299</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f5871f</string>
+        <string>#120f09</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8959a8</string>
+        <string>#292016</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#718c00</string>
+        <string>#120f09</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3e999f</string>
+        <string>#413325</string>
       </dict>
     </dict>
   </array>
