@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)</string>
+  <string>j-c-m (https://github.com/j-c-m/)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Ayu Light</string>
+  <string>Linux VT</string>
   <key>semanticClass</key>
-  <string>tinted_theming.ayu-light</string>
+  <string>tinted_theming.linux-vt</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#a0a6ac</string>
+        <string>#555555</string>
         <key>caret</key>
-        <string>#f2ae49</string>
+        <string>#ffff55</string>
         <key>foreground</key>
-        <string>#8a9199</string>
+        <string>#888888</string>
         <key>invisibles</key>
-        <string>#a0a6ac66</string>
+        <string>#55555599</string>
         <key>lineHighlight</key>
-        <string>#edeff119</string>
+        <string>#333333ff</string>
         <key>inactiveSelection</key>
-        <string>#399ee611</string>
+        <string>#5555ff21</string>
         <key>selection</key>
-        <string>#399ee626</string>
+        <string>#5555ff4c</string>
         <key>selectionBorder</key>
-        <string>#399ee626</string>
+        <string>#5555ff4c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#8a919999</string>
+        <string>#8888888c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#fa8d3e</string>
+        <string>#ff5555</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a37acc</string>
+        <string>#ff55ff</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6cbf49</string>
+        <string>#00aa00</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#4cbf99</string>
+        <string>#00aaaa</string>
       </dict>
     </dict>
   </array>

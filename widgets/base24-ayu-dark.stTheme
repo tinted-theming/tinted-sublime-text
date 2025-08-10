@@ -7,30 +7,30 @@
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Ayu Light</string>
+  <string>Ayu Dark</string>
   <key>semanticClass</key>
-  <string>tinted_theming.ayu-light</string>
+  <string>tinted_theming.ayu-dark</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#a0a6ac</string>
+        <string>#3e4b59</string>
         <key>caret</key>
-        <string>#f2ae49</string>
+        <string>#ddbcff</string>
         <key>foreground</key>
-        <string>#8a9199</string>
+        <string>#e6e1cf</string>
         <key>invisibles</key>
-        <string>#a0a6ac66</string>
+        <string>#bfbdb699</string>
         <key>lineHighlight</key>
-        <string>#edeff119</string>
+        <string>#131721ff</string>
         <key>inactiveSelection</key>
-        <string>#399ee611</string>
+        <string>#39bae621</string>
         <key>selection</key>
-        <string>#399ee626</string>
+        <string>#39bae64c</string>
         <key>selectionBorder</key>
-        <string>#399ee626</string>
+        <string>#39bae64c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#8a919999</string>
+        <string>#3e4b598c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#fa8d3e</string>
+        <string>#06070a</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a37acc</string>
+        <string>#73b8ff</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#6cbf49</string>
+        <string>#aad94c</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#4cbf99</string>
+        <string>#95e6cb</string>
       </dict>
     </dict>
   </array>

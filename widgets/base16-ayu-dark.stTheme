@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Khue Nguyen &lt;Z5483Y@gmail.com&gt;</string>
+  <string>Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b8cc52</string>
+        <string>#aad94c</string>
       </dict>
     </dict>
     <dict>
