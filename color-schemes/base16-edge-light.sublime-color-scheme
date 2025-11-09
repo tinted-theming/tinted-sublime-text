@@ -5,11 +5,11 @@
     "background": "#7c9f4b",
     "foreground": "#5e646f",
     "invisibles": "#6587bf99",
-    "caret": "#d69822",
-    "block_caret": "#d6982299",
+    "caret": "#ebcc1a",
+    "block_caret": "#ebcc1a99",
     "line_highlight": "#fafafa19",
 
-    "accent": "#d69822",
+    "accent": "#ebcc1a",
 
     "popup_css": "html, body {\n background-color: #5e646f;\n color: #6587bf;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #5e646f;\n --mdpopups-link: #6587bf;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(101, 135, 191, 0.7);\n }",
 
@@ -30,8 +30,8 @@
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
-    "highlight": "#d6982266",
-    "find_highlight": "#d69822",
+    "highlight": "#ebcc1a66",
+    "find_highlight": "#ebcc1a",
     "find_highlight_foreground": "#fafafa",
 
     "guide": "#5e646f2d",
@@ -65,12 +65,12 @@
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "Built-in constants",
       "scope": "constant.language",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "Constants",
@@ -100,17 +100,17 @@
     {
       "name": "Storage",
       "scope": "storage, storage.type.keyword",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
     {
       "name": "Java keyword fixes",
       "scope": "source.java meta.class.java meta.class.identifier.java storage.type.java",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
 
 
@@ -140,12 +140,12 @@
     {
       "name": "JavaScript/TypeScript interpolation punctuation",
       "scope": "punctuation.definition.template-expression",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
     {
       "name": "Ruby interpolation punctuation",
       "scope": "punctuation.section.interpolation",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
 
     {
@@ -162,7 +162,7 @@
     {
       "name": "Lambda arrow",
       "scope": "storage.type.function",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
     {
       "name": "Java primitive variable types",
@@ -174,7 +174,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "Function arguments",
@@ -184,7 +184,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "Library function",
@@ -220,7 +220,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
 
 
@@ -256,7 +256,7 @@
     {
       "name": "Ruby class methods",
       "scope": "source.ruby variable.other.readwrite",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "CSS tag names",
@@ -283,7 +283,7 @@
     {
       "name": "Search Results Match Nums",
       "scope": "constant.numeric.line-number.match",
-      "foreground": "#db7070"
+      "foreground": "#eba31a"
     },
     {
       "name": "Search Results Lines",
@@ -348,7 +348,7 @@
     {
       "name": "Markup List Bullet",
       "scope": "markup.list punctuation.definition.list.begin",
-      "foreground": "#d69822"
+      "foreground": "#ebcc1a"
     },
     {
       "name": "Markup added",

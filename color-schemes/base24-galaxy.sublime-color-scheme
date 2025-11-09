@@ -18,7 +18,7 @@
 
     "line_diff_width": "2",
     "line_diff_added": "#ffff55b2",
-    "line_diff_modified": "#589cf5b2",
+    "line_diff_modified": "#fdf029b2",
     "line_diff_deleted": "#f9555fb2",
 
     "selection": "#3978bb4c",
@@ -116,7 +116,7 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#fdf029"
+      "foreground": "#fdba29"
     },
 
 
@@ -133,7 +133,7 @@
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#fdf029"
+      "foreground": "#fdba29"
     },
 
     {
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#589cf5"
+      "foreground": "#fdf029"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#589cf5"
+      "foreground": "#fdf029"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#589cf5"
+      "foreground": "#fdf029"
     },
 
 
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#fdf029"
+      "foreground": "#fdba29"
     },
     {
       "name": "Library class/type",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#589cf5"
+      "foreground": "#fdf029"
     },
     {
       "name": "Markup Removed",
@@ -376,7 +376,7 @@
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#fdf029"
+      "foreground": "#fdba29"
     },
     {
       "name": "Markdown - Line Break",

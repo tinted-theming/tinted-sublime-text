@@ -2,23 +2,23 @@
   "name": "Later This Evening",
 
   "globals": {
-    "background": "#2b2b2b",
-    "foreground": "#3e3f3f",
-    "invisibles": "#40424299",
+    "background": "#313131",
+    "foreground": "#a6a6a6",
+    "invisibles": "#8c8c8c99",
     "caret": "#aa52d5",
     "block_caret": "#aa52d599",
     "line_highlight": "#212121",
 
     "accent": "#aa52d5",
 
-    "popup_css": "html, body {\n background-color: #212121;\n color: #3e3f3f;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #2b2b2b;\n --mdpopups-link: #a0b9d5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(160, 185, 213, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #212121;\n color: #a6a6a6;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #313131;\n --mdpopups-link: #a0b9d5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(160, 185, 213, 0.7);\n }",
 
     "gutter": "#212121",
-    "gutter_foreground": "#40424266",
+    "gutter_foreground": "#8c8c8c66",
 
     "line_diff_width": "2",
     "line_diff_added": "#e4bd39b2",
-    "line_diff_modified": "#6599d5b2",
+    "line_diff_modified": "#e5d289b2",
     "line_diff_deleted": "#d35a5fb2",
 
     "selection": "#5fbfad4c",
@@ -33,9 +33,9 @@
     "find_highlight": "#aa52d5",
     "find_highlight_foreground": "#212121",
 
-    "guide": "#40424233",
-    "active_guide": "#4042427f",
-    "stack_guide": "#40424266",
+    "guide": "#8c8c8c33",
+    "active_guide": "#8c8c8c7f",
+    "stack_guide": "#8c8c8c66",
 
     "shadow": "#2121214c",
     "shadow_width": "3"
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#4245458c"
+      "foreground": "#6f6f6f8c"
     },
 
     {
@@ -81,7 +81,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#3e3f3f"
+      "foreground": "#a6a6a6"
     },
     {
       "name": "Member Variable",
@@ -116,24 +116,24 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#e5d289"
+      "foreground": "#e5af89"
     },
 
 
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#3e3f3fb2"
+      "foreground": "#a6a6a6b2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#3e3f3f"
+      "foreground": "#a6a6a6"
     },
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#e5d289"
+      "foreground": "#e5af89"
     },
 
     {
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#6599d5"
+      "foreground": "#e5d289"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#6599d5"
+      "foreground": "#e5d289"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#6599d5"
+      "foreground": "#e5d289"
     },
 
 
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#e5d289"
+      "foreground": "#e5af89"
     },
     {
       "name": "Library class/type",
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#4245458c" 
+      "foreground": "#6f6f6f8c" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#4245458c" 
+      "foreground": "#6f6f6f8c" 
     },
     {
       "name": "Search Results Match Nums",
@@ -322,19 +322,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#3e3f3f05"
+      "background": "#a6a6a605"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#3e3f3f0f"
+      "background": "#a6a6a60f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#3e3f3f0f",
-      "foreground": "#4245458c" 
+      "background": "#a6a6a60f",
+      "foreground": "#6f6f6f8c" 
     },
     {
       "name": "Markup Blockquote",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#6599d5"
+      "foreground": "#e5d289"
     },
     {
       "name": "Markup Removed",
@@ -370,25 +370,25 @@
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#3e3f3f0f",
+      "background": "#a6a6a60f",
       "foreground": "#"
     },
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#e5d289"
+      "foreground": "#e5af89"
     },
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#4245458c",
-      "foreground": "#4245458c"
+      "background": "#6f6f6f8c",
+      "foreground": "#6f6f6f8c"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#3e3f3f",
-      "foreground": "#4245458c" 
+      "background": "#a6a6a6",
+      "foreground": "#6f6f6f8c" 
     }
   ]
 }

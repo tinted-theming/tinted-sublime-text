@@ -5,11 +5,11 @@
     "background": "#243c54",
     "foreground": "#c8e1f8",
     "invisibles": "#74afe799",
-    "caret": "#82aaff",
-    "block_caret": "#82aaff99",
+    "caret": "#f6cd5c",
+    "block_caret": "#f6cd5c99",
     "line_highlight": "#182430",
 
-    "accent": "#82aaff",
+    "accent": "#f6cd5c",
 
     "popup_css": "html, body {\n background-color: #616d78;\n color: #74afe7;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #616d78;\n --mdpopups-link: #82aaff;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(130, 170, 255, 0.7);\n }",
 
@@ -30,8 +30,8 @@
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
-    "highlight": "#82aaff66",
-    "find_highlight": "#82aaff",
+    "highlight": "#f6cd5c66",
+    "find_highlight": "#f6cd5c",
     "find_highlight_foreground": "#182430",
 
     "guide": "#616d7833",
@@ -65,12 +65,12 @@
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "Built-in constants",
       "scope": "constant.language",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "Constants",
@@ -174,7 +174,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "Function arguments",
@@ -184,7 +184,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "Library function",
@@ -220,7 +220,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
 
 
@@ -256,7 +256,7 @@
     {
       "name": "Ruby class methods",
       "scope": "source.ruby variable.other.readwrite",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "CSS tag names",
@@ -348,7 +348,7 @@
     {
       "name": "Markup List Bullet",
       "scope": "markup.list punctuation.definition.list.begin",
-      "foreground": "#82aaff"
+      "foreground": "#f6cd5c"
     },
     {
       "name": "Markup added",

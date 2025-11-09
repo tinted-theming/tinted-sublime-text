@@ -2,23 +2,23 @@
   "name": "Night Owlish Light",
 
   "globals": {
-    "background": "#011627",
-    "foreground": "#7a8181",
-    "invisibles": "#7a818199",
+    "background": "#e5e6e6",
+    "foreground": "#585b5b",
+    "invisibles": "#71757599",
     "caret": "#697098",
     "block_caret": "#69709899",
     "line_highlight": "#ffffff19",
 
     "accent": "#697098",
 
-    "popup_css": "html, body {\n background-color: #ffffff;\n color: #7a8181;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #011627;\n --mdpopups-link: #4876d6;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(72, 118, 214, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #ffffff;\n color: #585b5b;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #e5e6e6;\n --mdpopups-link: #4876d6;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(72, 118, 214, 0.7);\n }",
 
     "gutter": "#ffffff",
-    "gutter_foreground": "#7a8181cc",
+    "gutter_foreground": "#717575cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#dac26bb2",
-    "line_diff_modified": "#5ca7e4b2",
+    "line_diff_modified": "#dac801b2",
     "line_diff_deleted": "#d3423eb2",
 
     "selection": "#00c99026",
@@ -33,9 +33,9 @@
     "find_highlight": "#697098",
     "find_highlight_foreground": "#ffffff",
 
-    "guide": "#7a81812d",
-    "active_guide": "#7a818159",
-    "stack_guide": "#7a818166",
+    "guide": "#7175752d",
+    "active_guide": "#71757559",
+    "stack_guide": "#71757566",
 
     "shadow": "#ffffff4c",
     "shadow_width": "3"
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#7a818199"
+      "foreground": "#b1b4b499"
     },
 
     {
@@ -81,7 +81,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#7a8181"
+      "foreground": "#585b5b"
     },
     {
       "name": "Member Variable",
@@ -123,12 +123,12 @@
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#7a8181b2"
+      "foreground": "#585b5bb2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#7a8181"
+      "foreground": "#585b5b"
     },
     {
       "name": "Accessor",
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#5ca7e4"
+      "foreground": "#dac801"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#5ca7e4"
+      "foreground": "#dac801"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#5ca7e4"
+      "foreground": "#dac801"
     },
 
 
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#7a818199" 
+      "foreground": "#b1b4b499" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#7a818199" 
+      "foreground": "#b1b4b499" 
     },
     {
       "name": "Search Results Match Nums",
@@ -322,19 +322,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#7a818105"
+      "background": "#585b5b05"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#7a81810f"
+      "background": "#585b5b0f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#7a81810f",
-      "foreground": "#7a818199" 
+      "background": "#585b5b0f",
+      "foreground": "#b1b4b499" 
     },
     {
       "name": "Markup Blockquote",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#5ca7e4"
+      "foreground": "#dac801"
     },
     {
       "name": "Markup Removed",
@@ -370,7 +370,7 @@
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#7a81810f",
+      "background": "#585b5b0f",
       "foreground": "#"
     },
     {
@@ -381,14 +381,14 @@
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#7a818199",
-      "foreground": "#7a818199"
+      "background": "#b1b4b499",
+      "foreground": "#b1b4b499"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#7a8181",
-      "foreground": "#7a818199" 
+      "background": "#585b5b",
+      "foreground": "#b1b4b499" 
     }
   ]
 }

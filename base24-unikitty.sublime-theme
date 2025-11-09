@@ -2,25 +2,25 @@
   {
     "class": "title_bar",
     "settings": ["!ui_native_titlebar"],
-    "bg": "#ff8cd9",
+    "bg": "#ff7ad3",
     "fg": "#b9b1b8"
   },
   {
     "class": "title_bar",
     "settings": ["!ui_native_titlebar", "ui_separator"],
-    "bg": "#ff8cd9"
+    "bg": "#ff7ad3"
   },
 
   {
     "class": "sidebar_container",
     "content_margin": [0, 6, 0, 0],
     "layer0.opacity": 1,
-    "layer0.tint": "#ff8cd9"
+    "layer0.tint": "#ff7ad3"
   },
   {
     "class": "sidebar_container",
     "settings": ["ui_separator"],
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer1.texture": "tinted_theming/assets/separator-sidebar.png",
     "layer1.inner_margin": [0, 38, 2, 1],
     "layer1.opacity": 1,
@@ -50,7 +50,7 @@
   {
     "class": "tree_row",
     "layer0.texture": "tinted_theming/assets/tree-highlight.png",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.inner_margin": [8, 4],
     "layer0.opacity": 1,
 
@@ -169,7 +169,7 @@
   {
     "class": "icon_folder",
     "content_margin": [9, 9],
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 0,
 
     "layer1.texture": "tinted_theming/assets/folder.png",
@@ -291,7 +291,7 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["modified"],
-    "layer0.tint": "#0074ea66"
+    "layer0.tint": "#eedf4b66"
   },
   {
     "class": "vcs_status_badge",
@@ -307,7 +307,7 @@
     "class": "sheet_contents",
     "settings": ["inactive_sheet_dimming"],
     "attributes": ["!highlighted"],
-    "background_modifier": "blend(#ff8cd9 0%)"
+    "background_modifier": "blend(#ff7ad3 0%)"
   },
 
   {
@@ -318,7 +318,7 @@
     "tab_height": 38,
     "tab_width": 100,
 
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0,
     "content_margin": [10, 0]
   },
@@ -333,7 +333,7 @@
     "tab_overlap": 8,
     "connector_height": 2,
     "content_margin": [0, 0, 0, 0],
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
 
     "layer1.texture": "tinted_theming/assets/tabset-border.png",
     "layer1.tint": "#0c0c0c",
@@ -387,14 +387,14 @@
     "class": "tab_control", "attributes": ["selected", "!highlighted"],
     "settings": ["ui_separator"],
     "layer1.opacity": 1,
-    "layer1.tint": "#ff8cd9",
+    "layer1.tint": "#ff7ad3",
     "layer2.opacity": 1
   },
   {
     "class": "tab_control", "attributes": ["selected", "highlighted"],
     "settings": ["ui_separator"],
     "layer1.opacity": { "target": 1, "speed": 1.0, "interpolation": "smoothstep" },
-    "layer1.tint": "#ff8cd9",
+    "layer1.tint": "#ff7ad3",
     "layer2.opacity": 1
   },
 
@@ -631,24 +631,24 @@
   {
     "class": "quick_panel_label",
     "fg": "#e1d6e0",
-    "match_fg": "#0074ea",
+    "match_fg": "#eedf4b",
     "selected_fg": "#fff2fd",
-    "selected_match_fg": "#0074ea"
+    "selected_match_fg": "#eedf4b"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
     "fg": "#e1d6e0",
-    "match_fg": "#0074ea",
+    "match_fg": "#eedf4b",
     "selected_fg": "#fff2fd",
-    "selected_match_fg": "#0074ea"
+    "selected_match_fg": "#eedf4b"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#918c91",
-    "match_fg": "#0074ea",
+    "match_fg": "#eedf4b",
     "selected_fg": "#b9b1b8",
-    "selected_match_fg": "#0074ea"
+    "selected_match_fg": "#eedf4b"
   },
 
 
@@ -803,13 +803,13 @@
   {
     "class": "kind_container kind_function",
     "layer0.opacity": 1,
-    "layer1.tint": "#0074ea",
-    "layer2.tint": "#0074ea"
+    "layer1.tint": "#eedf4b",
+    "layer2.tint": "#eedf4b"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_function" }],
-    "color": "#0074ea"
+    "color": "#eedf4b"
   },
   {
     "class": "kind_container kind_keyword",
@@ -913,13 +913,13 @@
   {
     "class": "kind_container kind_color_yellowish",
     "layer0.opacity": 1,
-    "layer1.tint": "#0074ea",
-    "layer2.tint": "#0074ea"
+    "layer1.tint": "#eedf4b",
+    "layer2.tint": "#eedf4b"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_yellowish" }],
-    "color": "#0074ea"
+    "color": "#eedf4b"
   },
   {
     "class": "kind_container kind_color_greenish",
@@ -968,8 +968,8 @@
   {
     "class": "kind_container kind_color_pinkish",
     "layer0.opacity": 1,
-    "layer1.tint": "#eedf4b",
-    "layer2.tint": "#eedf4b"
+    "layer1.tint": "#eeaa4b",
+    "layer2.tint": "#eeaa4b"
   },
   {
     "class": "kind_label",
@@ -1031,14 +1031,14 @@
 
   {
     "class": "panel_control",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0,
     "content_margin": [0, 5]
   },
   {
     "class": "panel_control",
     "settings": ["ui_separator"],
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer1.texture": "tinted_theming/assets/separator-top.png",
     "layer1.tint": "#0c0c0c",
     "layer1.inner_margin": [1, 2, 1, 0],
@@ -1069,7 +1069,7 @@
   {
     "class": "status_bar",
     "layer0.texture": "",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1,
     "layer1.texture": "tinted_theming/assets/separator-top.png",
     "layer1.tint": "#0c0c0c",
@@ -1079,7 +1079,7 @@
   {
     "class": "status_bar",
     "settings": ["ui_separator"],
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer1.opacity": 1
   },
 
@@ -1124,14 +1124,14 @@
 
   {
     "class": "dialog",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0
   },
 
 
   {
     "class": "progress_bar_control",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0
   },
 
@@ -1159,7 +1159,7 @@
 
   {
     "class": "scroll_bar_control",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0,
 
     "layer1.texture": "tinted_theming/assets/scrollbar-vertical-wide.png",
@@ -1208,7 +1208,7 @@
 
   {
     "class": "scroll_track_control",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0
   },
   {
@@ -1227,7 +1227,7 @@
 
   {
     "class": "scroll_corner_control",
-    "layer0.tint": "#ff8cd9",
+    "layer0.tint": "#ff7ad3",
     "layer0.opacity": 1.0
   },
 
@@ -1287,7 +1287,7 @@
     "layer1.texture": "tinted_theming/assets/input-border.png",
     "layer1.opacity": 1,
     "layer1.inner_margin": [10, 8],
-    "layer1.tint": "#ff8cd91e",
+    "layer1.tint": "#ff7ad31e",
     "content_margin": [10, 7, 10, 5]
   },
   {

@@ -79,23 +79,23 @@
 
   {
     "class": "sidebar_label",
-    "fg": "#80cbc4",
+    "fg": "#43a39a",
     "font.size": 12
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "fg": "#80cbc4"
+    "fg": "#43a39a"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "fg": "#80cbc4"
+    "fg": "#43a39a"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable"] }],
-    "fg": "#80cbc4",
+    "fg": "#43a39a",
     "font.bold": false
   },
   {
@@ -107,12 +107,12 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expandable", "hover"] }],
-    "fg": "#80cbc4"
+    "fg": "#43a39a"
   },
   {
     "class": "sidebar_label",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-    "fg": "#80cbc4"
+    "fg": "#43a39a"
   },
   {
     "class": "sidebar_label",
@@ -128,7 +128,7 @@
   {
     "class": "sidebar_label",
     "parents": [{ "class": "file_system_entry", "attributes": ["ignored"] }],
-    "fg": "#80cbc47f"
+    "fg": "#43a39a7f"
   },
 
 
@@ -761,9 +761,9 @@
 
   {
     "class": "auto_complete_label",
-    "fg": "#80cbc4",
+    "fg": "#43a39a",
     "match_fg": "#ffb62c",
-    "selected_fg": "#ffffff",
+    "selected_fg": "#000000",
     "selected_match_fg": "#ffb62c",
     "fg_blend": true
   },

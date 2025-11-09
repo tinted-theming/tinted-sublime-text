@@ -7,18 +7,18 @@
     "invisibles": "#918c9199",
     "caret": "#fdd5e5",
     "block_caret": "#fdd5e599",
-    "line_highlight": "#ff8cd919",
+    "line_highlight": "#ff7ad319",
 
     "accent": "#fdd5e5",
 
-    "popup_css": "html, body {\n background-color: #ff8cd9;\n color: #b9b1b8;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #0c0c0c;\n --mdpopups-link: #145fcd;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(20, 95, 205, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #ff7ad3;\n color: #b9b1b8;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #0c0c0c;\n --mdpopups-link: #145fcd;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(20, 95, 205, 0.7);\n }",
 
-    "gutter": "#ff8cd9",
+    "gutter": "#ff7ad3",
     "gutter_foreground": "#918c91cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#ffee50b2",
-    "line_diff_modified": "#0074eab2",
+    "line_diff_modified": "#eedf4bb2",
     "line_diff_deleted": "#a80f20b2",
 
     "selection": "#79ebd526",
@@ -31,13 +31,13 @@
 
     "highlight": "#fdd5e566",
     "find_highlight": "#fdd5e5",
-    "find_highlight_foreground": "#ff8cd9",
+    "find_highlight_foreground": "#ff7ad3",
 
     "guide": "#918c912d",
     "active_guide": "#918c9159",
     "stack_guide": "#918c9166",
 
-    "shadow": "#ff8cd94c",
+    "shadow": "#ff7ad34c",
     "shadow_width": "3"
   },
 
@@ -116,7 +116,7 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#eedf4b"
+      "foreground": "#eeaa4b"
     },
 
 
@@ -133,7 +133,7 @@
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#eedf4b"
+      "foreground": "#eeaa4b"
     },
 
     {
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#0074ea"
+      "foreground": "#eedf4b"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#0074ea"
+      "foreground": "#eedf4b"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#0074ea"
+      "foreground": "#eedf4b"
     },
 
 
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#eedf4b"
+      "foreground": "#eeaa4b"
     },
     {
       "name": "Library class/type",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#0074ea"
+      "foreground": "#eedf4b"
     },
     {
       "name": "Markup Removed",
@@ -376,7 +376,7 @@
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#eedf4b"
+      "foreground": "#eeaa4b"
     },
     {
       "name": "Markdown - Line Break",

@@ -2,23 +2,23 @@
   "name": "Tango Half Adapted",
 
   "globals": {
-    "background": "#000000",
-    "foreground": "#c6cac1",
-    "invisibles": "#acb0a899",
+    "background": "#f1f1f1",
+    "foreground": "#4f4f4f",
+    "invisibles": "#75757599",
     "caret": "#d798d0",
     "block_caret": "#d798d099",
-    "line_highlight": "#fffefe19",
+    "line_highlight": "#feffff19",
 
     "accent": "#d798d0",
 
-    "popup_css": "html, body {\n background-color: #fffefe;\n color: #c6cac1;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #000000;\n --mdpopups-link: #008df5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(0, 141, 245, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #feffff;\n color: #4f4f4f;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #f1f1f1;\n --mdpopups-link: #008df5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(0, 141, 245, 0.7);\n }",
 
-    "gutter": "#fffefe",
-    "gutter_foreground": "#acb0a8cc",
+    "gutter": "#feffff",
+    "gutter_foreground": "#757575cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#ffeb00b2",
-    "line_diff_modified": "#75beffb2",
+    "line_diff_modified": "#e2bf00b2",
     "line_diff_deleted": "#ff0000b2",
 
     "selection": "#00f6fa26",
@@ -31,13 +31,13 @@
 
     "highlight": "#d798d066",
     "find_highlight": "#d798d0",
-    "find_highlight_foreground": "#fffefe",
+    "find_highlight_foreground": "#feffff",
 
-    "guide": "#acb0a82d",
-    "active_guide": "#acb0a859",
-    "stack_guide": "#acb0a866",
+    "guide": "#7575752d",
+    "active_guide": "#75757559",
+    "stack_guide": "#75757566",
 
-    "shadow": "#fffefe4c",
+    "shadow": "#feffff4c",
     "shadow_width": "3"
   },
 
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#92968e99"
+      "foreground": "#cccccc99"
     },
 
     {
@@ -81,7 +81,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#c6cac1"
+      "foreground": "#4f4f4f"
     },
     {
       "name": "Member Variable",
@@ -116,24 +116,24 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#e2bf00"
+      "foreground": "#e28400"
     },
 
 
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#c6cac1b2"
+      "foreground": "#4f4f4fb2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#c6cac1"
+      "foreground": "#4f4f4f"
     },
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#e2bf00"
+      "foreground": "#e28400"
     },
 
     {
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#75beff"
+      "foreground": "#e2bf00"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#75beff"
+      "foreground": "#e2bf00"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#75beff"
+      "foreground": "#e2bf00"
     },
 
 
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#e2bf00"
+      "foreground": "#e28400"
     },
     {
       "name": "Library class/type",
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#92968e99" 
+      "foreground": "#cccccc99" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#92968e99" 
+      "foreground": "#cccccc99" 
     },
     {
       "name": "Search Results Match Nums",
@@ -322,19 +322,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#c6cac105"
+      "background": "#4f4f4f05"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#c6cac10f"
+      "background": "#4f4f4f0f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#c6cac10f",
-      "foreground": "#92968e99" 
+      "background": "#4f4f4f0f",
+      "foreground": "#cccccc99" 
     },
     {
       "name": "Markup Blockquote",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#75beff"
+      "foreground": "#e2bf00"
     },
     {
       "name": "Markup Removed",
@@ -370,25 +370,25 @@
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#c6cac10f",
+      "background": "#4f4f4f0f",
       "foreground": "#"
     },
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#e2bf00"
+      "foreground": "#e28400"
     },
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#92968e99",
-      "foreground": "#92968e99"
+      "background": "#cccccc99",
+      "foreground": "#cccccc99"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#c6cac1",
-      "foreground": "#92968e99" 
+      "background": "#4f4f4f",
+      "foreground": "#cccccc99" 
     }
   ]
 }

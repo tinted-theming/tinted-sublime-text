@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>FredHappyface (https://github.com/fredHappyface)</string>
+  <string>EmergentMind (https://github.com/emergentmind/ascendancy-scheme)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Piatto Light</string>
+  <string>Ascendancy</string>
   <key>semanticClass</key>
-  <string>tinted_theming.piatto-light</string>
+  <string>tinted_theming.ascendancy</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#c1c1c1</string>
+        <string>#928374</string>
         <key>caret</key>
-        <string>#a454b2</string>
+        <string>#ffcc1b</string>
         <key>foreground</key>
-        <string>#515151</string>
+        <string>#bdae93</string>
         <key>invisibles</key>
-        <string>#71717166</string>
+        <string>#92837499</string>
         <key>lineHighlight</key>
-        <string>#f1f1f119</string>
+        <string>#212f3dff</string>
         <key>inactiveSelection</key>
-        <string>#175e5e11</string>
+        <string>#45858821</string>
         <key>selection</key>
-        <string>#175e5e26</string>
+        <string>#4585884c</string>
         <key>selectionBorder</key>
-        <string>#175e5e26</string>
+        <string>#4585884c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#c1c1c199</string>
+        <string>#bdae938c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#151515</string>
+        <string>#fe8019</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3c5ea8</string>
+        <string>#fabd2f</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#66781e</string>
+        <string>#b8bb26</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#1e7878</string>
+        <string>#8f3f71</string>
       </dict>
     </dict>
   </array>

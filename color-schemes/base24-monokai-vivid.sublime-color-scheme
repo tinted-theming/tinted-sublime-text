@@ -2,7 +2,7 @@
   "name": "Monokai Vivid",
 
   "globals": {
-    "background": "#121212",
+    "background": "#323232",
     "foreground": "#dfdfdf",
     "invisibles": "#c0c0c099",
     "caret": "#f200f5",
@@ -11,14 +11,14 @@
 
     "accent": "#f200f5",
 
-    "popup_css": "html, body {\n background-color: #121212;\n color: #dfdfdf;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #121212;\n --mdpopups-link: #0442fe;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(4, 66, 254, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #121212;\n color: #dfdfdf;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #323232;\n --mdpopups-link: #0442fe;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(4, 66, 254, 0.7);\n }",
 
     "gutter": "#121212",
     "gutter_foreground": "#c0c0c066",
 
     "line_diff_width": "2",
     "line_diff_added": "#fef26cb2",
-    "line_diff_modified": "#0442feb2",
+    "line_diff_modified": "#fef20ab2",
     "line_diff_deleted": "#fa2834b2",
 
     "selection": "#50cdfe4c",
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#a1a1a18c"
+      "foreground": "#5252528c"
     },
 
     {
@@ -116,7 +116,7 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#fef20a"
+      "foreground": "#fec50a"
     },
 
 
@@ -133,7 +133,7 @@
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#fef20a"
+      "foreground": "#fec50a"
     },
 
     {
@@ -172,7 +172,7 @@
     {
       "name": "Function name",
       "scope": "entity.name.function",
-      "foreground": "#0442fe"
+      "foreground": "#fef20a"
     },
     {
       "name": "Function arguments",
@@ -182,7 +182,7 @@
     {
       "name": "Function call",
       "scope": "variable.function, variable.annotation, meta.function-call.generic, support.function.go",
-      "foreground": "#0442fe"
+      "foreground": "#fef20a"
     },
     {
       "name": "Library function",
@@ -218,7 +218,7 @@
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#0442fe"
+      "foreground": "#fef20a"
     },
 
 
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#fef20a"
+      "foreground": "#fec50a"
     },
     {
       "name": "Library class/type",
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#a1a1a18c" 
+      "foreground": "#5252528c" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#a1a1a18c" 
+      "foreground": "#5252528c" 
     },
     {
       "name": "Search Results Match Nums",
@@ -334,7 +334,7 @@
       "scope": "meta.separator",
       "font_style": "bold",
       "background": "#dfdfdf0f",
-      "foreground": "#a1a1a18c" 
+      "foreground": "#5252528c" 
     },
     {
       "name": "Markup Blockquote",
@@ -355,7 +355,7 @@
     {
       "name": "Markup Modified",
       "scope": "markup.changed",
-      "foreground": "#0442fe"
+      "foreground": "#fef20a"
     },
     {
       "name": "Markup Removed",
@@ -376,19 +376,19 @@
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#fef20a"
+      "foreground": "#fec50a"
     },
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#a1a1a18c",
-      "foreground": "#a1a1a18c"
+      "background": "#5252528c",
+      "foreground": "#5252528c"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
       "background": "#dfdfdf",
-      "foreground": "#a1a1a18c" 
+      "foreground": "#5252528c" 
     }
   ]
 }

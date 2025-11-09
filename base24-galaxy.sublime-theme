@@ -291,7 +291,7 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["modified"],
-    "layer0.tint": "#589cf566"
+    "layer0.tint": "#fdf02966"
   },
   {
     "class": "vcs_status_badge",
@@ -631,24 +631,24 @@
   {
     "class": "quick_panel_label",
     "fg": "#bbbbbb",
-    "match_fg": "#589cf5",
+    "match_fg": "#fdf029",
     "selected_fg": "#ffffff",
-    "selected_match_fg": "#589cf5"
+    "selected_match_fg": "#fdf029"
   },
   {
     "class": "quick_panel_label",
     "parents": [{ "class": "overlay_control" }],
     "fg": "#bbbbbb",
-    "match_fg": "#589cf5",
+    "match_fg": "#fdf029",
     "selected_fg": "#ffffff",
-    "selected_match_fg": "#589cf5"
+    "selected_match_fg": "#fdf029"
   },
   {
     "class": "quick_panel_path_label",
     "fg": "#888888",
-    "match_fg": "#589cf5",
+    "match_fg": "#fdf029",
     "selected_fg": "#a1a1a1",
-    "selected_match_fg": "#589cf5"
+    "selected_match_fg": "#fdf029"
   },
 
 
@@ -803,13 +803,13 @@
   {
     "class": "kind_container kind_function",
     "layer0.opacity": 1,
-    "layer1.tint": "#589cf5",
-    "layer2.tint": "#589cf5"
+    "layer1.tint": "#fdf029",
+    "layer2.tint": "#fdf029"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_function" }],
-    "color": "#589cf5"
+    "color": "#fdf029"
   },
   {
     "class": "kind_container kind_keyword",
@@ -913,13 +913,13 @@
   {
     "class": "kind_container kind_color_yellowish",
     "layer0.opacity": 1,
-    "layer1.tint": "#589cf5",
-    "layer2.tint": "#589cf5"
+    "layer1.tint": "#fdf029",
+    "layer2.tint": "#fdf029"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_yellowish" }],
-    "color": "#589cf5"
+    "color": "#fdf029"
   },
   {
     "class": "kind_container kind_color_greenish",
@@ -968,8 +968,8 @@
   {
     "class": "kind_container kind_color_pinkish",
     "layer0.opacity": 1,
-    "layer1.tint": "#fdf029",
-    "layer2.tint": "#fdf029"
+    "layer1.tint": "#fdba29",
+    "layer2.tint": "#fdba29"
   },
   {
     "class": "kind_label",

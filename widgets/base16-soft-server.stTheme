@@ -7,30 +7,30 @@
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Piatto Light</string>
+  <string>Soft Server</string>
   <key>semanticClass</key>
-  <string>tinted_theming.piatto-light</string>
+  <string>tinted_theming.soft-server</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#c1c1c1</string>
+        <string>#6e6780</string>
         <key>caret</key>
-        <string>#a454b2</string>
+        <string>#ebde76</string>
         <key>foreground</key>
-        <string>#515151</string>
+        <string>#8a829e</string>
         <key>invisibles</key>
-        <string>#71717166</string>
+        <string>#6e678099</string>
         <key>lineHighlight</key>
-        <string>#f1f1f119</string>
+        <string>#2c2737ff</string>
         <key>inactiveSelection</key>
-        <string>#175e5e11</string>
+        <string>#95a6f421</string>
         <key>selection</key>
-        <string>#175e5e26</string>
+        <string>#95a6f44c</string>
         <key>selectionBorder</key>
-        <string>#175e5e26</string>
+        <string>#95a6f44c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#c1c1c199</string>
+        <string>#8a829e8c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#151515</string>
+        <string>#f4b870</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#3c5ea8</string>
+        <string>#ff79c6</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#66781e</string>
+        <string>#b1f2a7</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#1e7878</string>
+        <string>#b3f4f3</string>
       </dict>
     </dict>
   </array>
