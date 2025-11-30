@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>shaunsingh/IBM</string>
+  <string>shaunsingh/IBM, Tinted Theming (https://github.com/tinted-theming)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#161616</string>
+        <string>#a1acba</string>
         <key>caret</key>
         <string>#ff6f00</string>
         <key>foreground</key>
-        <string>#262626</string>
+        <string>#68788d</string>
         <key>invisibles</key>
-        <string>#16161666</string>
+        <string>#a1acba66</string>
         <key>lineHighlight</key>
         <string>#dde1e619</string>
         <key>inactiveSelection</key>
-        <string>#42be6511</string>
+        <string>#0f62fe11</string>
         <key>selection</key>
-        <string>#42be6526</string>
+        <string>#0f62fe26</string>
         <key>selectionBorder</key>
-        <string>#42be6526</string>
+        <string>#0f62fe26</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#26262699</string>
+        <string>#68788d99</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#0f62fe</string>
+        <string>#42be65</string>
       </dict>
     </dict>
     <dict>

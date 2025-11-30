@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Geoffrey Teale (tealeg@gmail.com)</string>
+  <string>Geoffrey Teale (tealeg@gmail.com), Tinted Theming (https://github.com/tinted-theming)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -18,19 +18,19 @@
         <key>background</key>
         <string>#9c92a8</string>
         <key>caret</key>
-        <string>#5ba2b6</string>
+        <string>#bd9701</string>
         <key>foreground</key>
-        <string>#ddd6e5</string>
+        <string>#7b6d8b</string>
         <key>invisibles</key>
         <string>#9c92a866</string>
         <key>lineHighlight</key>
-        <string>#39255119</string>
+        <string>#dedae219</string>
         <key>inactiveSelection</key>
-        <string>#47f9f511</string>
+        <string>#5ba2b611</string>
         <key>selection</key>
-        <string>#47f9f526</string>
+        <string>#5ba2b626</string>
         <key>selectionBorder</key>
-        <string>#47f9f526</string>
+        <string>#5ba2b626</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#ddd6e599</string>
+        <string>#7b6d8b99</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#bdb6c5</string>
+        <string>#bd0152</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#bd0152</string>
+        <string>#8f6c97</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f80059</string>
+        <string>#5bb66a</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c33678</string>
+        <string>#47f9f5</string>
       </dict>
     </dict>
   </array>

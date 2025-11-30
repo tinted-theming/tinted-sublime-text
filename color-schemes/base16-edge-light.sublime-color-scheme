@@ -2,19 +2,19 @@
   "name": "Edge Light",
 
   "globals": {
-    "background": "#7c9f4b",
-    "foreground": "#5e646f",
-    "invisibles": "#6587bf99",
+    "background": "#e3e5e8",
+    "foreground": "#474752",
+    "invisibles": "#5e646f99",
     "caret": "#ebcc1a",
     "block_caret": "#ebcc1a99",
     "line_highlight": "#fafafa19",
 
     "accent": "#ebcc1a",
 
-    "popup_css": "html, body {\n background-color: #5e646f;\n color: #6587bf;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #5e646f;\n --mdpopups-link: #6587bf;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(101, 135, 191, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #9197a1;\n color: #5e646f;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #9197a1;\n --mdpopups-link: #6587bf;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(101, 135, 191, 0.7);\n }",
 
     "gutter": "#fafafa",
-    "gutter_foreground": "#5e646fcc",
+    "gutter_foreground": "#9197a1cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#7c9f4bb2",
@@ -34,9 +34,9 @@
     "find_highlight": "#ebcc1a",
     "find_highlight_foreground": "#fafafa",
 
-    "guide": "#5e646f2d",
-    "active_guide": "#5e646f59",
-    "stack_guide": "#5e646f66",
+    "guide": "#9197a12d",
+    "active_guide": "#9197a159",
+    "stack_guide": "#9197a166",
 
     "shadow": "#fafafa4c",
     "shadow_width": "3"
@@ -47,7 +47,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#6587bf99"
+      "foreground": "#5e646f99"
     },
 
     {
@@ -82,7 +82,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#6587bf"
+      "foreground": "#5e646f"
     },
     {
       "name": "Member Variable",
@@ -124,12 +124,12 @@
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#6587bfb2"
+      "foreground": "#5e646fb2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#6587bf"
+      "foreground": "#5e646f"
     },
     {
       "name": "Accessor",
@@ -266,7 +266,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#6587bf99"
+      "foreground": "#5e646f99"
     },
     {
       "name": "CSS Properties",
@@ -278,7 +278,7 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "6587bf99"
+      "5e646f99"
     },
     {
       "name": "Search Results Match Nums",
@@ -325,19 +325,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#6587bf05"
+      "background": "#5e646f05"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#6587bf0f"
+      "background": "#5e646f0f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#6587bf0f",
-      "foreground": "#6587bf99"
+      "background": "#5e646f0f",
+      "foreground": "#5e646f99"
     },
     {
       "name": "Markup Blockquote",
@@ -373,7 +373,7 @@
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#6587bf0f",
+      "background": "#5e646f0f",
       "foreground": "#6587bf"
     },
     {
@@ -384,14 +384,14 @@
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#6587bf99",
-      "foreground": "#6587bf99"
+      "background": "#5e646f99",
+      "foreground": "#5e646f99"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#6587bf",
-      "foreground": "#6587bf99"
+      "background": "#5e646f",
+      "foreground": "#5e646f99"
     }
   ]
 }

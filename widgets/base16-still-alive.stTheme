@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Derrick McKee (derrick.mckee@gmail.com)</string>
+  <string>Derrick McKee (derrick.mckee@gmail.com), Tinted Theming (https://github.com/tinted-theming)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#f01818</string>
+        <string>#a3a3a3</string>
         <key>caret</key>
-        <string>#426395</string>
+        <string>#fff018</string>
         <key>foreground</key>
-        <string>#f00000</string>
+        <string>#605758</string>
         <key>invisibles</key>
-        <string>#f0181866</string>
+        <string>#a3a3a366</string>
         <key>lineHighlight</key>
-        <string>#f0d84819</string>
+        <string>#d6d6d619</string>
         <key>inactiveSelection</key>
-        <string>#00187811</string>
+        <string>#365eff11</string>
         <key>selection</key>
-        <string>#00187826</string>
+        <string>#365eff26</string>
         <key>selectionBorder</key>
-        <string>#00187826</string>
+        <string>#365eff26</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#f0000099</string>
+        <string>#60575899</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#183048</string>
+        <string>#f0d848</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#900000</string>
+        <string>#9036ff</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5c5c6a</string>
+        <string>#30a860</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#2c3c57</string>
+        <string>#36d3ff</string>
       </dict>
     </dict>
   </array>

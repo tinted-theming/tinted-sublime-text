@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>cjayross (https://github.com/cjayross)</string>
+  <string>cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,15 +16,15 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#3e4249</string>
+        <string>#4a4c4f</string>
         <key>caret</key>
         <string>#dbb774</string>
         <key>foreground</key>
-        <string>#73b3e7</string>
+        <string>#95989d</string>
         <key>invisibles</key>
-        <string>#3e424999</string>
+        <string>#4a4c4f99</string>
         <key>lineHighlight</key>
-        <string>#88909fff</string>
+        <string>#313235ff</string>
         <key>inactiveSelection</key>
         <string>#73b3e721</string>
         <key>selection</key>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#73b3e78c</string>
+        <string>#95989d8c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e77171</string>
+        <string>#eba31a</string>
       </dict>
     </dict>
     <dict>

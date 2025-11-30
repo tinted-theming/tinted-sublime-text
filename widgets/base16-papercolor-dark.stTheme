@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Jon Leopard (http://github.com/jonleopard), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)</string>
+  <string>Jon Leopard (http://github.com/jonleopard), Tinted Theming (https://github.com/tinted-theming), based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#d7af5f</string>
+        <string>#585858</string>
         <key>caret</key>
-        <string>#afd700</string>
+        <string>#ffaf00</string>
         <key>foreground</key>
-        <string>#5fafd7</string>
+        <string>#808080</string>
         <key>invisibles</key>
-        <string>#d7af5f99</string>
+        <string>#58585899</string>
         <key>lineHighlight</key>
-        <string>#af005fff</string>
+        <string>#363636ff</string>
         <key>inactiveSelection</key>
-        <string>#ff5faf21</string>
+        <string>#5fafd721</string>
         <key>selection</key>
-        <string>#ff5faf4c</string>
+        <string>#5fafd74c</string>
         <key>selectionBorder</key>
-        <string>#ff5faf4c</string>
+        <string>#5fafd74c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#5fafd78c</string>
+        <string>#8080808c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5faf5f</string>
+        <string>#d7af5f</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#00afaf</string>
+        <string>#af87d7</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#af87d7</string>
+        <string>#5faf5f</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ffaf00</string>
+        <string>#00afaf</string>
       </dict>
     </dict>
   </array>
