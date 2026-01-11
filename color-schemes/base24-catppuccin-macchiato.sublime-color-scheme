@@ -2,19 +2,19 @@
   "name": "Catppuccin Macchiato",
 
   "globals": {
-    "background": "#1e2030",
+    "background": "#363a4f",
     "foreground": "#cad3f5",
-    "invisibles": "#5b607899",
+    "invisibles": "#a5adcb99",
     "caret": "#f5bde6",
     "block_caret": "#f5bde699",
     "line_highlight": "#24273a",
 
     "accent": "#f5bde6",
 
-    "popup_css": "html, body {\n background-color: #24273a;\n color: #cad3f5;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #1e2030;\n --mdpopups-link: #8aadf4;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(138, 173, 244, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #24273a;\n color: #cad3f5;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #363a4f;\n --mdpopups-link: #8aadf4;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(138, 173, 244, 0.7);\n }",
 
     "gutter": "#24273a",
-    "gutter_foreground": "#5b607866",
+    "gutter_foreground": "#a5adcb66",
 
     "line_diff_width": "2",
     "line_diff_added": "#f4dbd6b2",
@@ -33,9 +33,9 @@
     "find_highlight": "#f5bde6",
     "find_highlight_foreground": "#24273a",
 
-    "guide": "#5b607833",
-    "active_guide": "#5b60787f",
-    "stack_guide": "#5b607866",
+    "guide": "#a5adcb33",
+    "active_guide": "#a5adcb7f",
+    "stack_guide": "#a5adcb66",
 
     "shadow": "#24273a4c",
     "shadow_width": "3"
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#494d648c"
+      "foreground": "#6e738d8c"
     },
 
     {
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#494d648c" 
+      "foreground": "#6e738d8c" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#494d648c" 
+      "foreground": "#6e738d8c" 
     },
     {
       "name": "Search Results Match Nums",
@@ -334,7 +334,7 @@
       "scope": "meta.separator",
       "font_style": "bold",
       "background": "#cad3f50f",
-      "foreground": "#494d648c" 
+      "foreground": "#6e738d8c" 
     },
     {
       "name": "Markup Blockquote",
@@ -381,14 +381,14 @@
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#494d648c",
-      "foreground": "#494d648c"
+      "background": "#6e738d8c",
+      "foreground": "#6e738d8c"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
       "background": "#cad3f5",
-      "foreground": "#494d648c" 
+      "foreground": "#6e738d8c" 
     }
   ]
 }

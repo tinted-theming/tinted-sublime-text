@@ -2,19 +2,19 @@
   "name": "Catppuccin Latte",
 
   "globals": {
-    "background": "#e6e9ef",
+    "background": "#ccd0da",
     "foreground": "#4c4f69",
-    "invisibles": "#acb0be99",
+    "invisibles": "#6c6f8599",
     "caret": "#df8e1d",
     "block_caret": "#df8e1d99",
     "line_highlight": "#eff1f519",
 
     "accent": "#df8e1d",
 
-    "popup_css": "html, body {\n background-color: #bcc0cc;\n color: #acb0be;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #bcc0cc;\n --mdpopups-link: #1e66f5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(30, 102, 245, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #9ca0b0;\n color: #6c6f85;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #9ca0b0;\n --mdpopups-link: #1e66f5;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(30, 102, 245, 0.7);\n }",
 
     "gutter": "#eff1f5",
-    "gutter_foreground": "#bcc0cccc",
+    "gutter_foreground": "#9ca0b0cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#40a02bb2",
@@ -34,9 +34,9 @@
     "find_highlight": "#df8e1d",
     "find_highlight_foreground": "#eff1f5",
 
-    "guide": "#bcc0cc2d",
-    "active_guide": "#bcc0cc59",
-    "stack_guide": "#bcc0cc66",
+    "guide": "#9ca0b02d",
+    "active_guide": "#9ca0b059",
+    "stack_guide": "#9ca0b066",
 
     "shadow": "#eff1f54c",
     "shadow_width": "3"
@@ -47,7 +47,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#acb0be99"
+      "foreground": "#6c6f8599"
     },
 
     {
@@ -82,7 +82,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#acb0be"
+      "foreground": "#6c6f85"
     },
     {
       "name": "Member Variable",
@@ -124,12 +124,12 @@
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#acb0beb2"
+      "foreground": "#6c6f85b2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#acb0be"
+      "foreground": "#6c6f85"
     },
     {
       "name": "Accessor",
@@ -266,7 +266,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#acb0be99"
+      "foreground": "#6c6f8599"
     },
     {
       "name": "CSS Properties",
@@ -278,7 +278,7 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "acb0be99"
+      "6c6f8599"
     },
     {
       "name": "Search Results Match Nums",
@@ -325,19 +325,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#acb0be05"
+      "background": "#6c6f8505"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#acb0be0f"
+      "background": "#6c6f850f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#acb0be0f",
-      "foreground": "#acb0be99"
+      "background": "#6c6f850f",
+      "foreground": "#6c6f8599"
     },
     {
       "name": "Markup Blockquote",
@@ -373,7 +373,7 @@
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#acb0be0f",
+      "background": "#6c6f850f",
       "foreground": "#1e66f5"
     },
     {
@@ -384,14 +384,14 @@
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#acb0be99",
-      "foreground": "#acb0be99"
+      "background": "#6c6f8599",
+      "foreground": "#6c6f8599"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#acb0be",
-      "foreground": "#acb0be99"
+      "background": "#6c6f85",
+      "foreground": "#6c6f8599"
     }
   ]
 }

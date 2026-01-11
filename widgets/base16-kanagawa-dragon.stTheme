@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Tommaso Laurenzi (https://github.com/rebelot)</string>
+  <string>Stefan Weigl-Bosker (https://github.com/sweiglbosker), Tommaso Laurenzi (https://github.com/rebelot/kanagawa.nvim)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,15 +16,15 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#737c73</string>
+        <string>#625e5a</string>
         <key>caret</key>
         <string>#c4b28a</string>
         <key>foreground</key>
-        <string>#a6a69c</string>
+        <string>#737c73</string>
         <key>invisibles</key>
-        <string>#737c7399</string>
+        <string>#625e5a99</string>
         <key>lineHighlight</key>
-        <string>#1d1c19ff</string>
+        <string>#282727ff</string>
         <key>inactiveSelection</key>
         <string>#8ba4b021</string>
         <key>selection</key>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#a6a69c8c</string>
+        <string>#737c738c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#b98d7b</string>
+        <string>#b6927b</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8992a7</string>
+        <string>#a292a3</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#87a987</string>
+        <string>#8a9a7b</string>
       </dict>
     </dict>
     <dict>

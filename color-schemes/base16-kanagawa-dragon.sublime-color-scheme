@@ -2,22 +2,22 @@
   "name": "Kanagawa Dragon",
 
   "globals": {
-    "background": "#1d1c19",
+    "background": "#282727",
     "foreground": "#c5c9c5",
-    "invisibles": "#a6a69c99",
+    "invisibles": "#737c7399",
     "caret": "#c4b28a",
     "block_caret": "#c4b28a99",
-    "line_highlight": "#0d0c0c",
+    "line_highlight": "#181616",
 
     "accent": "#c4b28a",
 
-    "popup_css": "html, body {\n background-color: #737c73;\n color: #a6a69c;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #737c73;\n --mdpopups-link: #8ba4b0;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(139, 164, 176, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #625e5a;\n color: #737c73;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #625e5a;\n --mdpopups-link: #8ba4b0;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(139, 164, 176, 0.7);\n }",
 
-    "gutter": "#0d0c0c",
-    "gutter_foreground": "#737c7366",
+    "gutter": "#181616",
+    "gutter_foreground": "#625e5a66",
 
     "line_diff_width": "2",
-    "line_diff_added": "#87a987b2",
+    "line_diff_added": "#8a9a7bb2",
     "line_diff_modified": "#8ba4b0b2",
     "line_diff_deleted": "#c4746eb2",
 
@@ -32,13 +32,13 @@
 
     "highlight": "#c4b28a66",
     "find_highlight": "#c4b28a",
-    "find_highlight_foreground": "#0d0c0c",
+    "find_highlight_foreground": "#181616",
 
-    "guide": "#737c7333",
-    "active_guide": "#737c737f",
-    "stack_guide": "#737c7366",
+    "guide": "#625e5a33",
+    "active_guide": "#625e5a7f",
+    "stack_guide": "#625e5a66",
 
-    "shadow": "#0d0c0c4c",
+    "shadow": "#1816164c",
     "shadow_width": "3"
   },
 
@@ -47,13 +47,13 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#a6a69c8c"
+      "foreground": "#737c738c"
     },
 
     {
       "name": "String",
       "scope": "string - meta.template, constant.other.symbol, string.quoted",
-      "foreground": "#87a987"
+      "foreground": "#8a9a7b"
     },
     {
       "name": "Regular Expressions and Escape Characters",
@@ -75,14 +75,14 @@
     {
       "name": "Constants",
       "scope": "meta.constant, entity.name.constant",
-      "foreground": "#8992a7"
+      "foreground": "#a292a3"
     },
 
 
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#a6a69c"
+      "foreground": "#737c73"
     },
     {
       "name": "Member Variable",
@@ -100,52 +100,52 @@
     {
       "name": "Storage",
       "scope": "storage, storage.type.keyword",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
     {
       "name": "Java keyword fixes",
       "scope": "source.java meta.class.java meta.class.identifier.java storage.type.java",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
 
 
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
 
 
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#a6a69cb2"
+      "foreground": "#737c73b2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#a6a69c"
+      "foreground": "#737c73"
     },
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
 
     {
       "name": "JavaScript/TypeScript interpolation punctuation",
       "scope": "punctuation.definition.template-expression",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
     {
       "name": "Ruby interpolation punctuation",
       "scope": "punctuation.section.interpolation",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
 
     {
@@ -162,7 +162,7 @@
     {
       "name": "Lambda arrow",
       "scope": "storage.type.function",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
     {
       "name": "Java primitive variable types",
@@ -179,7 +179,7 @@
     {
       "name": "Function arguments",
       "scope": "variable.parameter, meta.parameter",
-      "foreground": "#8992a7"
+      "foreground": "#a292a3"
     },
     {
       "name": "Function call",
@@ -196,7 +196,7 @@
     {
       "name": "Imports and packages",
       "scope": "entity.name.import, entity.name.package",
-      "foreground": "#87a987"
+      "foreground": "#8a9a7b"
     },
 
 
@@ -228,7 +228,7 @@
       "name": "Library constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
     {
       "name": "Library class/type",
@@ -240,7 +240,7 @@
     {
       "name": "Decorators/annotation",
       "scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
 
     {
@@ -266,7 +266,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#a6a69c8c"
+      "foreground": "#737c738c"
     },
     {
       "name": "CSS Properties",
@@ -278,17 +278,17 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "a6a69c8c"
+      "737c738c"
     },
     {
       "name": "Search Results Match Nums",
       "scope": "constant.numeric.line-number.match",
-      "foreground": "#b98d7b"
+      "foreground": "#b6927b"
     },
     {
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
-      "foreground": "#87a987"
+      "foreground": "#8a9a7b"
     },
     {
       "scope": "message.error",
@@ -298,7 +298,7 @@
       "name": "Markup heading",
       "scope": "markup.heading, markup.heading entity.name",
       "font_style": "bold",
-      "foreground": "#87a987"
+      "foreground": "#8a9a7b"
     },
     {
       "name": "Markup links",
@@ -325,19 +325,19 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#a6a69c05"
+      "background": "#737c7305"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#a6a69c0f"
+      "background": "#737c730f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#a6a69c0f",
-      "foreground": "#a6a69c8c"
+      "background": "#737c730f",
+      "foreground": "#737c738c"
     },
     {
       "name": "Markup Blockquote",
@@ -353,7 +353,7 @@
     {
       "name": "Markup added",
       "scope": "markup.inserted",
-      "foreground": "#87a987"
+      "foreground": "#8a9a7b"
     },
     {
       "name": "Markup modified",
@@ -368,30 +368,30 @@
     {
       "name": "Markup Strike",
       "scope": "markup.strike",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#a6a69c0f",
+      "background": "#737c730f",
       "foreground": "#8ba4b0"
     },
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#a292a3"
+      "foreground": "#b98d7b"
     },
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#a6a69c8c",
-      "foreground": "#a6a69c8c"
+      "background": "#737c738c",
+      "foreground": "#737c738c"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#a6a69c",
-      "foreground": "#a6a69c8c"
+      "background": "#737c73",
+      "foreground": "#737c738c"
     }
   ]
 }

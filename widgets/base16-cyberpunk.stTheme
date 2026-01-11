@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>https://github.com/catppuccin/catppuccin</string>
+  <string>benjujo</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Catppuccin Macchiato</string>
+  <string>Cyberpunk</string>
   <key>semanticClass</key>
-  <string>tinted_theming.catppuccin-macchiato</string>
+  <string>tinted_theming.cyberpunk</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#6e738d</string>
+        <string>#4f4f4f</string>
         <key>caret</key>
-        <string>#eed49f</string>
+        <string>#ffff00</string>
         <key>foreground</key>
-        <string>#a5adcb</string>
+        <string>#8b8989</string>
         <key>invisibles</key>
-        <string>#6e738d99</string>
+        <string>#4f4f4f99</string>
         <key>lineHighlight</key>
-        <string>#363a4fff</string>
+        <string>#2b2b2bff</string>
         <key>inactiveSelection</key>
-        <string>#8aadf421</string>
+        <string>#4c83ff21</string>
         <key>selection</key>
-        <string>#8aadf44c</string>
+        <string>#4c83ff4c</string>
         <key>selectionBorder</key>
-        <string>#8aadf44c</string>
+        <string>#4c83ff4c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#a5adcb8c</string>
+        <string>#8b89898c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f5a97f</string>
+        <string>#ffa500</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c6a0f6</string>
+        <string>#ff1493</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a6da95</string>
+        <string>#61ce3c</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8bd5ca</string>
+        <string>#93e0e3</string>
       </dict>
     </dict>
   </array>
