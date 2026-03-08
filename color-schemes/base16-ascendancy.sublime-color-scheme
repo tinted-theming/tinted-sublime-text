@@ -19,7 +19,7 @@
     "line_diff_width": "2",
     "line_diff_added": "#b8bb26b2",
     "line_diff_modified": "#458588b2",
-    "line_diff_deleted": "#c03900b2",
+    "line_diff_deleted": "#d05000b2",
 
     "selection": "#4585884c",
     "selection_border":
@@ -87,7 +87,7 @@
     {
       "name": "Member Variable",
       "scope": "variable.member",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "Language variable",
@@ -189,7 +189,7 @@
     {
       "name": "Library function",
       "scope": "support.function, support.macro",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
 
 
@@ -246,7 +246,7 @@
     {
       "name": "Invalid",
       "scope": "invalid",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "diff.header",
@@ -292,7 +292,7 @@
     },
     {
       "scope": "message.error",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "Markup heading",
@@ -309,13 +309,13 @@
       "name": "Markup Italic",
       "scope": "markup.italic",
       "font_style": "italic",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "Markup Bold",
       "scope": "markup.bold",
       "font_style": "bold",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "Markup Bold/italic",
@@ -363,7 +363,7 @@
     {
       "name": "Markup removed",
       "scope": "markup.deleted",
-      "foreground": "#c03900"
+      "foreground": "#d05000"
     },
     {
       "name": "Markup Strike",

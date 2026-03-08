@@ -296,7 +296,7 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["deleted"],
-    "layer0.tint": "#c0390066"
+    "layer0.tint": "#d0500066"
   },
 
   {
@@ -862,13 +862,13 @@
   {
     "class": "kind_container kind_snippet",
     "layer0.opacity": 1,
-    "layer1.tint": "#c03900",
-    "layer2.tint": "#c03900"
+    "layer1.tint": "#d05000",
+    "layer2.tint": "#d05000"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_snippet" }],
-    "color": "#c03900"
+    "color": "#d05000"
   },
   {
     "class": "kind_container kind_type",
@@ -895,13 +895,13 @@
   {
     "class": "kind_container kind_color_redish",
     "layer0.opacity": 1,
-    "layer1.tint": "#c03900",
-    "layer2.tint": "#c03900"
+    "layer1.tint": "#d05000",
+    "layer2.tint": "#d05000"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_redish" }],
-    "color": "#c03900"
+    "color": "#d05000"
   },
   {
     "class": "kind_container kind_color_orangish",
