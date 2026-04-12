@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Jannik Siebert (https://github.com/janniks)</string>
+  <string>Márcio Sobel (https://github.com/marciosobel)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Embers Light</string>
+  <string>Everforest Light (Medium)</string>
   <key>semanticClass</key>
-  <string>tinted_theming.embers-light</string>
+  <string>tinted_theming.everforest-light-medium</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#8a8075</string>
+        <string>#939f91</string>
         <key>caret</key>
-        <string>#6d8257</string>
+        <string>#dfa000</string>
         <key>foreground</key>
-        <string>#5a5047</string>
+        <string>#829181</string>
         <key>invisibles</key>
-        <string>#8a807566</string>
+        <string>#939f9166</string>
         <key>lineHighlight</key>
-        <string>#beb6ae19</string>
+        <string>#f4f0d919</string>
         <key>inactiveSelection</key>
-        <string>#6d578211</string>
+        <string>#3a94c511</string>
         <key>selection</key>
-        <string>#6d578226</string>
+        <string>#3a94c526</string>
         <key>selectionBorder</key>
-        <string>#6d578226</string>
+        <string>#3a94c526</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#5a504799</string>
+        <string>#82918199</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#828257</string>
+        <string>#f57d26</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#82576d</string>
+        <string>#df69ba</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#57826d</string>
+        <string>#8da101</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#576d82</string>
+        <string>#35a77c</string>
       </dict>
     </dict>
   </array>
