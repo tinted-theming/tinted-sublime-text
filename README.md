@@ -3,13 +3,15 @@
 Tinted themes for [Sublime Text]. Have a look at the [tinted-gallery] to
 get a preview of some of the supported themes and go to [Tinted Theming]
 for more information about this theming project. This project contains
-themes for both [Base16] and [Base24] scheme systems.
+themes for [Base16], [Base24] and [Tinted8] scheme systems.
 
 ## Installation
 
-1. Get the path of your Sublime Text `Packages/` dirctory. You can find
-   the path of this directory opening sublime text and in the menu
-   selecting `Preferences -> Browse Packages...`.
+### Manual
+
+1. Get the path of your Sublime Text `Packages/` directory. You can find the
+   path of this directory opening sublime text and in the menu selecting
+  `Preferences -> Browse Packages...`.
 2. Navigate to the `Packages/` directory in the command line. `cd
    path/to/SublimeText/Packages`
 3. Clone this GitHub repo into the above directory.
@@ -60,4 +62,5 @@ project as a template for this repo.
 [Ayu]: https://github.com/dempfi/ayu
 [Base16]: https://github.com/tinted-theming/home/blob/main/styling.md
 [Base24]: https://github.com/tinted-theming/base24/blob/master/styling.md
+[Tinted8]: https://github.com/tinted-theming/home/blob/main/specs/tinted8/styling.md
 [Package Control]: https://packagecontrol.io/

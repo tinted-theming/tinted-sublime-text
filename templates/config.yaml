@@ -1,31 +1,55 @@
 base16-sublime-theme: 
-    extension: .sublime-theme
-    output:
+    filename: "{{scheme-system}}-{{scheme-slug}}.sublime-theme"
+    supported-systems: [base16]
 
 base16-color-scheme: 
-    extension: .sublime-color-scheme
-    output: color-schemes
+    filename: "color-schemes/{{scheme-system}}-{{scheme-slug}}.sublime-color-scheme"
+    supported-systems: [base16]
 
 base16-widget:
-    extension: .stTheme
-    output: widgets
+    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.stTheme"
+    supported-systems: [base16]
 
 base24-sublime-theme: 
-    extension: .sublime-theme
-    output:
-    supported-systems: [base24]
+    filename: "{{scheme-system}}-{{scheme-slug}}.sublime-theme"
+    supported-systems: [base16]
 
 base24-color-scheme: 
-    extension: .sublime-color-scheme
-    output: color-schemes
-    supported-systems: [base24]
+    filename: "color-schemes/{{scheme-system}}-{{scheme-slug}}.sublime-color-scheme"
+    supported-systems: [base16]
 
 base24-widget:
-    extension: .stTheme
-    output: widgets
-    supported-systems: [base24]
+    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.stTheme"
+    supported-systems: [base16]
 
-widget-settings:
-    extension: .sublime-settings
-    output: widgets
+basex-widget-settings:
+    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.sublime-settings"
     supported-systems: [base16, base24]
+
+tinted8-widget-settings:
+    filename: "widgets/{{scheme.system}}-{{scheme.slug}}.sublime-settings"
+    supported-systems: [tinted8]
+    supports:
+      tinted8-styling: ">=0.2.0"
+      tinted8-builder: ">=0.2.0"
+
+tinted8-sublime-theme:
+    filename: "{{scheme.system}}-{{scheme.slug}}.sublime-theme"
+    supported-systems: [tinted8]
+    supports:
+      tinted8-styling: ">=0.2.0"
+      tinted8-builder: ">=0.2.0"
+
+tinted8-color-scheme:
+    filename: "color-schemes/{{scheme.system}}-{{scheme.slug}}.sublime-color-scheme"
+    supported-systems: [tinted8]
+    supports:
+      tinted8-styling: ">=0.2.0"
+      tinted8-builder: ">=0.2.0"
+
+tinted8-widget:
+    filename: "widgets/{{scheme.system}}-{{scheme.slug}}.stTheme"
+    supported-systems: [tinted8]
+    supports:
+      tinted8-styling: ">=0.2.0"
+      tinted8-builder: ">=0.2.0"
