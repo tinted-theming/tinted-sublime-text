@@ -12,10 +12,9 @@ concatenated_names=""
 
 for file in "$color_schemes_dir"/*.sublime-color-scheme; do
     name=$(basename "$file" .sublime-color-scheme)
-    slug="${name#base16-}"
 
     # Generate json
-    concatenated_names="$concatenated_names\"$slug\": "
+    concatenated_names="$concatenated_names\"$name\": "
       concatenated_names="$concatenated_names{ \"Preferences\": {"
         concatenated_names="$concatenated_names \"color_scheme\": \"Packages/tinted_theming/color_scheme/$name.sublime-color-scheme\", "
         concatenated_names="$concatenated_names \"theme\": \"Packages/tinted_theming/$name.sublime-theme\""
