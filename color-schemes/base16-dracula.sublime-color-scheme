@@ -2,7 +2,7 @@
   "name": "Dracula",
 
   "globals": {
-    "background": "#363447",
+    "background": "#21222c",
     "foreground": "#f8f8f2",
     "invisibles": "#9ea8c799",
     "caret": "#f1fa8c",
@@ -11,22 +11,22 @@
 
     "accent": "#f1fa8c",
 
-    "popup_css": "html, body {\n background-color: #6272a4;\n color: #9ea8c7;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #6272a4;\n --mdpopups-link: #80bfff;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(128, 191, 255, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #6272a4;\n color: #9ea8c7;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #6272a4;\n --mdpopups-link: #bd93f9;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(189, 147, 249, 0.7);\n }",
 
     "gutter": "#282a36",
     "gutter_foreground": "#6272a466",
 
     "line_diff_width": "2",
     "line_diff_added": "#50fa7bb2",
-    "line_diff_modified": "#80bfffb2",
+    "line_diff_modified": "#bd93f9b2",
     "line_diff_deleted": "#ff5555b2",
 
-    "selection": "#80bfff4c",
+    "selection": "#bd93f94c",
     "selection_border":
-    "80bfff4c",
+    "bd93f94c",
     "selection_border_width": "1",
-    "inactive_selection": "#80bfff21",
-    "inactive_selection_border": "#80bfff21",
+    "inactive_selection": "#bd93f921",
+    "inactive_selection_border": "#bd93f921",
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
@@ -93,7 +93,7 @@
       "name": "Language variable",
       "scope": "variable.language",
       "font_style": "italic",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
 
 
@@ -117,7 +117,7 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
 
 
@@ -134,7 +134,7 @@
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
 
     {
@@ -151,12 +151,12 @@
     {
       "name": "Types fixes",
       "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.zig storage.type",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Inherited class type",
       "scope": "entity.other.inherited-class",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
 
     {
@@ -167,7 +167,7 @@
     {
       "name": "Java primitive variable types",
       "scope": "source.java storage.type.primitive",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
 
 
@@ -203,19 +203,19 @@
     {
       "name": "Entity name",
       "scope": "entity.name, source.js meta.function-call.constructor variable.type",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
 
 
     {
       "name": "Tag",
       "scope": "entity.name.tag, meta.tag.sgml",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "#80bfff7f"
+      "foreground": "#bd93f97f"
     },
     {
       "name": "Tag attribute",
@@ -228,19 +228,19 @@
       "name": "Library constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
     {
       "name": "Library class/type",
       "scope": "support.type, support.class, source.go storage.type",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
 
 
     {
       "name": "Decorators/annotation",
       "scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
 
     {
@@ -261,7 +261,7 @@
     {
       "name": "CSS tag names",
       "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "CSS browser prefix",
@@ -272,7 +272,7 @@
       "name": "CSS Properties",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Search Results Nums",
@@ -303,7 +303,7 @@
     {
       "name": "Markup links",
       "scope": "markup.underline.link, string.other.link",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Markup Italic",
@@ -358,7 +358,7 @@
     {
       "name": "Markup modified",
       "scope": "markup.changed",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Markup removed",
@@ -368,18 +368,18 @@
     {
       "name": "Markup Strike",
       "scope": "markup.strike",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
     {
       "name": "Markup Table",
       "scope": "markup.table",
       "background": "#9ea8c70f",
-      "foreground": "#80bfff"
+      "foreground": "#bd93f9"
     },
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#bd93f9"
+      "foreground": "#993333"
     },
     {
       "name": "Markdown - Line Break",

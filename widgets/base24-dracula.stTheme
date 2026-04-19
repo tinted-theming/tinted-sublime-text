@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>FredHappyface (https://github.com/fredHappyface)</string>
+  <string>clach04 (https://github.com/clach04)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -18,19 +18,19 @@
         <key>background</key>
         <string>#6272a4</string>
         <key>caret</key>
-        <string>#f5a3d2</string>
+        <string>#ff92df</string>
         <key>foreground</key>
         <string>#f8f8f2</string>
         <key>invisibles</key>
         <string>#9ea8c799</string>
         <key>lineHighlight</key>
-        <string>#363447ff</string>
+        <string>#21222cff</string>
         <key>inactiveSelection</key>
-        <string>#baedf721</string>
+        <string>#a4ffff21</string>
         <key>selection</key>
-        <string>#baedf74c</string>
+        <string>#a4ffff4c</string>
         <key>selectionBorder</key>
-        <string>#baedf74c</string>
+        <string>#a4ffff4c</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a3ccf5</string>
+        <string>#d6acff</string>
       </dict>
     </dict>
     <dict>

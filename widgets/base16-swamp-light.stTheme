@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>clach04 (https://github.com/clach04)</string>
+  <string>Masroof Maindak (https://github.com/masroof-maindak)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Dracula</string>
+  <string>Swamp Light</string>
   <key>semanticClass</key>
-  <string>tinted_theming.dracula</string>
+  <string>tinted_theming.swamp-light</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#6272a4</string>
+        <string>#b5a492</string>
         <key>caret</key>
-        <string>#f1fa8c</string>
+        <string>#993333</string>
         <key>foreground</key>
-        <string>#9ea8c7</string>
+        <string>#a0907d</string>
         <key>invisibles</key>
-        <string>#6272a499</string>
+        <string>#b5a49266</string>
         <key>lineHighlight</key>
-        <string>#21222cff</string>
+        <string>#ddcebc19</string>
         <key>inactiveSelection</key>
-        <string>#bd93f921</string>
+        <string>#bf797911</string>
         <key>selection</key>
-        <string>#bd93f94c</string>
+        <string>#bf797926</string>
         <key>selectionBorder</key>
-        <string>#bd93f94c</string>
+        <string>#bf797926</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#9ea8c78c</string>
+        <string>#a0907d99</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ffb86c</string>
+        <string>#64513e</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff79c6</string>
+        <string>#9e5581</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#50fa7b</string>
+        <string>#908d6a</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8be9fd</string>
+        <string>#d09700</string>
       </dict>
     </dict>
   </array>
