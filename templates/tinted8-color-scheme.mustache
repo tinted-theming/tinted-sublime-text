@@ -5,13 +5,13 @@
     "background": "#{{ui.global.background.normal.hex}}",
     "foreground": "#{{ui.global.foreground.normal.hex}}",
     "invisibles": "#{{ui.whitespace.foreground.hex}}99",
-    "caret": "#{{ui.cursor.normal.hex}}",
-    "block_caret": "#{{ui.cursor.normal.hex}}99",
+    "caret": "#{{ui.cursor.normal.background.hex}}",
+    "block_caret": "#{{ui.cursor.normal.background.hex}}99",
     "line_highlight": "#{{ui.highlight.line.background.hex}}",
 
-    "accent": "#{{ui.accent.hex}}",
+    "accent": "#{{ui.accent.normal.hex}}",
 
-    "popup_css": "html, body {\n background-color: #{{ui.tooltip.background.hex}};\n color: #{{ui.tooltip.foreground.hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{ui.tooltip.background.hex}};\n --mdpopups-link: #{{ui.link.hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{ui.link.rgb.r}}, {{ui.link.rgb.g}}, {{ui.link.rgb.b}}, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #{{ui.tooltip.background.hex}};\n color: #{{ui.tooltip.foreground.hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{ui.tooltip.background.hex}};\n --mdpopups-link: #{{ui.link.normal.foreground.hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{ui.link.normal.foreground.rgb.r}}, {{ui.link.normal.foreground.rgb.g}}, {{ui.link.normal.foreground.rgb.b}}, 0.7);\n }",
 
     "gutter": "#{{ui.gutter.background.hex}}",
     "gutter_foreground": "#{{ui.gutter.foreground.hex}}",
@@ -287,7 +287,7 @@
     {
       "name": "Search Results Match Nums",
       "scope": "constant.numeric.line-number.match",
-      "foreground": "#{{ui.accent.hex}}"
+      "foreground": "#{{ui.accent.normal.hex}}"
     },
     {
       "name": "Search Results Lines",
