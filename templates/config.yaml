@@ -12,15 +12,15 @@ base16-widget:
 
 base24-sublime-theme: 
     filename: "{{scheme-system}}-{{scheme-slug}}.sublime-theme"
-    supported-systems: [base16]
+    supported-systems: [base24]
 
 base24-color-scheme: 
     filename: "color-schemes/{{scheme-system}}-{{scheme-slug}}.sublime-color-scheme"
-    supported-systems: [base16]
+    supported-systems: [base24]
 
 base24-widget:
     filename: "widgets/{{scheme-system}}-{{scheme-slug}}.stTheme"
-    supported-systems: [base16]
+    supported-systems: [base24]
 
 basex-widget-settings:
     filename: "widgets/{{scheme-system}}-{{scheme-slug}}.sublime-settings"
