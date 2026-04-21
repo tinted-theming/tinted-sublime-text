@@ -13,8 +13,15 @@ jobs:
         with:
           token: ${{ secrets.BOT_ACCESS_TOKEN }}
 
-      - name: Update schemes
-        uses: tinted-theming/tinted-builder-rust@latest
+      - name: "Install tinted-builder-rust"
+        uses: "jaxxstorm/action-install-gh-release@v1.10.0"
+        with: # Get the latest release
+          repo: "tinted-theming/tinted-builder-rust"
+
+      - name: "Update schemes"
+        run: |
+          tinted-builder-rust sync
+          tinted-builder-rust build .
 
       - name: Update themes file
         run: ./scripts/generate_themes_file
