@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>https://github.com/catppuccin/catppuccin</string>
+  <string>rwendell (https://github.com/rwendell/kissa)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Catppuccin Latte</string>
+  <string>Kissa Latte</string>
   <key>semanticClass</key>
-  <string>tinted_theming.tinted8-catppuccin-latte</string>
+  <string>tinted_theming.kissa-latte</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#ffffff</string>
+        <string>#91887d</string>
         <key>caret</key>
-        <string>#4c4f69</string>
+        <string>#7d6820</string>
         <key>foreground</key>
-        <string>#4c4f69</string>
+        <string>#746c62</string>
         <key>invisibles</key>
-        <string>#9ca0b099</string>
+        <string>#91887d66</string>
         <key>lineHighlight</key>
-        <string>#b6bfd1</string>
+        <string>#e8e7e319</string>
         <key>inactiveSelection</key>
-        <string>#b6bfd1</string>
+        <string>#3468a811</string>
         <key>selection</key>
-        <string>#b6bfd1</string>
+        <string>#3468a826</string>
         <key>selectionBorder</key>
-        <string>#b6bfd1</string>
+        <string>#3468a826</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#797f96</string>
+        <string>#746c6299</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8839ef</string>
+        <string>#8f5d22</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#fe640b</string>
+        <string>#6438a0</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#40a02b</string>
+        <string>#387050</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#fe640b</string>
+        <string>#287070</string>
       </dict>
     </dict>
   </array>
