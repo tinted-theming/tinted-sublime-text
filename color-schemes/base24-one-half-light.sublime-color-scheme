@@ -2,7 +2,7 @@
   "name": "One Half Light",
 
   "globals": {
-    "background": "#373942",
+    "background": "#2a2b32",
     "foreground": "#cfd0d2",
     "invisibles": "#a4a6ab99",
     "caret": "#c577dd",

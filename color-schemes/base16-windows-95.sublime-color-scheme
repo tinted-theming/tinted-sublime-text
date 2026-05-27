@@ -2,7 +2,7 @@
   "name": "Windows 95",
 
   "globals": {
-    "background": "#1c1c1c",
+    "background": "#000000",
     "foreground": "#a8a8a8",
     "invisibles": "#7e7e7e99",
     "caret": "#fcfc54",

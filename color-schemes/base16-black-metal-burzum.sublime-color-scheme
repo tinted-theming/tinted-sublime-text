@@ -2,7 +2,7 @@
   "name": "Black Metal (Burzum)",
 
   "globals": {
-    "background": "#121212",
+    "background": "#000000",
     "foreground": "#c1c1c1",
     "invisibles": "#99999999",
     "caret": "#99bbaa",

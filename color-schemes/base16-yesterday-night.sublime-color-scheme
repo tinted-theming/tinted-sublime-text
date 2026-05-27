@@ -2,7 +2,7 @@
   "name": "Yesterday Night",
 
   "globals": {
-    "background": "#4f5b66",
+    "background": "#343d46",
     "foreground": "#dfe1e8",
     "invisibles": "#c0c5ce99",
     "caret": "#f0c674",

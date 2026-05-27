@@ -2,7 +2,7 @@
   "name": "Dimmed Monokai",
 
   "globals": {
-    "background": "#3a3c43",
+    "background": "#1e1e1e",
     "foreground": "#acafac",
     "invisibles": "#a0a2a099",
     "caret": "#fb0067",

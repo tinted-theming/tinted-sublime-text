@@ -2,7 +2,7 @@
   "name": "Charcoal Light",
 
   "globals": {
-    "background": "#bcad8c",
+    "background": "#cabda0",
     "foreground": "#382e1b",
     "invisibles": "#110e0699",
     "caret": "#110e06",

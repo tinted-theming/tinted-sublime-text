@@ -2,7 +2,7 @@
   "name": "Ascendancy",
 
   "globals": {
-    "background": "#212f3d",
+    "background": "#282828",
     "foreground": "#d5c7a1",
     "invisibles": "#bdae9399",
     "caret": "#ffcc1b",

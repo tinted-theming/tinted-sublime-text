@@ -2,7 +2,7 @@
   "name": "Bluloco Light",
 
   "globals": {
-    "background": "#cbccd4",
+    "background": "#f7f7f7",
     "foreground": "#38383a",
     "invisibles": "#6f6f7499",
     "caret": "#c00cb2",

@@ -2,7 +2,7 @@
   "name": "Adventure Time",
 
   "globals": {
-    "background": "#050404",
+    "background": "#1e1c44",
     "foreground": "#cdc3bf",
     "invisibles": "#a3abbf99",
     "caret": "#9a5952",

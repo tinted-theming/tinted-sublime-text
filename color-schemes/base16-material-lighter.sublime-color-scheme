@@ -2,7 +2,7 @@
   "name": "Material Lighter",
 
   "globals": {
-    "background": "#e7eaec",
+    "background": "#fafafa",
     "foreground": "#80cbc4",
     "invisibles": "#8796b099",
     "caret": "#ffb62c",

@@ -2,7 +2,7 @@
   "name": "Lovelace",
 
   "globals": {
-    "background": "#282a36",
+    "background": "#1d1f28",
     "foreground": "#ceced3",
     "invisibles": "#9fa0aa99",
     "caret": "#b043d1",

@@ -2,7 +2,7 @@
   "name": "Broadcast",
 
   "globals": {
-    "background": "#000000",
+    "background": "#2b2b2b",
     "foreground": "#cbcbcb",
     "invisibles": "#98989899",
     "caret": "#ffffff",

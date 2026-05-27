@@ -2,7 +2,7 @@
   "name": "Measured Light",
 
   "globals": {
-    "background": "#f9f5f1",
+    "background": "#fdf9f5",
     "foreground": "#292929",
     "invisibles": "#40404099",
     "caret": "#645a00",

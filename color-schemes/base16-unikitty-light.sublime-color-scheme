@@ -2,7 +2,7 @@
   "name": "Unikitty Light",
 
   "globals": {
-    "background": "#e1e1e2",
+    "background": "#ffffff",
     "foreground": "#6c696e",
     "invisibles": "#89878b99",
     "caret": "#dc8a0e",

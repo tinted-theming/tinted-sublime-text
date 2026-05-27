@@ -2,7 +2,7 @@
   "name": "Primer Dark",
 
   "globals": {
-    "background": "#21262d",
+    "background": "#010409",
     "foreground": "#b1bac4",
     "invisibles": "#8b949e99",
     "caret": "#d29922",

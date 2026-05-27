@@ -2,7 +2,7 @@
   "name": "Silk Dark",
 
   "globals": {
-    "background": "#1d494e",
+    "background": "#0e3c46",
     "foreground": "#c7dbdd",
     "invisibles": "#9dc8cd99",
     "caret": "#fce380",

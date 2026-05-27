@@ -2,7 +2,7 @@
   "name": "Hopscotch",
 
   "globals": {
-    "background": "#433b42",
+    "background": "#322931",
     "foreground": "#b9b5b8",
     "invisibles": "#98949899",
     "caret": "#fdcc59",

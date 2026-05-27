@@ -2,7 +2,7 @@
   "name": "Builtin Light",
 
   "globals": {
-    "background": "#000000",
+    "background": "#ffffff",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#ff55ff",

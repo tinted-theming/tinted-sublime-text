@@ -2,7 +2,7 @@
   "name": "Atelier Cave",
 
   "globals": {
-    "background": "#26232a",
+    "background": "#19171c",
     "foreground": "#8b8792",
     "invisibles": "#7e788799",
     "caret": "#a06e3b",

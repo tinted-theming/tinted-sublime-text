@@ -2,7 +2,7 @@
   "name": "Chalk",
 
   "globals": {
-    "background": "#202020",
+    "background": "#151515",
     "foreground": "#d0d0d0",
     "invisibles": "#b0b0b099",
     "caret": "#ddb26f",

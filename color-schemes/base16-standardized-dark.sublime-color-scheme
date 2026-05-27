@@ -2,7 +2,7 @@
   "name": "standardized-dark",
 
   "globals": {
-    "background": "#303030",
+    "background": "#222222",
     "foreground": "#c0c0c0",
     "invisibles": "#89898999",
     "caret": "#e1b31a",

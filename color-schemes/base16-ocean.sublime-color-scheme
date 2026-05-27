@@ -2,7 +2,7 @@
   "name": "Ocean",
 
   "globals": {
-    "background": "#343d46",
+    "background": "#2b303b",
     "foreground": "#c0c5ce",
     "invisibles": "#a7adba99",
     "caret": "#ebcb8b",

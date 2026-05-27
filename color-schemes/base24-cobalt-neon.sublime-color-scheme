@@ -2,7 +2,7 @@
   "name": "Cobalt Neon",
 
   "globals": {
-    "background": "#142630",
+    "background": "#142838",
     "foreground": "#cc72a6",
     "invisibles": "#dd9e9c99",
     "caret": "#8230a7",

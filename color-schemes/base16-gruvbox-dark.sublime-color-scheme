@@ -2,7 +2,7 @@
   "name": "Gruvbox dark",
 
   "globals": {
-    "background": "#3c3836",
+    "background": "#282828",
     "foreground": "#ebdbb2",
     "invisibles": "#92837499",
     "caret": "#d79921",

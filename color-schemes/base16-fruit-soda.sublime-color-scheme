@@ -2,7 +2,7 @@
   "name": "Fruit Soda",
 
   "globals": {
-    "background": "#e0dee0",
+    "background": "#f1ecf1",
     "foreground": "#515151",
     "invisibles": "#97959899",
     "caret": "#f7e203",

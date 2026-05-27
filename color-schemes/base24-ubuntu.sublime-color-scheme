@@ -2,7 +2,7 @@
   "name": "Ubuntu",
 
   "globals": {
-    "background": "#2e3436",
+    "background": "#300a24",
     "foreground": "#b3b7b0",
     "invisibles": "#94979199",
     "caret": "#ad7fa8",

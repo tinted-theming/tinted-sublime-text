@@ -2,7 +2,7 @@
   "name": "Oceanic Material",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1c262b",
     "foreground": "#989898",
     "invisibles": "#8d8d8d99",
     "caret": "#a94dbb",

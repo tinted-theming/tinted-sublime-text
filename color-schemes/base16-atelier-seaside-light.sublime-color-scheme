@@ -2,7 +2,7 @@
   "name": "Atelier Seaside Light",
 
   "globals": {
-    "background": "#cfe8cf",
+    "background": "#f4fbf4",
     "foreground": "#5e6e5e",
     "invisibles": "#687d6899",
     "caret": "#98981b",

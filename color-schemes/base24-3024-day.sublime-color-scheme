@@ -2,7 +2,7 @@
   "name": "3024 Day",
 
   "globals": {
-    "background": "#090300",
+    "background": "#f7f7f7",
     "foreground": "#928f8e",
     "invisibles": "#807d7b99",
     "caret": "#d6d5d4",

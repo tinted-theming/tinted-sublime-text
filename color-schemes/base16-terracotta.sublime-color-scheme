@@ -2,7 +2,7 @@
   "name": "Terracotta",
 
   "globals": {
-    "background": "#dfd6d1",
+    "background": "#efeae8",
     "foreground": "#473731",
     "invisibles": "#59453d99",
     "caret": "#ce943e",

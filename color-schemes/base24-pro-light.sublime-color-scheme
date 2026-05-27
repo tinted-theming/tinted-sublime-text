@@ -2,7 +2,7 @@
   "name": "Pro Light",
 
   "globals": {
-    "background": "#f1f1f1",
+    "background": "#feffff",
     "foreground": "#4f4f4f",
     "invisibles": "#75757599",
     "caret": "#ff7dfe",

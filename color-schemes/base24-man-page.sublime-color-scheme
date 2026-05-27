@@ -2,7 +2,7 @@
   "name": "Man Page",
 
   "globals": {
-    "background": "#000000",
+    "background": "#fef49c",
     "foreground": "#b2b2b2",
     "invisibles": "#99999999",
     "caret": "#e500e5",

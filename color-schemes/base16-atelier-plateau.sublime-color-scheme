@@ -2,7 +2,7 @@
   "name": "Atelier Plateau",
 
   "globals": {
-    "background": "#292424",
+    "background": "#1b1818",
     "foreground": "#8a8585",
     "invisibles": "#7e777799",
     "caret": "#a06e3b",

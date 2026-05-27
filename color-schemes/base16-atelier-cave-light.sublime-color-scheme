@@ -2,7 +2,7 @@
   "name": "Atelier Cave Light",
 
   "globals": {
-    "background": "#e2dfe7",
+    "background": "#efecf4",
     "foreground": "#585260",
     "invisibles": "#655f6d99",
     "caret": "#a06e3b",

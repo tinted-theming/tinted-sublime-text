@@ -2,7 +2,7 @@
   "name": "Chinoiserie",
 
   "globals": {
-    "background": "#e0e0e0",
+    "background": "#ffffff",
     "foreground": "#4a4035",
     "invisibles": "#91807299",
     "caret": "#d6a01d",

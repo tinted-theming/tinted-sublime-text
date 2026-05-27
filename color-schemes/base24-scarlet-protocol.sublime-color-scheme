@@ -2,7 +2,7 @@
   "name": "Scarlet Protocol",
 
   "globals": {
-    "background": "#101116",
+    "background": "#1b153c",
     "foreground": "#afafaf",
     "invisibles": "#97979799",
     "caret": "#bc35eb",

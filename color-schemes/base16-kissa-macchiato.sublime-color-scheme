@@ -2,7 +2,7 @@
   "name": "Kissa Macchiato",
 
   "globals": {
-    "background": "#35322d",
+    "background": "#1f1c16",
     "foreground": "#faf0e6",
     "invisibles": "#d4c4a899",
     "caret": "#eac67a",

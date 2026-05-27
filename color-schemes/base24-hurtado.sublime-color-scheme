@@ -2,7 +2,7 @@
   "name": "Hurtado",
 
   "globals": {
-    "background": "#575757",
+    "background": "#000000",
     "foreground": "#a1a1a1",
     "invisibles": "#78787899",
     "caret": "#bf00c0",

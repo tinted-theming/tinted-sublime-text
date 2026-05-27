@@ -2,7 +2,7 @@
   "name": "Material Palenight",
 
   "globals": {
-    "background": "#444267",
+    "background": "#292d3e",
     "foreground": "#959dcb",
     "invisibles": "#8796b099",
     "caret": "#ffcb6b",

@@ -2,7 +2,7 @@
   "name": "Bluloco Dark",
 
   "globals": {
-    "background": "#494f5c",
+    "background": "#1e2027",
     "foreground": "#b1bac9",
     "invisibles": "#969faf99",
     "caret": "#fb57f6",

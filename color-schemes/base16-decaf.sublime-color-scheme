@@ -2,7 +2,7 @@
   "name": "Decaf",
 
   "globals": {
-    "background": "#393939",
+    "background": "#2d2d2d",
     "foreground": "#cccccc",
     "invisibles": "#b4b7b499",
     "caret": "#ffd67c",

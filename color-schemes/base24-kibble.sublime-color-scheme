@@ -2,7 +2,7 @@
   "name": "Kibble",
 
   "globals": {
-    "background": "#4d4d4d",
+    "background": "#0e100a",
     "foreground": "#c0b3c0",
     "invisibles": "#9e959e99",
     "caret": "#c495f0",

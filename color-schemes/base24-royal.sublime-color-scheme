@@ -2,7 +2,7 @@
   "name": "Royal",
 
   "globals": {
-    "background": "#241f2a",
+    "background": "#100814",
     "foreground": "#49425a",
     "invisibles": "#413b5099",
     "caret": "#a479e2",

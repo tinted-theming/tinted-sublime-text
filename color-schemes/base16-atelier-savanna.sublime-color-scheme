@@ -2,7 +2,7 @@
   "name": "Atelier Savanna",
 
   "globals": {
-    "background": "#232a25",
+    "background": "#171c19",
     "foreground": "#87928a",
     "invisibles": "#78877d99",
     "caret": "#a07e3b",

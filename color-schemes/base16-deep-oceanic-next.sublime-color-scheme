@@ -2,7 +2,7 @@
   "name": "Deep Oceanic Next",
 
   "globals": {
-    "background": "#002931",
+    "background": "#001c1f",
     "foreground": "#d4e1e8",
     "invisibles": "#0093a399",
     "caret": "#f3b863",

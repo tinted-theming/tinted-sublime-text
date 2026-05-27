@@ -2,7 +2,7 @@
   "name": "Marrakesh",
 
   "globals": {
-    "background": "#302e00",
+    "background": "#201602",
     "foreground": "#948e48",
     "invisibles": "#86813b99",
     "caret": "#a88339",

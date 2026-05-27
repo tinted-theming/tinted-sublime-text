@@ -2,7 +2,7 @@
   "name": "Flatland",
 
   "globals": {
-    "background": "#1c1d19",
+    "background": "#1c1e20",
     "foreground": "#c5c6c4",
     "invisibles": "#8d8e8b99",
     "caret": "#695abb",

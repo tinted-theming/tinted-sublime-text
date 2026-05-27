@@ -2,7 +2,7 @@
   "name": "darkmoss",
 
   "globals": {
-    "background": "#252c2d",
+    "background": "#171e1f",
     "foreground": "#c7c7a5",
     "invisibles": "#818f8099",
     "caret": "#fdb11f",

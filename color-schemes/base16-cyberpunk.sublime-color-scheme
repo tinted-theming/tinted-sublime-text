@@ -2,7 +2,7 @@
   "name": "Cyberpunk",
 
   "globals": {
-    "background": "#2b2b2b",
+    "background": "#000000",
     "foreground": "#dcdccc",
     "invisibles": "#8b898999",
     "caret": "#ffff00",

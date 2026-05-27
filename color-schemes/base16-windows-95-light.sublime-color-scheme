@@ -2,7 +2,7 @@
   "name": "Windows 95 Light",
 
   "globals": {
-    "background": "#e0e0e0",
+    "background": "#fcfcfc",
     "foreground": "#545454",
     "invisibles": "#7e7e7e99",
     "caret": "#a85400",

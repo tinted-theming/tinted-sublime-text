@@ -2,7 +2,7 @@
   "name": "Unikitty Reversible",
 
   "globals": {
-    "background": "#4b484e",
+    "background": "#2e2a31",
     "foreground": "#c3c2c4",
     "invisibles": "#a5a3a699",
     "caret": "#dc8a0e",

@@ -2,7 +2,7 @@
   "name": "Mission Brogue",
 
   "globals": {
-    "background": "#3b4954",
+    "background": "#283139",
     "foreground": "#93a5b4",
     "invisibles": "#788ea199",
     "caret": "#e3c3e6",

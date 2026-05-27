@@ -2,7 +2,7 @@
   "name": "Kimber",
 
   "globals": {
-    "background": "#313131",
+    "background": "#222222",
     "foreground": "#dedee7",
     "invisibles": "#5a5a5a99",
     "caret": "#d8b56d",

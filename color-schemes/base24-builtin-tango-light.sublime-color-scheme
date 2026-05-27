@@ -2,7 +2,7 @@
   "name": "Builtin Tango Light",
 
   "globals": {
-    "background": "#000000",
+    "background": "#ffffff",
     "foreground": "#b3b7b0",
     "invisibles": "#93979199",
     "caret": "#ad7ea7",

@@ -2,7 +2,7 @@
   "name": "Fish Tank",
 
   "globals": {
-    "background": "#03063c",
+    "background": "#222436",
     "foreground": "#ccc9c9",
     "invisibles": "#aca49699",
     "caret": "#fda4cc",

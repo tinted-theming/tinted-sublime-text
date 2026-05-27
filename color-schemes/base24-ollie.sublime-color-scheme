@@ -2,7 +2,7 @@
   "name": "Ollie",
 
   "globals": {
-    "background": "#000000",
+    "background": "#212024",
     "foreground": "#7e7789",
     "invisibles": "#72616899",
     "caret": "#ffc21c",

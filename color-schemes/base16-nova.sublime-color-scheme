@@ -2,7 +2,7 @@
   "name": "Nova",
 
   "globals": {
-    "background": "#556873",
+    "background": "#3c4c55",
     "foreground": "#c5d4dd",
     "invisibles": "#899ba699",
     "caret": "#a8ce93",

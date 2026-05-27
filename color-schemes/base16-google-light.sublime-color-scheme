@@ -2,7 +2,7 @@
   "name": "Google Light",
 
   "globals": {
-    "background": "#e0e0e0",
+    "background": "#ffffff",
     "foreground": "#373b41",
     "invisibles": "#96989699",
     "caret": "#fba922",

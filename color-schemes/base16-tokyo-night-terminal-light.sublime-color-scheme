@@ -2,7 +2,7 @@
   "name": "Tokyo Night Terminal Light",
 
   "globals": {
-    "background": "#cbccd1",
+    "background": "#d5d6db",
     "foreground": "#4c505e",
     "invisibles": "#4c505e99",
     "caret": "#8f5e15",

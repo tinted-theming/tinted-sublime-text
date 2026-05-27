@@ -2,7 +2,7 @@
   "name": "Pencil Light",
 
   "globals": {
-    "background": "#212121",
+    "background": "#f1f1f1",
     "foreground": "#b3b3b3",
     "invisibles": "#8d8d8d99",
     "caret": "#6855de",

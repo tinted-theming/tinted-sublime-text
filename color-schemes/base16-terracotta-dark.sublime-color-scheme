@@ -2,7 +2,7 @@
   "name": "Terracotta Dark",
 
   "globals": {
-    "background": "#362b27",
+    "background": "#241d1a",
     "foreground": "#b8a59d",
     "invisibles": "#a78e8499",
     "caret": "#ffc37a",

@@ -2,7 +2,7 @@
   "name": "Tokyodark Terminal",
 
   "globals": {
-    "background": "#1a1b2a",
+    "background": "#11121d",
     "foreground": "#a0a8cd",
     "invisibles": "#4a505799",
     "caret": "#d7a65f",

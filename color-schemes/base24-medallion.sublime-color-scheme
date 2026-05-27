@@ -2,7 +2,7 @@
   "name": "Medallion",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1d1808",
     "foreground": "#aea578",
     "invisibles": "#93895899",
     "caret": "#fe9fff",

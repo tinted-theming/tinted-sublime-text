@@ -2,7 +2,7 @@
   "name": "Nocturnal Winter",
 
   "globals": {
-    "background": "#4c4c4c",
+    "background": "#0d0d17",
     "foreground": "#dcdcdc",
     "invisibles": "#bdbdbd99",
     "caret": "#ff78a2",

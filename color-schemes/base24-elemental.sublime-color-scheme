@@ -2,7 +2,7 @@
   "name": "Elemental",
 
   "globals": {
-    "background": "#3c3b30",
+    "background": "#21211c",
     "foreground": "#756f68",
     "invisibles": "#6a665c99",
     "caret": "#cd7c53",

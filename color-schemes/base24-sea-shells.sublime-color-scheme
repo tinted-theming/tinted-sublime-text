@@ -2,7 +2,7 @@
   "name": "Sea Shells",
 
   "globals": {
-    "background": "#17384c",
+    "background": "#08131a",
     "foreground": "#b79c7e",
     "invisibles": "#90816f99",
     "caret": "#bbe3ee",

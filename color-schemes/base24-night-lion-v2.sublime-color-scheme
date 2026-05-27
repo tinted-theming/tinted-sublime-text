@@ -2,7 +2,7 @@
   "name": "Night Lion V2",
 
   "globals": {
-    "background": "#4c4c4c",
+    "background": "#171717",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#ff9af5",

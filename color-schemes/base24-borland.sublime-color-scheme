@@ -2,7 +2,7 @@
   "name": "Borland",
 
   "globals": {
-    "background": "#4e4e4e",
+    "background": "#0000a4",
     "foreground": "#d1d1d1",
     "invisibles": "#b5b5b599",
     "caret": "#ff9cfe",

@@ -2,7 +2,7 @@
   "name": "Valua",
 
   "globals": {
-    "background": "#213132",
+    "background": "#131f1f",
     "foreground": "#98c1a3",
     "invisibles": "#6d987799",
     "caret": "#dfe754",

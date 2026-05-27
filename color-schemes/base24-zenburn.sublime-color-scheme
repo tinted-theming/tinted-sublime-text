@@ -2,7 +2,7 @@
   "name": "Zenburn",
 
   "globals": {
-    "background": "#4d4d4d",
+    "background": "#3f3f3f",
     "foreground": "#c1c9b9",
     "invisibles": "#a6b6a699",
     "caret": "#ec93d3",

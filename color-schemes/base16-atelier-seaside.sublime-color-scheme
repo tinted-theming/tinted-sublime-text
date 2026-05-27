@@ -2,7 +2,7 @@
   "name": "Atelier Seaside",
 
   "globals": {
-    "background": "#242924",
+    "background": "#131513",
     "foreground": "#8ca68c",
     "invisibles": "#80998099",
     "caret": "#98981b",

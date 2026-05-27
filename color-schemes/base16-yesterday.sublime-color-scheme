@@ -2,7 +2,7 @@
   "name": "Yesterday",
 
   "globals": {
-    "background": "#282a2e",
+    "background": "#1d1f21",
     "foreground": "#d6d6d6",
     "invisibles": "#8e908c99",
     "caret": "#eab700",

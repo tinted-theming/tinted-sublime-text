@@ -2,7 +2,7 @@
   "name": "Penumbra Dark",
 
   "globals": {
-    "background": "#303338",
+    "background": "#24272b",
     "foreground": "#bebebe",
     "invisibles": "#8f8f8f99",
     "caret": "#8d9741",

@@ -2,7 +2,7 @@
   "name": "Penumbra Light Contrast Plus Plus",
 
   "globals": {
-    "background": "#fff7ed",
+    "background": "#fffdfb",
     "foreground": "#636363",
     "invisibles": "#aeaeae99",
     "caret": "#a9b852",

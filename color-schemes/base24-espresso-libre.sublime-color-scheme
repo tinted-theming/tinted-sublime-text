@@ -2,7 +2,7 @@
   "name": "Espresso Libre",
 
   "globals": {
-    "background": "#000000",
+    "background": "#2a211c",
     "foreground": "#b3b7b0",
     "invisibles": "#93979199",
     "caret": "#ff8089",

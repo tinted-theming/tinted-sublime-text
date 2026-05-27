@@ -2,7 +2,7 @@
   "name": "Precious Dark Eleven",
 
   "globals": {
-    "background": "#292b2d",
+    "background": "#1c1e20",
     "foreground": "#b8b7b6",
     "invisibles": "#a8a8a799",
     "caret": "#d0a543",

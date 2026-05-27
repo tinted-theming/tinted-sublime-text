@@ -2,7 +2,7 @@
   "name": "Seti UI",
 
   "globals": {
-    "background": "#282a2b",
+    "background": "#151718",
     "foreground": "#d6d6d6",
     "invisibles": "#43a5d599",
     "caret": "#e6cd69",

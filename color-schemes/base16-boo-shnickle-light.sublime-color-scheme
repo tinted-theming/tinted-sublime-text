@@ -2,7 +2,7 @@
   "name": "boo-shnickle-light",
 
   "globals": {
-    "background": "#dedeb2",
+    "background": "#ffffcc",
     "foreground": "#5b5b49",
     "invisibles": "#7c7c6399",
     "caret": "#fff299",

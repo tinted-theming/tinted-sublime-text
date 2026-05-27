@@ -2,7 +2,7 @@
   "name": "Paraiso",
 
   "globals": {
-    "background": "#41323f",
+    "background": "#2f1e2e",
     "foreground": "#a39e9b",
     "invisibles": "#8d868799",
     "caret": "#fec418",

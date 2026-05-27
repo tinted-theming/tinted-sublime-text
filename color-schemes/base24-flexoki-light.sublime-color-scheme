@@ -2,7 +2,7 @@
   "name": "Flexoki Light",
 
   "globals": {
-    "background": "#f2f0e5",
+    "background": "#fffcf0",
     "foreground": "#403e3c",
     "invisibles": "#9f9d9699",
     "caret": "#4385be",

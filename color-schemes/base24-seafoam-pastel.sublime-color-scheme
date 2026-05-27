@@ -2,7 +2,7 @@
   "name": "Seafoam Pastel",
 
   "globals": {
-    "background": "#757575",
+    "background": "#243434",
     "foreground": "#cacaca",
     "invisibles": "#b5b5b599",
     "caret": "#d6b2a1",

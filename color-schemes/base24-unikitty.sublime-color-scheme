@@ -2,7 +2,7 @@
   "name": "Unikitty",
 
   "globals": {
-    "background": "#0c0c0c",
+    "background": "#ff7ad3",
     "foreground": "#b9b1b8",
     "invisibles": "#918c9199",
     "caret": "#fdd5e5",

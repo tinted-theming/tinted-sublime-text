@@ -2,7 +2,7 @@
   "name": "Linux VT",
 
   "globals": {
-    "background": "#333333",
+    "background": "#000000",
     "foreground": "#aaaaaa",
     "invisibles": "#88888899",
     "caret": "#ffff55",

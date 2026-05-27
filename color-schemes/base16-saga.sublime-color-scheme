@@ -2,7 +2,7 @@
   "name": "SAGA",
 
   "globals": {
-    "background": "#0a1014",
+    "background": "#05080a",
     "foreground": "#dce2f7",
     "invisibles": "#19263099",
     "caret": "#fbebc8",

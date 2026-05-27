@@ -2,7 +2,7 @@
   "name": "Everforest Light (Soft)",
 
   "globals": {
-    "background": "#eae4ca",
+    "background": "#f3ead3",
     "foreground": "#5c6a72",
     "invisibles": "#82918199",
     "caret": "#dfa000",

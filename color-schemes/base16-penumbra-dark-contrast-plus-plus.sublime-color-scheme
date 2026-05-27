@@ -2,7 +2,7 @@
   "name": "Penumbra Dark Contrast Plus Plus",
 
   "globals": {
-    "background": "#181b1f",
+    "background": "#0d0f13",
     "foreground": "#dedede",
     "invisibles": "#aeaeae99",
     "caret": "#a9b852",

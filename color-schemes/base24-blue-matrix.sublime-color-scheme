@@ -2,7 +2,7 @@
   "name": "Blue Matrix",
 
   "globals": {
-    "background": "#101116",
+    "background": "#0f1115",
     "foreground": "#afafaf",
     "invisibles": "#97979799",
     "caret": "#d582eb",

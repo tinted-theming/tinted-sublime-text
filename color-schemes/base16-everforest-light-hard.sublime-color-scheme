@@ -2,7 +2,7 @@
   "name": "Everforest Light (Hard)",
 
   "globals": {
-    "background": "#f8f5e4",
+    "background": "#fffbef",
     "foreground": "#5c6a72",
     "invisibles": "#82918199",
     "caret": "#dfa000",

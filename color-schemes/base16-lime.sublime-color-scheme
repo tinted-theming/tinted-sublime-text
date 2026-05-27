@@ -2,7 +2,7 @@
   "name": "lime",
 
   "globals": {
-    "background": "#202030",
+    "background": "#1a1a2f",
     "foreground": "#818175",
     "invisibles": "#51515599",
     "caret": "#ffd15e",

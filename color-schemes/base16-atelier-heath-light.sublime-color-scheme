@@ -2,7 +2,7 @@
   "name": "Atelier Heath Light",
 
   "globals": {
-    "background": "#d8cad8",
+    "background": "#f7f3f7",
     "foreground": "#695d69",
     "invisibles": "#77697799",
     "caret": "#bb8a35",

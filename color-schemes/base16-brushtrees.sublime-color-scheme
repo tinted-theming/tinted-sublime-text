@@ -2,7 +2,7 @@
   "name": "Brush Trees",
 
   "globals": {
-    "background": "#c9dbdc",
+    "background": "#e3efef",
     "foreground": "#6d828e",
     "invisibles": "#8299a199",
     "caret": "#aab386",

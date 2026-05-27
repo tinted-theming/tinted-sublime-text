@@ -2,7 +2,7 @@
   "name": "Da One Gray",
 
   "globals": {
-    "background": "#282828",
+    "background": "#181818",
     "foreground": "#ffffff",
     "invisibles": "#c8c8c899",
     "caret": "#ff9470",

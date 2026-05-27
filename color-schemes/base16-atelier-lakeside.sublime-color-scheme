@@ -2,7 +2,7 @@
   "name": "Atelier Lakeside",
 
   "globals": {
-    "background": "#1f292e",
+    "background": "#161b1d",
     "foreground": "#7ea2b4",
     "invisibles": "#7195a899",
     "caret": "#8a8a0f",

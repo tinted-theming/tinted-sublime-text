@@ -2,7 +2,7 @@
   "name": "Hacktober",
 
   "globals": {
-    "background": "#191918",
+    "background": "#141414",
     "foreground": "#bfbdb7",
     "invisibles": "#8e8c8899",
     "caret": "#e795a5",

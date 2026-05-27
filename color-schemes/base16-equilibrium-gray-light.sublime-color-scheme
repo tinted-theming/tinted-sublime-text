@@ -2,7 +2,7 @@
   "name": "Equilibrium Gray Light",
 
   "globals": {
-    "background": "#e2e2e2",
+    "background": "#f1f1f1",
     "foreground": "#474747",
     "invisibles": "#5e5e5e99",
     "caret": "#9d6f00",

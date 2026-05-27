@@ -2,7 +2,7 @@
   "name": "Violet Dark",
 
   "globals": {
-    "background": "#56595c",
+    "background": "#1b1d1f",
     "foreground": "#a7a59f",
     "invisibles": "#86868399",
     "caret": "#c61b6e",

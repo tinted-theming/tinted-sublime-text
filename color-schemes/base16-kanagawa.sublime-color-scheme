@@ -2,7 +2,7 @@
   "name": "Kanagawa",
 
   "globals": {
-    "background": "#16161d",
+    "background": "#1f1f28",
     "foreground": "#dcd7ba",
     "invisibles": "#72716999",
     "caret": "#c0a36e",

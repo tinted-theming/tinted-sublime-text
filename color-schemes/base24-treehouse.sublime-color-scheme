@@ -2,7 +2,7 @@
   "name": "Treehouse",
 
   "globals": {
-    "background": "#321200",
+    "background": "#191919",
     "foreground": "#695d47",
     "invisibles": "#5c503c99",
     "caret": "#e04b5a",

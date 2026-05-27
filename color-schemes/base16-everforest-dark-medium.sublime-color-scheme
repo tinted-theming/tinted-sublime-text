@@ -2,7 +2,7 @@
   "name": "Everforest Dark Medium",
 
   "globals": {
-    "background": "#343f44",
+    "background": "#2d353b",
     "foreground": "#859289",
     "invisibles": "#7a847899",
     "caret": "#dbbc7f",

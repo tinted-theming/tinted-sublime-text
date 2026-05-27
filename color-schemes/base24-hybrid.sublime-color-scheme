@@ -2,7 +2,7 @@
   "name": "Hybrid",
 
   "globals": {
-    "background": "#2a2e33",
+    "background": "#161718",
     "foreground": "#8f9190",
     "invisibles": "#696b6b99",
     "caret": "#6e4f79",

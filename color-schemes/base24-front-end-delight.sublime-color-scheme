@@ -2,7 +2,7 @@
   "name": "Front End Delight",
 
   "globals": {
-    "background": "#242426",
+    "background": "#1b1b1d",
     "foreground": "#98ac9c",
     "invisibles": "#85ac8c99",
     "caret": "#e75e4e",

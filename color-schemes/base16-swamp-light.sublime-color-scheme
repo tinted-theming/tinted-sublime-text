@@ -2,7 +2,7 @@
   "name": "Swamp Light",
 
   "globals": {
-    "background": "#ddcebc",
+    "background": "#f1e3d1",
     "foreground": "#64513e",
     "invisibles": "#a0907d99",
     "caret": "#993333",

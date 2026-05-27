@@ -2,7 +2,7 @@
   "name": "Grape",
 
   "globals": {
-    "background": "#2d283e",
+    "background": "#161423",
     "foreground": "#8c8a92",
     "invisibles": "#7b778599",
     "caret": "#ac81c1",

@@ -2,7 +2,7 @@
   "name": "Atelier Forest",
 
   "globals": {
-    "background": "#2c2421",
+    "background": "#1b1918",
     "foreground": "#a8a19f",
     "invisibles": "#9c949199",
     "caret": "#c38418",

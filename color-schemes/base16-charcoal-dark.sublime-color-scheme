@@ -2,7 +2,7 @@
   "name": "Charcoal Dark",
 
   "globals": {
-    "background": "#231b0e",
+    "background": "#0f0b05",
     "foreground": "#c3a983",
     "invisibles": "#a88c6299",
     "caret": "#dec8a7",

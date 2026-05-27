@@ -2,7 +2,7 @@
   "name": "Lavandula",
 
   "globals": {
-    "background": "#230045",
+    "background": "#050014",
     "foreground": "#645d6f",
     "invisibles": "#554d6199",
     "caret": "#a675df",

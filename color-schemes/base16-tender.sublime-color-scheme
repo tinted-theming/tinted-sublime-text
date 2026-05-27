@@ -2,7 +2,7 @@
   "name": "tender",
 
   "globals": {
-    "background": "#383838",
+    "background": "#282828",
     "foreground": "#eeeeee",
     "invisibles": "#b8b8b899",
     "caret": "#ffc24b",

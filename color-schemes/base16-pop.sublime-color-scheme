@@ -2,7 +2,7 @@
   "name": "Pop",
 
   "globals": {
-    "background": "#202020",
+    "background": "#000000",
     "foreground": "#d0d0d0",
     "invisibles": "#b0b0b099",
     "caret": "#f8ca12",

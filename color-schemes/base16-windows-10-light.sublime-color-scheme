@@ -2,7 +2,7 @@
   "name": "Windows 10 Light",
 
   "globals": {
-    "background": "#e5e5e5",
+    "background": "#f2f2f2",
     "foreground": "#767676",
     "invisibles": "#ababab99",
     "caret": "#c19c00",

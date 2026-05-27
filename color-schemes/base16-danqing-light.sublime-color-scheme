@@ -2,7 +2,7 @@
   "name": "DanQing Light",
 
   "globals": {
-    "background": "#ecf6f2",
+    "background": "#fcfefd",
     "foreground": "#5a605d",
     "invisibles": "#9da8a399",
     "caret": "#f0c239",

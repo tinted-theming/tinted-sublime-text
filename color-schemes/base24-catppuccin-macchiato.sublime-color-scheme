@@ -2,7 +2,7 @@
   "name": "Catppuccin Macchiato",
 
   "globals": {
-    "background": "#1e2030",
+    "background": "#24273a",
     "foreground": "#cad3f5",
     "invisibles": "#5b607899",
     "caret": "#f5bde6",

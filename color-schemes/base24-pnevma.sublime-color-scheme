@@ -2,7 +2,7 @@
   "name": "Pnevma",
 
   "globals": {
-    "background": "#2f2e2d",
+    "background": "#1c1c1c",
     "foreground": "#aeaead",
     "invisibles": "#8d8c8a99",
     "caret": "#d7beda",

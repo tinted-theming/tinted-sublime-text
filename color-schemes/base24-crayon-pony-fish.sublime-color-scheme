@@ -2,7 +2,7 @@
   "name": "Crayon Pony Fish",
 
   "globals": {
-    "background": "#2a1a1c",
+    "background": "#140607",
     "foreground": "#5d484e",
     "invisibles": "#523e4399",
     "caret": "#fb6cb9",

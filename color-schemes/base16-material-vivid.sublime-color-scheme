@@ -2,7 +2,7 @@
   "name": "Material Vivid",
 
   "globals": {
-    "background": "#27292c",
+    "background": "#202124",
     "foreground": "#80868b",
     "invisibles": "#676c7199",
     "caret": "#ffeb3b",

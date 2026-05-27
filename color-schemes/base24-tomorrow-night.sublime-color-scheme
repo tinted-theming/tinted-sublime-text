@@ -2,7 +2,7 @@
   "name": "Tomorrow Night",
 
   "globals": {
-    "background": "#282a2e",
+    "background": "#1d1f21",
     "foreground": "#c5c8c6",
     "invisibles": "#b4b7b499",
     "caret": "#d7a3ca",

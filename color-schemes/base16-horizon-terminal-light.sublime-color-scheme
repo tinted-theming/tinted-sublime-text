@@ -2,7 +2,7 @@
   "name": "Horizon Terminal Light",
 
   "globals": {
-    "background": "#fadad1",
+    "background": "#fdf0ed",
     "foreground": "#403c3d",
     "invisibles": "#948c8a99",
     "caret": "#fadad1",

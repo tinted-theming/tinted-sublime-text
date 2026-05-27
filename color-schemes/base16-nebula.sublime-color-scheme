@@ -2,7 +2,7 @@
   "name": "Nebula",
 
   "globals": {
-    "background": "#414f60",
+    "background": "#22273b",
     "foreground": "#a4a6a9",
     "invisibles": "#87888b99",
     "caret": "#4f9062",

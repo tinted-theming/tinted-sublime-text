@@ -2,7 +2,7 @@
   "name": "Solarized Dark Patched",
 
   "globals": {
-    "background": "#002731",
+    "background": "#001e26",
     "foreground": "#c0c0b0",
     "invisibles": "#979e9699",
     "caret": "#5856b9",

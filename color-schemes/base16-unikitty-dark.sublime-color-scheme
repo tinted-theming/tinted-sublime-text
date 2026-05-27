@@ -2,7 +2,7 @@
   "name": "Unikitty Dark",
 
   "globals": {
-    "background": "#4a464d",
+    "background": "#2e2a31",
     "foreground": "#bcbabe",
     "invisibles": "#9f9da299",
     "caret": "#dc8a0e",

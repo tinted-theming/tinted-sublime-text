@@ -2,7 +2,7 @@
   "name": "Harmonic16 Dark",
 
   "globals": {
-    "background": "#223b54",
+    "background": "#0b1c2c",
     "foreground": "#cbd6e2",
     "invisibles": "#aabcce99",
     "caret": "#8bbf56",

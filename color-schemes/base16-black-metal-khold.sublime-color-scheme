@@ -2,7 +2,7 @@
   "name": "Black Metal (Khold)",
 
   "globals": {
-    "background": "#121212",
+    "background": "#000000",
     "foreground": "#c1c1c1",
     "invisibles": "#99999999",
     "caret": "#974b46",

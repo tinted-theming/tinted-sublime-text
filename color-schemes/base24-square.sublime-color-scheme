@@ -2,7 +2,7 @@
   "name": "Square",
 
   "globals": {
-    "background": "#050505",
+    "background": "#1a1a1a",
     "foreground": "#bababa",
     "invisibles": "#83838399",
     "caret": "#ad7fa8",

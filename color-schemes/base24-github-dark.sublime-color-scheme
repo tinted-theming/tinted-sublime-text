@@ -2,7 +2,7 @@
   "name": "Github Dark",
 
   "globals": {
-    "background": "#30363d",
+    "background": "#161b22",
     "foreground": "#c9d1d9",
     "invisibles": "#8b949e99",
     "caret": "#bc8cff",

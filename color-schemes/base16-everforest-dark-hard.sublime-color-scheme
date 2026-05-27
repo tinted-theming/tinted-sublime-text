@@ -2,7 +2,7 @@
   "name": "Everforest Dark Hard",
 
   "globals": {
-    "background": "#2e383c",
+    "background": "#272e33",
     "foreground": "#d3c6aa",
     "invisibles": "#9da9a099",
     "caret": "#dbbc7f",

@@ -2,7 +2,7 @@
   "name": "Red Sands",
 
   "globals": {
-    "background": "#000000",
+    "background": "#79241e",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#ff55ff",

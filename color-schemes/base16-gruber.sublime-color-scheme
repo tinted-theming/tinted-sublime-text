@@ -2,7 +2,7 @@
   "name": "Gruber",
 
   "globals": {
-    "background": "#453d41",
+    "background": "#181818",
     "foreground": "#f4f4ff",
     "invisibles": "#e4e4ef99",
     "caret": "#ffdd33",

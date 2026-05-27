@@ -2,7 +2,7 @@
   "name": "Swamp Dark",
 
   "globals": {
-    "background": "#3a3124",
+    "background": "#242015",
     "foreground": "#d2c3a4",
     "invisibles": "#b8a58c99",
     "caret": "#a82d56",

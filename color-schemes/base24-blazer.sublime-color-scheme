@@ -2,7 +2,7 @@
   "name": "Blazer",
 
   "globals": {
-    "background": "#000000",
+    "background": "#0d1926",
     "foreground": "#acacac",
     "invisibles": "#7f7f7f99",
     "caret": "#dbbddb",

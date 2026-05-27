@@ -2,7 +2,7 @@
   "name": "Arthur",
 
   "globals": {
-    "background": "#3d352a",
+    "background": "#1c1c1c",
     "foreground": "#a19083",
     "invisibles": "#88776e99",
     "caret": "#996600",

@@ -2,7 +2,7 @@
   "name": "Highway",
 
   "globals": {
-    "background": "#000000",
+    "background": "#212224",
     "foreground": "#c8c5c4",
     "invisibles": "#a49e9b99",
     "caret": "#de0070",

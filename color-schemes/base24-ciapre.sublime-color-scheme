@@ -2,7 +2,7 @@
   "name": "Ciapre",
 
   "globals": {
-    "background": "#181818",
+    "background": "#181c27",
     "foreground": "#978f73",
     "invisibles": "#817c6999",
     "caret": "#d33060",

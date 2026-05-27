@@ -2,7 +2,7 @@
   "name": "Hardcore",
 
   "globals": {
-    "background": "#303030",
+    "background": "#212121",
     "foreground": "#cdcdcd",
     "invisibles": "#70707099",
     "caret": "#e6db74",

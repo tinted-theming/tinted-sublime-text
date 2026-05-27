@@ -2,7 +2,7 @@
   "name": "Floraverse",
 
   "globals": {
-    "background": "#08002e",
+    "background": "#0e0c15",
     "foreground": "#c3af9d",
     "invisibles": "#937f8299",
     "caret": "#f12aae",

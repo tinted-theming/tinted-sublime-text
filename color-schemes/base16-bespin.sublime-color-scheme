@@ -2,7 +2,7 @@
   "name": "Bespin",
 
   "globals": {
-    "background": "#36312e",
+    "background": "#28211c",
     "foreground": "#8a8986",
     "invisibles": "#79797799",
     "caret": "#f9ee98",

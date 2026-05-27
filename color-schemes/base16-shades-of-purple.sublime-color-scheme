@@ -2,7 +2,7 @@
   "name": "Shades of Purple",
 
   "globals": {
-    "background": "#43d426",
+    "background": "#1e1e3f",
     "foreground": "#c7c7c7",
     "invisibles": "#6871ff99",
     "caret": "#ffe700",

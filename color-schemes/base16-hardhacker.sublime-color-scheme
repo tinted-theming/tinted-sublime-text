@@ -2,7 +2,7 @@
   "name": "Hardhacker",
 
   "globals": {
-    "background": "#2c2737",
+    "background": "#211e2a",
     "foreground": "#e4dee9",
     "invisibles": "#8a829e99",
     "caret": "#ebde76",

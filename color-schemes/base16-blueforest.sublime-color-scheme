@@ -2,7 +2,7 @@
   "name": "Blue Forest",
 
   "globals": {
-    "background": "#1e5c1e",
+    "background": "#141f2e",
     "foreground": "#ffcc33",
     "invisibles": "#1e5c1e99",
     "caret": "#91ccff",

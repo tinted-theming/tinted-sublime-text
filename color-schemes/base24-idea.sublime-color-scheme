@@ -2,7 +2,7 @@
   "name": "Idea",
 
   "globals": {
-    "background": "#acacac",
+    "background": "#202020",
     "foreground": "#515151",
     "invisibles": "#8b8b8b99",
     "caret": "#fc7efe",

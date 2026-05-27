@@ -2,7 +2,7 @@
   "name": "Space Gray Eighties Dull",
 
   "globals": {
-    "background": "#15171c",
+    "background": "#212121",
     "foreground": "#9a9fa6",
     "invisibles": "#83868b99",
     "caret": "#bf83c0",

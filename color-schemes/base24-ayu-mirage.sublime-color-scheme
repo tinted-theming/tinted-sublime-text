@@ -2,7 +2,7 @@
   "name": "Ayu Mirage",
 
   "globals": {
-    "background": "#242936",
+    "background": "#1f2430",
     "foreground": "#cccac2",
     "invisibles": "#707a8c99",
     "caret": "#b692ff",

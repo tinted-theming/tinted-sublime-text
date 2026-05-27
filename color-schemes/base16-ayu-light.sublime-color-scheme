@@ -2,7 +2,7 @@
   "name": "Ayu Light",
 
   "globals": {
-    "background": "#edeff1",
+    "background": "#f8f9fa",
     "foreground": "#5c6166",
     "invisibles": "#8a919999",
     "caret": "#f2ae49",

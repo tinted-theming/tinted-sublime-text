@@ -2,7 +2,7 @@
   "name": "Atelier Plateau Light",
 
   "globals": {
-    "background": "#e7dfdf",
+    "background": "#f4ecec",
     "foreground": "#585050",
     "invisibles": "#655d5d99",
     "caret": "#a06e3b",

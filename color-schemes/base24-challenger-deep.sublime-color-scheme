@@ -2,7 +2,7 @@
   "name": "Challenger Deep",
 
   "globals": {
-    "background": "#141127",
+    "background": "#1e1c31",
     "foreground": "#929bb6",
     "invisibles": "#7e84a099",
     "caret": "#c991e1",

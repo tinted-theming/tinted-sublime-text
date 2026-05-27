@@ -2,7 +2,7 @@
   "name": "Embarcadero",
 
   "globals": {
-    "background": "#43474c",
+    "background": "#252a2f",
     "foreground": "#bcbdc0",
     "invisibles": "#9ea0a299",
     "caret": "#c090f0",

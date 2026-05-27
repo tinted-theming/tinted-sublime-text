@@ -2,7 +2,7 @@
   "name": "Flexoki Dark",
 
   "globals": {
-    "background": "#1c1b1a",
+    "background": "#100f0f",
     "foreground": "#cecdc3",
     "invisibles": "#87858099",
     "caret": "#205ea6",

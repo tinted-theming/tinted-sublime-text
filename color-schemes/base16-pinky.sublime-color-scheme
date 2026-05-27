@@ -2,7 +2,7 @@
   "name": "pinky",
 
   "globals": {
-    "background": "#1b181b",
+    "background": "#171517",
     "foreground": "#f5f5f5",
     "invisibles": "#e7dbdb99",
     "caret": "#20df6c",

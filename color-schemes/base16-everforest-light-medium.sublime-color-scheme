@@ -2,7 +2,7 @@
   "name": "Everforest Light (Medium)",
 
   "globals": {
-    "background": "#f4f0d9",
+    "background": "#fdf6e3",
     "foreground": "#5c6a72",
     "invisibles": "#82918199",
     "caret": "#dfa000",

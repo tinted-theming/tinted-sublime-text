@@ -2,7 +2,7 @@
   "name": "Desert",
 
   "globals": {
-    "background": "#4d4d4d",
+    "background": "#333333",
     "foreground": "#cdbb9b",
     "invisibles": "#a5998499",
     "caret": "#ff55ff",

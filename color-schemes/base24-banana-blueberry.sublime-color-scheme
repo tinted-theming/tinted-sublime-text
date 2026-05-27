@@ -2,7 +2,7 @@
   "name": "Banana Blueberry",
 
   "globals": {
-    "background": "#16141e",
+    "background": "#191322",
     "foreground": "#c6c9cd",
     "invisibles": "#9ca1a999",
     "caret": "#da70d5",

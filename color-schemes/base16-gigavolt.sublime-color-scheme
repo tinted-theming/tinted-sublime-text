@@ -2,7 +2,7 @@
   "name": "Gigavolt",
 
   "globals": {
-    "background": "#2d303d",
+    "background": "#202126",
     "foreground": "#e9e7e1",
     "invisibles": "#cad3ff99",
     "caret": "#ffdc2d",

@@ -2,7 +2,7 @@
   "name": "Chicago Night",
 
   "globals": {
-    "background": "#2a3b32",
+    "background": "#1e2a24",
     "foreground": "#a7b8af",
     "invisibles": "#8a9a9199",
     "caret": "#f9e300",

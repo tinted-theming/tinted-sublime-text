@@ -2,7 +2,7 @@
   "name": "Rippedcasts",
 
   "globals": {
-    "background": "#000000",
+    "background": "#2b2b2b",
     "foreground": "#a8a8a8",
     "invisibles": "#92929299",
     "caret": "#e500e5",

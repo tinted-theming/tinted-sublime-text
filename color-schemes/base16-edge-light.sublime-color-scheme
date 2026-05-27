@@ -2,7 +2,7 @@
   "name": "Edge Light",
 
   "globals": {
-    "background": "#e3e5e8",
+    "background": "#fafafa",
     "foreground": "#474752",
     "invisibles": "#5e646f99",
     "caret": "#ebcc1a",

@@ -2,7 +2,7 @@
   "name": "Dark Plus",
 
   "globals": {
-    "background": "#000000",
+    "background": "#0e0e0e",
     "foreground": "#c5c5c5",
     "invisibles": "#a5a5a599",
     "caret": "#d670d6",

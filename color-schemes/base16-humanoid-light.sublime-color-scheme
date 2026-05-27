@@ -2,7 +2,7 @@
   "name": "Humanoid light",
 
   "globals": {
-    "background": "#efefe9",
+    "background": "#f8f8f2",
     "foreground": "#232629",
     "invisibles": "#60615d99",
     "caret": "#ffb627",

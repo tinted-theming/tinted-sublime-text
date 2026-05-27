@@ -2,7 +2,7 @@
   "name": "Harmonic16 Light",
 
   "globals": {
-    "background": "#e5ebf1",
+    "background": "#f7f9fb",
     "foreground": "#405c79",
     "invisibles": "#627e9999",
     "caret": "#8bbf56",

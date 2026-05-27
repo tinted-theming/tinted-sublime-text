@@ -2,7 +2,7 @@
   "name": "Rosé Pine Dawn",
 
   "globals": {
-    "background": "#fffaf3",
+    "background": "#faf4ed",
     "foreground": "#575279",
     "invisibles": "#79759399",
     "caret": "#d7827e",

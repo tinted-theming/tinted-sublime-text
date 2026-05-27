@@ -2,7 +2,7 @@
   "name": "Digital Rain",
 
   "globals": {
-    "background": "#4a806c",
+    "background": "#000000",
     "foreground": "#00ff00",
     "invisibles": "#91989399",
     "caret": "#a67a50",

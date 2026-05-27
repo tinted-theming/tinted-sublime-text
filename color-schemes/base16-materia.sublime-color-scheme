@@ -2,7 +2,7 @@
   "name": "Materia",
 
   "globals": {
-    "background": "#2c393f",
+    "background": "#263238",
     "foreground": "#cdd3de",
     "invisibles": "#c9ccd399",
     "caret": "#ffcc00",

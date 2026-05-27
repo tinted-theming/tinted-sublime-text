@@ -2,7 +2,7 @@
   "name": "Elementary",
 
   "globals": {
-    "background": "#242424",
+    "background": "#181818",
     "foreground": "#c5c5c5",
     "invisibles": "#9c9c9c99",
     "caret": "#fb004f",

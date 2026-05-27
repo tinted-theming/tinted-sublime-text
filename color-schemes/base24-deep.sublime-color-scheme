@@ -2,7 +2,7 @@
   "name": "deep",
 
   "globals": {
-    "background": "#000000",
+    "background": "#080808",
     "foreground": "#bcbcbc",
     "invisibles": "#99999999",
     "caret": "#e099fe",

@@ -2,7 +2,7 @@
   "name": "Alien Blood",
 
   "globals": {
-    "background": "#112615",
+    "background": "#0f160f",
     "foreground": "#5a6f5c",
     "invisibles": "#50624399",
     "caret": "#0058df",

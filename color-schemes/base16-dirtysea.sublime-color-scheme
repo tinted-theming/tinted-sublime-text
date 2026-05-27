@@ -2,7 +2,7 @@
   "name": "dirtysea",
 
   "globals": {
-    "background": "#d0dad0",
+    "background": "#e0e0e0",
     "foreground": "#000000",
     "invisibles": "#20202099",
     "caret": "#755b00",

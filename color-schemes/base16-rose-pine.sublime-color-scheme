@@ -2,7 +2,7 @@
   "name": "Rosé Pine",
 
   "globals": {
-    "background": "#1f1d2e",
+    "background": "#191724",
     "foreground": "#e0def4",
     "invisibles": "#908caa99",
     "caret": "#ebbcba",

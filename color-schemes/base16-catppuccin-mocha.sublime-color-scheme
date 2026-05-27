@@ -2,7 +2,7 @@
   "name": "Catppuccin Mocha",
 
   "globals": {
-    "background": "#181825",
+    "background": "#1e1e2e",
     "foreground": "#cdd6f4",
     "invisibles": "#585b7099",
     "caret": "#f9e2af",

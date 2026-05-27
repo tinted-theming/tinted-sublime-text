@@ -2,7 +2,7 @@
   "name": "Solarized Dark Higher Contrast",
 
   "globals": {
-    "background": "#002731",
+    "background": "#001e26",
     "foreground": "#aec2ba",
     "invisibles": "#74a2a999",
     "caret": "#e14d8e",

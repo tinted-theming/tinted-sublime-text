@@ -2,7 +2,7 @@
   "name": "Black Metal (Bathory)",
 
   "globals": {
-    "background": "#121212",
+    "background": "#000000",
     "foreground": "#c1c1c1",
     "invisibles": "#99999999",
     "caret": "#e78a53",

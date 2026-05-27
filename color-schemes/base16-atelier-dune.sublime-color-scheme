@@ -2,7 +2,7 @@
   "name": "Atelier Dune",
 
   "globals": {
-    "background": "#292824",
+    "background": "#20201d",
     "foreground": "#a6a28c",
     "invisibles": "#99958099",
     "caret": "#ae9513",

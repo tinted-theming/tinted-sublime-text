@@ -2,7 +2,7 @@
   "name": "Monokai Vivid",
 
   "globals": {
-    "background": "#323232",
+    "background": "#121212",
     "foreground": "#dfdfdf",
     "invisibles": "#c0c0c099",
     "caret": "#f200f5",

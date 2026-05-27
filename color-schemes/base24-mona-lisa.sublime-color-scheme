@@ -2,7 +2,7 @@
   "name": "Mona Lisa",
 
   "globals": {
-    "background": "#341a0d",
+    "background": "#110b0d",
     "foreground": "#dab14e",
     "invisibles": "#be8c4199",
     "caret": "#ff5b6a",

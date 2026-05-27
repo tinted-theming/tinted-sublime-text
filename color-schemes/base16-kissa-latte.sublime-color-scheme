@@ -2,7 +2,7 @@
   "name": "Kissa Latte",
 
   "globals": {
-    "background": "#e8e7e3",
+    "background": "#f5f4f0",
     "foreground": "#1f1c16",
     "invisibles": "#746c6299",
     "caret": "#7d6820",

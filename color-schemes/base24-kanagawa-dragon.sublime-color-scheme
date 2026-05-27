@@ -2,7 +2,7 @@
   "name": "Kanagawa Dragon",
 
   "globals": {
-    "background": "#282727",
+    "background": "#181616",
     "foreground": "#c5c9c5",
     "invisibles": "#737c7399",
     "caret": "#938aa9",

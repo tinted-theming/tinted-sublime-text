@@ -2,7 +2,7 @@
   "name": "Firefox Dev",
 
   "globals": {
-    "background": "#002731",
+    "background": "#0e1011",
     "foreground": "#a5acae",
     "invisibles": "#6e7d8199",
     "caret": "#a200da",

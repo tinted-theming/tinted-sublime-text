@@ -2,7 +2,7 @@
   "name": "Oxocarbon Light",
 
   "globals": {
-    "background": "#dde1e6",
+    "background": "#f2f4f8",
     "foreground": "#525f70",
     "invisibles": "#68788d99",
     "caret": "#ff6f00",

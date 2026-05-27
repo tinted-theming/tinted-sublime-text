@@ -2,7 +2,7 @@
   "name": "Atelier Dune Light",
 
   "globals": {
-    "background": "#e8e4cf",
+    "background": "#fefbec",
     "foreground": "#6e6b5e",
     "invisibles": "#7d7a6899",
     "caret": "#ae9513",

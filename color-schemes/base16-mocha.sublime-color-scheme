@@ -2,7 +2,7 @@
   "name": "Mocha",
 
   "globals": {
-    "background": "#534636",
+    "background": "#3b3228",
     "foreground": "#d0c8c6",
     "invisibles": "#b8afad99",
     "caret": "#f4bc87",

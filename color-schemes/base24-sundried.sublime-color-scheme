@@ -2,7 +2,7 @@
   "name": "Sundried",
 
   "globals": {
-    "background": "#302b2a",
+    "background": "#1a1818",
     "foreground": "#a9a9a7",
     "invisibles": "#8a8a8799",
     "caret": "#fc89a0",

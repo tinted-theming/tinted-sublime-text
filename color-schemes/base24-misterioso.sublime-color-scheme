@@ -2,7 +2,7 @@
   "name": "Misterioso",
 
   "globals": {
-    "background": "#000000",
+    "background": "#2d3743",
     "foreground": "#bebebd",
     "invisibles": "#9b9b9a99",
     "caret": "#ff37ff",

@@ -2,7 +2,7 @@
   "name": "Summerfruit Light",
 
   "globals": {
-    "background": "#e0e0e0",
+    "background": "#ffffff",
     "foreground": "#101010",
     "invisibles": "#00000099",
     "caret": "#aba800",

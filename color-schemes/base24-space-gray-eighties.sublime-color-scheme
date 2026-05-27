@@ -2,7 +2,7 @@
   "name": "Space Gray Eighties",
 
   "globals": {
-    "background": "#15171c",
+    "background": "#212121",
     "foreground": "#c7c6c2",
     "invisibles": "#a1a09e99",
     "caret": "#ff55ff",

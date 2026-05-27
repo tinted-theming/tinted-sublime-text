@@ -2,7 +2,7 @@
   "name": "Chicago Day",
 
   "globals": {
-    "background": "#d1e0d7",
+    "background": "#e8f0ea",
     "foreground": "#364c40",
     "invisibles": "#4b5a5199",
     "caret": "#968400",

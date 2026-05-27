@@ -2,7 +2,7 @@
   "name": "Red Alert",
 
   "globals": {
-    "background": "#000000",
+    "background": "#762423",
     "foreground": "#aaaaaa",
     "invisibles": "#7e7e7e99",
     "caret": "#ddb7df",

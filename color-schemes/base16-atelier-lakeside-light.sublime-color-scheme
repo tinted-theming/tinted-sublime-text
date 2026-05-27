@@ -2,7 +2,7 @@
   "name": "Atelier Lakeside Light",
 
   "globals": {
-    "background": "#c1e4f6",
+    "background": "#ebf8ff",
     "foreground": "#516d7b",
     "invisibles": "#5a7b8c99",
     "caret": "#8a8a0f",

@@ -2,7 +2,7 @@
   "name": "Sagelight",
 
   "globals": {
-    "background": "#e8e8e8",
+    "background": "#f8f8f8",
     "foreground": "#383838",
     "invisibles": "#58585899",
     "caret": "#ffdc61",

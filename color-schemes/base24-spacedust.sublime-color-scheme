@@ -2,7 +2,7 @@
   "name": "Spacedust",
 
   "globals": {
-    "background": "#6e5246",
+    "background": "#0a1e24",
     "foreground": "#cdc7a6",
     "invisibles": "#ab9e7f99",
     "caret": "#ff8a39",

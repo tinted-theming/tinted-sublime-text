@@ -2,7 +2,7 @@
   "name": "Operator Mono Dark",
 
   "globals": {
-    "background": "#5a5a5a",
+    "background": "#191919",
     "foreground": "#c0c4c0",
     "invisibles": "#b3b6b399",
     "caret": "#fe2c79",

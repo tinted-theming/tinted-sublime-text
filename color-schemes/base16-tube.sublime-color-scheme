@@ -2,7 +2,7 @@
   "name": "London Tube",
 
   "globals": {
-    "background": "#1c3f95",
+    "background": "#231f20",
     "foreground": "#d9d8d8",
     "invisibles": "#959ca199",
     "caret": "#ffd204",

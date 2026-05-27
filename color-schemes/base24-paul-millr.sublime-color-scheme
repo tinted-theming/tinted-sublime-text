@@ -2,7 +2,7 @@
   "name": "Paul Millr",
 
   "globals": {
-    "background": "#2a2a2a",
+    "background": "#000000",
     "foreground": "#a5a5a5",
     "invisibles": "#90909099",
     "caret": "#db67e6",

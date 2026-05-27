@@ -2,7 +2,7 @@
   "name": "Builtin Pastel Dark",
 
   "globals": {
-    "background": "#4e4e4e",
+    "background": "#000000",
     "foreground": "#d1d1d1",
     "invisibles": "#b5b5b599",
     "caret": "#ff9cfe",

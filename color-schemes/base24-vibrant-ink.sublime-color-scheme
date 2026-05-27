@@ -2,7 +2,7 @@
   "name": "Vibrant Ink",
 
   "globals": {
-    "background": "#878787",
+    "background": "#000000",
     "foreground": "#cdcdcd",
     "invisibles": "#a5a5a599",
     "caret": "#ff00ff",

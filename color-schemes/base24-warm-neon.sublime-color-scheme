@@ -2,7 +2,7 @@
   "name": "Warm Neon",
 
   "globals": {
-    "background": "#000000",
+    "background": "#3f3f3f",
     "foreground": "#dcc9ba",
     "invisibles": "#e7dad099",
     "caret": "#f674b9",

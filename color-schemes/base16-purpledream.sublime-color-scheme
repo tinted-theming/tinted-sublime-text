@@ -2,7 +2,7 @@
   "name": "Purpledream",
 
   "globals": {
-    "background": "#302030",
+    "background": "#100510",
     "foreground": "#ddd0dd",
     "invisibles": "#bbb0bb99",
     "caret": "#f000a0",

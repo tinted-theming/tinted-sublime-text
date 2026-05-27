@@ -2,7 +2,7 @@
   "name": "3024",
 
   "globals": {
-    "background": "#3a3432",
+    "background": "#090300",
     "foreground": "#a5a2a2",
     "invisibles": "#807d7c99",
     "caret": "#fded02",

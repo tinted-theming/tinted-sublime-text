@@ -2,7 +2,7 @@
   "name": "Chalkboard",
 
   "globals": {
-    "background": "#000000",
+    "background": "#29262f",
     "foreground": "#afafaf",
     "invisibles": "#85858599",
     "caret": "#dbaada",

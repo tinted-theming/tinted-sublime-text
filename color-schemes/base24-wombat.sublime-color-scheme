@@ -2,7 +2,7 @@
   "name": "Wombat",
 
   "globals": {
-    "background": "#000000",
+    "background": "#171717",
     "foreground": "#b2afa6",
     "invisibles": "#87857f99",
     "caret": "#ddaaff",

@@ -2,7 +2,7 @@
   "name": "Green Screen",
 
   "globals": {
-    "background": "#003300",
+    "background": "#001100",
     "foreground": "#00bb00",
     "invisibles": "#00990099",
     "caret": "#007700",

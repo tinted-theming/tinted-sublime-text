@@ -2,7 +2,7 @@
   "name": "Fun Forrest",
 
   "globals": {
-    "background": "#000000",
+    "background": "#241200",
     "foreground": "#c5ab60",
     "invisibles": "#ad955c99",
     "caret": "#d16349",

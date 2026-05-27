@@ -2,7 +2,7 @@
   "name": "Darktooth",
 
   "globals": {
-    "background": "#32302f",
+    "background": "#1d2021",
     "foreground": "#a89984",
     "invisibles": "#92837499",
     "caret": "#fac03b",

@@ -2,7 +2,7 @@
   "name": "Qualia",
 
   "globals": {
-    "background": "#454545",
+    "background": "#101010",
     "foreground": "#c0c0c0",
     "invisibles": "#80808099",
     "caret": "#e6a3dc",

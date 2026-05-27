@@ -2,7 +2,7 @@
   "name": "Violet Light",
 
   "globals": {
-    "background": "#56595c",
+    "background": "#fcf4dc",
     "foreground": "#afaea9",
     "invisibles": "#8c8c8a99",
     "caret": "#c61b6e",

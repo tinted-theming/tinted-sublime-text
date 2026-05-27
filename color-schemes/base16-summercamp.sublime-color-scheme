@@ -2,7 +2,7 @@
   "name": "summercamp",
 
   "globals": {
-    "background": "#2a261c",
+    "background": "#1c1810",
     "foreground": "#736e55",
     "invisibles": "#5f5b4599",
     "caret": "#f2ff27",

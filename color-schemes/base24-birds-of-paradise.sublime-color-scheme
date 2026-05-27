@@ -2,7 +2,7 @@
   "name": "Birds Of Paradise",
 
   "globals": {
-    "background": "#573d25",
+    "background": "#2a1e1d",
     "foreground": "#cdbe9b",
     "invisibles": "#bca28099",
     "caret": "#d09dca",

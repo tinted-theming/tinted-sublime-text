@@ -2,7 +2,7 @@
   "name": "caroline",
 
   "globals": {
-    "background": "#3a2425",
+    "background": "#1c1213",
     "foreground": "#a87569",
     "invisibles": "#8b5d5799",
     "caret": "#f28171",

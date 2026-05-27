@@ -2,7 +2,7 @@
   "name": "Circus",
 
   "globals": {
-    "background": "#202020",
+    "background": "#191919",
     "foreground": "#a7a7a7",
     "invisibles": "#50505099",
     "caret": "#c3ba63",

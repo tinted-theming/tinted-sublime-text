@@ -2,7 +2,7 @@
   "name": "Jellybeans",
 
   "globals": {
-    "background": "#929292",
+    "background": "#121212",
     "foreground": "#d5d5d5",
     "invisibles": "#cdcdcd99",
     "caret": "#fbdaff",

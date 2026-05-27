@@ -2,7 +2,7 @@
   "name": "Smyck",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1b1b1b",
     "foreground": "#969696",
     "invisibles": "#8d8d8d99",
     "caret": "#f799ff",

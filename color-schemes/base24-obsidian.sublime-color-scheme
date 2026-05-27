@@ -2,7 +2,7 @@
   "name": "Obsidian",
 
   "globals": {
-    "background": "#000000",
+    "background": "#273032",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#ff55ff",

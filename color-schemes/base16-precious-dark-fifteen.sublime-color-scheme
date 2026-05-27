@@ -2,7 +2,7 @@
   "name": "Precious Dark Fifteen",
 
   "globals": {
-    "background": "#303337",
+    "background": "#23262b",
     "foreground": "#bab9b6",
     "invisibles": "#abaaa899",
     "caret": "#cfa546",

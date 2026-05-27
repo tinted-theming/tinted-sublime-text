@@ -2,7 +2,7 @@
   "name": "Still Alive",
 
   "globals": {
-    "background": "#d6d6d6",
+    "background": "#f0f0f0",
     "foreground": "#4c383b",
     "invisibles": "#60575899",
     "caret": "#fff018",

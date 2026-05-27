@@ -2,7 +2,7 @@
   "name": "Purple Rain",
 
   "globals": {
-    "background": "#000000",
+    "background": "#20084a",
     "foreground": "#d3d4d4",
     "invisibles": "#a9aaaa99",
     "caret": "#ab7aef",

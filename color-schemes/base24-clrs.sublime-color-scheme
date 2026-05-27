@@ -2,7 +2,7 @@
   "name": "CLRS",
 
   "globals": {
-    "background": "#000000",
+    "background": "#ffffff",
     "foreground": "#9a9b9a",
     "invisibles": "#83848299",
     "caret": "#e800b0",

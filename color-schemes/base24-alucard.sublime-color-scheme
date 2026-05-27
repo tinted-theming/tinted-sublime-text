@@ -2,7 +2,7 @@
   "name": "Alucard",
 
   "globals": {
-    "background": "#ceccc0",
+    "background": "#fffbeb",
     "foreground": "#1f1f1f",
     "invisibles": "#4c4a3d99",
     "caret": "#bf185a",

@@ -2,7 +2,7 @@
   "name": "Earthsong",
 
   "globals": {
-    "background": "#111417",
+    "background": "#282420",
     "foreground": "#c5ab93",
     "invisibles": "#a5917e99",
     "caret": "#ff9168",

@@ -2,7 +2,7 @@
   "name": "Wild Cherry",
 
   "globals": {
-    "background": "#000506",
+    "background": "#1f1626",
     "foreground": "#bfe1d8",
     "invisibles": "#7fcad399",
     "caret": "#ae636b",

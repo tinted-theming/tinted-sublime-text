@@ -2,7 +2,7 @@
   "name": "Wryan",
 
   "globals": {
-    "background": "#333333",
+    "background": "#101010",
     "foreground": "#768488",
     "invisibles": "#636c6f99",
     "caret": "#7e62b3",

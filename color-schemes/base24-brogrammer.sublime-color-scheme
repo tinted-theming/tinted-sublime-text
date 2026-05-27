@@ -2,7 +2,7 @@
   "name": "Brogrammer",
 
   "globals": {
-    "background": "#1f1f1f",
+    "background": "#131313",
     "foreground": "#c1c8d7",
     "invisibles": "#d6dae499",
     "caret": "#524fb9",

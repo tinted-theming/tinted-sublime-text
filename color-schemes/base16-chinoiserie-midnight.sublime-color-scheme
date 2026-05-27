@@ -2,7 +2,7 @@
   "name": "Chinoiserie Midnight",
 
   "globals": {
-    "background": "#282828",
+    "background": "#1d1d1d",
     "foreground": "#c4cbcf",
     "invisibles": "#bdaead99",
     "caret": "#fbb957",

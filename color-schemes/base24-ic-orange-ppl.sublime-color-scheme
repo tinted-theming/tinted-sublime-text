@@ -2,7 +2,7 @@
   "name": "IC-Orange-PPL",
 
   "globals": {
-    "background": "#000000",
+    "background": "#262626",
     "foreground": "#d9a971",
     "invisibles": "#b48b5999",
     "caret": "#fc874f",

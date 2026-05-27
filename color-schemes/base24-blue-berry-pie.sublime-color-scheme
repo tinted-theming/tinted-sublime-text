@@ -2,7 +2,7 @@
   "name": "Blue Berry Pie",
 
   "globals": {
-    "background": "#0a4b61",
+    "background": "#1c0b28",
     "foreground": "#bbb2ad",
     "invisibles": "#877e8699",
     "caret": "#bc93b6",

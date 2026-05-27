@@ -2,7 +2,7 @@
   "name": "Catppuccin Latte",
 
   "globals": {
-    "background": "#e6e9ef",
+    "background": "#eff1f5",
     "foreground": "#4c4f69",
     "invisibles": "#acb0be99",
     "caret": "#ea76cb",

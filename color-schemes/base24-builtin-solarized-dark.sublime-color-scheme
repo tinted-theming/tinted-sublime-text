@@ -2,7 +2,7 @@
   "name": "Builtin Solarized Dark",
 
   "globals": {
-    "background": "#073642",
+    "background": "#002b36",
     "foreground": "#b2b8ad",
     "invisibles": "#77898599",
     "caret": "#6c71c4",

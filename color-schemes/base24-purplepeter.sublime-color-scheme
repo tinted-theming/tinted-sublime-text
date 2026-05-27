@@ -2,7 +2,7 @@
   "name": "Purplepeter",
 
   "globals": {
-    "background": "#0a041f",
+    "background": "#2a1a4a",
     "foreground": "#c38e69",
     "invisibles": "#87625199",
     "caret": "#b991d4",

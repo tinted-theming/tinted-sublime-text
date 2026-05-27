@@ -2,7 +2,7 @@
   "name": "Everforest Dark Soft",
 
   "globals": {
-    "background": "#3a464c",
+    "background": "#333c43",
     "foreground": "#d3c6aa",
     "invisibles": "#9da9a099",
     "caret": "#dbbc7f",

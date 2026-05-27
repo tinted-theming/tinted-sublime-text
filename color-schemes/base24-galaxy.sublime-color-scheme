@@ -2,7 +2,7 @@
   "name": "Galaxy",
 
   "globals": {
-    "background": "#000000",
+    "background": "#1c2836",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#e75598",

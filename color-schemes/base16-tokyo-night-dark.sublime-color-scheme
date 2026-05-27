@@ -2,7 +2,7 @@
   "name": "Tokyo Night Dark",
 
   "globals": {
-    "background": "#16161e",
+    "background": "#1a1b26",
     "foreground": "#a9b1d6",
     "invisibles": "#787c9999",
     "caret": "#0db9d7",

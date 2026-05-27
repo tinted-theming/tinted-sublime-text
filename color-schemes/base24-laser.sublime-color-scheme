@@ -2,7 +2,7 @@
   "name": "Laser",
 
   "globals": {
-    "background": "#616161",
+    "background": "#030d18",
     "foreground": "#d8d8d8",
     "invisibles": "#bfbfbf99",
     "caret": "#ffb1fe",

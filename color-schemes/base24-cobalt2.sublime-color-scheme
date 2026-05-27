@@ -2,7 +2,7 @@
   "name": "Cobalt2",
 
   "globals": {
-    "background": "#000000",
+    "background": "#122637",
     "foreground": "#a1a1a1",
     "invisibles": "#88888899",
     "caret": "#ff55ff",

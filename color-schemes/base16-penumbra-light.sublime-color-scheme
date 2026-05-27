@@ -2,7 +2,7 @@
   "name": "Penumbra Light",
 
   "globals": {
-    "background": "#fff7ed",
+    "background": "#fffdfb",
     "foreground": "#636363",
     "invisibles": "#8f8f8f99",
     "caret": "#8d9741",

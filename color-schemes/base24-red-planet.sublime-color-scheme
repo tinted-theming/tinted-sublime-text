@@ -2,7 +2,7 @@
   "name": "Red Planet",
 
   "globals": {
-    "background": "#201f1f",
+    "background": "#222222",
     "foreground": "#a4998c",
     "invisibles": "#90888099",
     "caret": "#de4873",

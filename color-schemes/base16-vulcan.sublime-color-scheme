@@ -2,7 +2,7 @@
   "name": "vulcan",
 
   "globals": {
-    "background": "#122339",
+    "background": "#041523",
     "foreground": "#5b778c",
     "invisibles": "#6b697799",
     "caret": "#adb4b9",

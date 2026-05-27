@@ -2,7 +2,7 @@
   "name": "Builtin Solarized Light",
 
   "globals": {
-    "background": "#073642",
+    "background": "#fdf6e3",
     "foreground": "#b2b8ad",
     "invisibles": "#77898599",
     "caret": "#6c71c4",

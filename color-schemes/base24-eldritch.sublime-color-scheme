@@ -2,7 +2,7 @@
   "name": "Eldritch",
 
   "globals": {
-    "background": "#323449",
+    "background": "#212337",
     "foreground": "#ebfafa",
     "invisibles": "#a1abe099",
     "caret": "#d4b3ff",

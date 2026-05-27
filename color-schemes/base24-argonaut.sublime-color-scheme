@@ -2,7 +2,7 @@
   "name": "Argonaut",
 
   "globals": {
-    "background": "#222222",
+    "background": "#0d0f18",
     "foreground": "#d0d0d0",
     "invisibles": "#a1a1a199",
     "caret": "#9a5feb",

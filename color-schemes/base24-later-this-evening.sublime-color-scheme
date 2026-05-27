@@ -2,7 +2,7 @@
   "name": "Later This Evening",
 
   "globals": {
-    "background": "#313131",
+    "background": "#212121",
     "foreground": "#a6a6a6",
     "invisibles": "#8c8c8c99",
     "caret": "#aa52d5",

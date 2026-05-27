@@ -2,7 +2,7 @@
   "name": "Vesper",
 
   "globals": {
-    "background": "#232323",
+    "background": "#101010",
     "foreground": "#b7b7b7",
     "invisibles": "#99999999",
     "caret": "#ffc799",

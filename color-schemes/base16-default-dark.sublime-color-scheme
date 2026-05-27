@@ -2,7 +2,7 @@
   "name": "Default Dark",
 
   "globals": {
-    "background": "#282828",
+    "background": "#181818",
     "foreground": "#d8d8d8",
     "invisibles": "#b8b8b899",
     "caret": "#f7ca88",

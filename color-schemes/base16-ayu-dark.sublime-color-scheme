@@ -2,7 +2,7 @@
   "name": "Ayu Dark",
 
   "globals": {
-    "background": "#131721",
+    "background": "#0b0e14",
     "foreground": "#e6e1cf",
     "invisibles": "#bfbdb699",
     "caret": "#ffb454",

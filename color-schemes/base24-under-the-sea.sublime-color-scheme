@@ -2,7 +2,7 @@
   "name": "Under The Sea",
 
   "globals": {
-    "background": "#022026",
+    "background": "#001015",
     "foreground": "#3d5053",
     "invisibles": "#3b4c5299",
     "caret": "#1298ff",

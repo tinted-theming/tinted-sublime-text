@@ -2,7 +2,7 @@
   "name": "Cyberdyne",
 
   "globals": {
-    "background": "#080808",
+    "background": "#151144",
     "foreground": "#c0c0c0",
     "invisibles": "#8f8f8f99",
     "caret": "#ffb1fe",

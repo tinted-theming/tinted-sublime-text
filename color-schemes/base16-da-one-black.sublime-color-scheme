@@ -2,7 +2,7 @@
   "name": "Da One Black",
 
   "globals": {
-    "background": "#282828",
+    "background": "#000000",
     "foreground": "#ffffff",
     "invisibles": "#c8c8c899",
     "caret": "#ff9470",

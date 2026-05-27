@@ -2,7 +2,7 @@
   "name": "Jet Brains Darcula",
 
   "globals": {
-    "background": "#000000",
+    "background": "#202020",
     "foreground": "#979797",
     "invisibles": "#81818199",
     "caret": "#fb82ff",

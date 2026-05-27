@@ -2,7 +2,7 @@
   "name": "IC-Green-PPL",
 
   "globals": {
-    "background": "#014401",
+    "background": "#2c2c2c",
     "foreground": "#add5b6",
     "invisibles": "#74ad7a99",
     "caret": "#50fafa",

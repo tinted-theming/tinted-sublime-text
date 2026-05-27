@@ -2,7 +2,7 @@
   "name": "Toy Chest",
 
   "globals": {
-    "background": "#2c3f57",
+    "background": "#23364a",
     "foreground": "#27b684",
     "invisibles": "#2b9c8699",
     "caret": "#ad6bdc",

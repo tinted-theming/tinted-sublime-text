@@ -2,7 +2,7 @@
   "name": "Japanesque",
 
   "globals": {
-    "background": "#343835",
+    "background": "#1d1d1d",
     "foreground": "#d0d2ce",
     "invisibles": "#a8aaa799",
     "caret": "#5f4190",

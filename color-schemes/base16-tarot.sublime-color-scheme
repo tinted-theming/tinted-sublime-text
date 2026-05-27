@@ -2,7 +2,7 @@
   "name": "tarot",
 
   "globals": {
-    "background": "#2a153c",
+    "background": "#0e091d",
     "foreground": "#aa556f",
     "invisibles": "#8c406f99",
     "caret": "#ff6565",

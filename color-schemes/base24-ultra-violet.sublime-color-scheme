@@ -2,7 +2,7 @@
   "name": "Ultra Violet",
 
   "globals": {
-    "background": "#232628",
+    "background": "#242728",
     "foreground": "#c1c2c2",
     "invisibles": "#a1a3a399",
     "caret": "#e681ff",

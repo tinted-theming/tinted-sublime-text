@@ -2,7 +2,7 @@
   "name": "Tango",
 
   "globals": {
-    "background": "#8ae234",
+    "background": "#2e3436",
     "foreground": "#d3d7cf",
     "invisibles": "#729fcf99",
     "caret": "#c4a000",

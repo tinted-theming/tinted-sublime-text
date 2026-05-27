@@ -2,7 +2,7 @@
   "name": "Brewer",
 
   "globals": {
-    "background": "#2e2f30",
+    "background": "#0c0d0e",
     "foreground": "#b7b8b9",
     "invisibles": "#95969799",
     "caret": "#dca060",
