@@ -2,24 +2,24 @@
   "name": "Github Light",
 
   "globals": {
-    "background": "#eaeef2",
+    "background": "#ffffff",
     "foreground": "#424a53",
     "invisibles": "#6e778199",
     "caret": "#c297ff",
     "block_caret": "#c297ff99",
-    "line_highlight": "#eaeef219",
+    "line_highlight": "#ffffff19",
 
     "accent": "#c297ff",
 
-    "popup_css": "html, body {\n background-color: #eaeef2;\n color: #424a53;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #d0d7de;\n --mdpopups-link: #218bff;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(33, 139, 255, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #ffffff;\n color: #424a53;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #f6f8fa;\n --mdpopups-link: #8250df;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(130, 80, 223, 0.7);\n }",
 
-    "gutter": "#eaeef2",
+    "gutter": "#ffffff",
     "gutter_foreground": "#6e7781cc",
 
     "line_diff_width": "2",
     "line_diff_added": "#d4a72cb2",
     "line_diff_modified": "#bf8700b2",
-    "line_diff_deleted": "#fa4549b2",
+    "line_diff_deleted": "#953800b2",
 
     "selection": "#49bcb726",
     "selection_border": "49bcb726",
@@ -31,13 +31,13 @@
 
     "highlight": "#c297ff66",
     "find_highlight": "#c297ff",
-    "find_highlight_foreground": "#eaeef2",
+    "find_highlight_foreground": "#ffffff",
 
     "guide": "#6e77812d",
     "active_guide": "#6e778159",
     "stack_guide": "#6e778166",
 
-    "shadow": "#eaeef24c",
+    "shadow": "#ffffff4c",
     "shadow_width": "3"
   },
 
@@ -52,12 +52,12 @@
     {
       "name": "String",
       "scope": "string - meta.template, constant.other.symbol, string.quoted",
-      "foreground": "#2da44e"
+      "foreground": "#0a3069"
     },
     {
       "name": "Regular Expressions and Escape Characters",
       "scope": "string.regexp, constant.character, constant.other",
-      "foreground": "#339d9b"
+      "foreground": "#116329"
     },
 
 
@@ -86,13 +86,13 @@
     {
       "name": "Member Variable",
       "scope": "variable.member",
-      "foreground": "#fa4549"
+      "foreground": "#953800"
     },
     {
       "name": "Language variable",
       "scope": "variable.language",
       "font_style": "italic",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
 
 
@@ -116,7 +116,7 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#e16f24"
+      "foreground": "#0550ae"
     },
 
 
@@ -133,7 +133,7 @@
     {
       "name": "Accessor",
       "scope": "punctuation.accessor",
-      "foreground": "#e16f24"
+      "foreground": "#0550ae"
     },
 
     {
@@ -150,12 +150,12 @@
     {
       "name": "Types fixes",
       "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.zig storage.type",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
     {
       "name": "Inherited class type",
       "scope": "entity.other.inherited-class",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
     {
       "name": "Lambda arrow",
@@ -165,7 +165,7 @@
     {
       "name": "Java primitive variable types",
       "scope": "source.java storage.type.primitive",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
 
 
@@ -187,33 +187,33 @@
     {
       "name": "Library function",
       "scope": "support.function, support.macro",
-      "foreground": "#fa4549"
+      "foreground": "#953800"
     },
 
 
     {
       "name": "Imports and packages",
       "scope": "entity.name.import, entity.name.package",
-      "foreground": "#2da44e"
+      "foreground": "#0a3069"
     },
 
 
     {
       "name": "Entity name",
       "scope": "entity.name, source.js meta.function-call.constructor variable.type",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
 
 
     {
       "name": "Tag",
       "scope": "entity.name.tag, meta.tag.sgml",
-      "foreground": "#218bff"
+      "foreground": "#8250df"
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "#218bff7f"
+      "foreground": "#8250df7f"
     },
     {
       "name": "Tag attribute",
@@ -226,7 +226,7 @@
       "name": "Library Constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#e16f24"
+      "foreground": "#0550ae"
     },
     {
       "name": "Library class/type",
@@ -306,13 +306,13 @@
       "name": "Markup Italic",
       "scope": "markup.italic",
       "font_style": "italic",
-      "foreground": "#fa4549"
+      "foreground": "#953800"
     },
     {
       "name": "Markup Bold",
       "scope": "markup.bold",
       "font_style": "bold",
-      "foreground": "#fa4549"
+      "foreground": "#953800"
     },
     {
       "name": "Markup Bold/italic",
@@ -360,7 +360,7 @@
     {
       "name": "Markup Removed",
       "scope": "markup.deleted",
-      "foreground": "#fa4549"
+      "foreground": "#953800"
     },
     {
       "name": "Markup Strike",
@@ -376,7 +376,7 @@
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#e16f24"
+      "foreground": "#0550ae"
     },
     {
       "name": "Markdown - Line Break",

@@ -24,13 +24,13 @@
         <key>invisibles</key>
         <string>#6e768199</string>
         <key>lineHighlight</key>
-        <string>#30363dff</string>
+        <string>#161b22ff</string>
         <key>inactiveSelection</key>
-        <string>#388bfd21</string>
+        <string>#d2a8ff21</string>
         <key>selection</key>
-        <string>#388bfd4c</string>
+        <string>#d2a8ff4c</string>
         <key>selectionBorder</key>
-        <string>#388bfd4c</string>
+        <string>#d2a8ff4c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#db6d28</string>
+        <string>#79c0ff</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#a371f7</string>
+        <string>#ff7b72</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#2ea043</string>
+        <string>#a5d6ff</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#2a9d9a</string>
+        <string>#7ee787</string>
       </dict>
     </dict>
   </array>
