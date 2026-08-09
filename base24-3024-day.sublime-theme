@@ -632,7 +632,7 @@
     "class": "quick_panel_label",
     "fg": "#a5a2a2",
     "match_fg": "#807d7c",
-    "selected_fg": "#f7f7f7",
+    "selected_fg": "#090300",
     "selected_match_fg": "#807d7c"
   },
   {
@@ -640,7 +640,7 @@
     "parents": [{ "class": "overlay_control" }],
     "fg": "#a5a2a2",
     "match_fg": "#807d7c",
-    "selected_fg": "#f7f7f7",
+    "selected_fg": "#090300",
     "selected_match_fg": "#807d7c"
   },
   {
@@ -759,7 +759,7 @@
     "class": "auto_complete_label",
     "fg": "#a5a2a2",
     "match_fg": "#d6d5d4",
-    "selected_fg": "#f7f7f7",
+    "selected_fg": "#090300",
     "selected_match_fg": "#d6d5d4",
     "fg_blend": true
   },

@@ -22,15 +22,15 @@
         <key>foreground</key>
         <string>#dcc9ba</string>
         <key>invisibles</key>
-        <string>#e7dad066</string>
+        <string>#e7dad099</string>
         <key>lineHighlight</key>
-        <string>#00000019</string>
+        <string>#000000ff</string>
         <key>inactiveSelection</key>
-        <string>#5ed1e411</string>
+        <string>#5ed1e421</string>
         <key>selection</key>
-        <string>#5ed1e426</string>
+        <string>#5ed1e44c</string>
         <key>selectionBorder</key>
-        <string>#5ed1e426</string>
+        <string>#5ed1e44c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#f2ebe699</string>
+        <string>#f2ebe68c</string>
       </dict>
     </dict>
     <dict>

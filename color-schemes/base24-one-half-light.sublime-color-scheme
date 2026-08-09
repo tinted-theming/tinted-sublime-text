@@ -7,24 +7,24 @@
     "invisibles": "#a4a6ab99",
     "caret": "#c577dd",
     "block_caret": "#c577dd99",
-    "line_highlight": "#2a2b3219",
+    "line_highlight": "#2a2b32",
 
     "accent": "#c577dd",
 
     "popup_css": "html, body {\n background-color: #2a2b32;\n color: #cfd0d2;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #373942;\n --mdpopups-link: #0084bc;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(0, 132, 188, 0.7);\n }",
 
     "gutter": "#2a2b32",
-    "gutter_foreground": "#a4a6abcc",
+    "gutter_foreground": "#a4a6ab66",
 
     "line_diff_width": "2",
     "line_diff_added": "#e4c07ab2",
     "line_diff_modified": "#c0aa00b2",
     "line_diff_deleted": "#e45649b2",
 
-    "selection": "#56b5c126",
-    "selection_border": "56b5c126",
-    "inactive_selection": "#56b5c111",
-    "inactive_selection_border": "#56b5c111",
+    "selection": "#56b5c14c",
+    "selection_border": "56b5c14c",
+    "inactive_selection": "#56b5c121",
+    "inactive_selection_border": "#56b5c121",
     "selection_border_width": "1",
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
@@ -33,8 +33,8 @@
     "find_highlight": "#c577dd",
     "find_highlight_foreground": "#2a2b32",
 
-    "guide": "#a4a6ab2d",
-    "active_guide": "#a4a6ab59",
+    "guide": "#a4a6ab33",
+    "active_guide": "#a4a6ab7f",
     "stack_guide": "#a4a6ab66",
 
     "shadow": "#2a2b324c",
@@ -46,7 +46,7 @@
       "name": "Comment",
       "scope": "comment",
       "font_style": "italic",
-      "foreground": "#797c8499"
+      "foreground": "#797c848c"
     },
 
     {
@@ -264,7 +264,7 @@
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#797c8499" 
+      "foreground": "#797c848c" 
     },
     {
       "name": "CSS Properties",
@@ -275,7 +275,7 @@
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
-      "foreground": "#797c8499" 
+      "foreground": "#797c848c" 
     },
     {
       "name": "Search Results Match Nums",
@@ -334,7 +334,7 @@
       "scope": "meta.separator",
       "font_style": "bold",
       "background": "#cfd0d20f",
-      "foreground": "#797c8499" 
+      "foreground": "#797c848c" 
     },
     {
       "name": "Markup Blockquote",
@@ -381,14 +381,14 @@
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#797c8499",
-      "foreground": "#797c8499"
+      "background": "#797c848c",
+      "foreground": "#797c848c"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
       "background": "#cfd0d2",
-      "foreground": "#797c8499" 
+      "foreground": "#797c848c" 
     }
   ]
 }
