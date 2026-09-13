@@ -3,34 +3,34 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Romain Lafourcade (https://github.com/romainl)</string>
+  <string>taysatte (https://github.com/taysatte)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
-  <string>Apprentice</string>
+  <string>Corduroy Dark</string>
   <key>semanticClass</key>
-  <string>tinted_theming.apprentice</string>
+  <string>tinted_theming.corduroy-dark</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#444444</string>
+        <string>#7d7082</string>
         <key>caret</key>
-        <string>#87875f</string>
+        <string>#f0bd9c</string>
         <key>foreground</key>
-        <string>#6c6c6c</string>
+        <string>#9a8d9e</string>
         <key>invisibles</key>
-        <string>#44444499</string>
+        <string>#7d708299</string>
         <key>lineHighlight</key>
-        <string>#303030ff</string>
+        <string>#1b151eff</string>
         <key>inactiveSelection</key>
-        <string>#5f87af21</string>
+        <string>#dc92a321</string>
         <key>selection</key>
-        <string>#5f87af4c</string>
+        <string>#dc92a34c</string>
         <key>selectionBorder</key>
-        <string>#5f87af4c</string>
+        <string>#dc92a34c</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#6c6c6c8c</string>
+        <string>#9a8d9e8c</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff8700</string>
+        <string>#f0a89b</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5f5f87</string>
+        <string>#cf98c4</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5f875f</string>
+        <string>#55a0a0</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5f8787</string>
+        <string>#f0a89b</string>
       </dict>
     </dict>
   </array>
