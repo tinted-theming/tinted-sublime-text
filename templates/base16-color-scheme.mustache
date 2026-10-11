@@ -7,11 +7,11 @@
     "invisibles": "#{{base04-hex}}99",
     "caret": "#{{base0A-hex}}",
     "block_caret": "#{{base0A-hex}}99",
-    "line_highlight": "#{{base00-hex}}{{#scheme-is-light-variant}}19{{/scheme-is-light-variant}}",
+    "line_highlight": "#{{base01-hex}}",
 
     "accent": "#{{base0A-hex}}",
 
-    "popup_css": "html, body {\n background-color: #{{base03-hex}};\n color: #{{base04-hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{base03-hex}};\n --mdpopups-link: #{{base0D-hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{base0D-rgb-r}}, {{base0D-rgb-g}}, {{base0D-rgb-b}}, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #{{base01-hex}};\n color: #{{base05-hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{base01-hex}};\n --mdpopups-link: #{{base0D-hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{base0D-rgb-r}}, {{base0D-rgb-g}}, {{base0D-rgb-b}}, 0.7);\n }",
 
     "gutter": "#{{base00-hex}}",
     "gutter_foreground": "#{{base03-hex}}{{#scheme-is-light-variant}}cc{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}66{{/scheme-is-light-variant}}",
@@ -23,7 +23,7 @@
 
     "selection": "#{{base0D-hex}}{{#scheme-is-light-variant}}26{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}4c{{/scheme-is-light-variant}}",
     "selection_border":
-    "{{base0D-hex}}{{#scheme-is-light-variant}}26{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}4c{{/scheme-is-light-variant}}",
+    "#{{base0D-hex}}{{#scheme-is-light-variant}}26{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}4c{{/scheme-is-light-variant}}",
     "selection_border_width": "1",
     "inactive_selection": "#{{base0D-hex}}{{#scheme-is-light-variant}}11{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}21{{/scheme-is-light-variant}}",
     "inactive_selection_border": "#{{base0D-hex}}{{#scheme-is-light-variant}}11{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}21{{/scheme-is-light-variant}}",
@@ -251,7 +251,7 @@
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#c594c5"
+      "foreground": "#{{base0E-hex}}"
     },
     {
       "name": "Ruby class methods",
@@ -278,7 +278,7 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
+      "#{{base04-hex}}{{#scheme-is-light-variant}}99{{/scheme-is-light-variant}}{{^scheme-is-light-variant}}8c{{/scheme-is-light-variant}}"
     },
     {
       "name": "Search Results Match Nums",
