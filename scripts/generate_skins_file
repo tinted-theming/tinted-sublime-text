@@ -16,7 +16,7 @@ for file in "$color_schemes_dir"/*.sublime-color-scheme; do
     # Generate json
     concatenated_names="$concatenated_names\"$name\": "
       concatenated_names="$concatenated_names{ \"Preferences\": {"
-        concatenated_names="$concatenated_names \"color_scheme\": \"Packages/tinted_theming/color_scheme/$name.sublime-color-scheme\", "
+        concatenated_names="$concatenated_names \"color_scheme\": \"Packages/tinted_theming/color-schemes/$name.sublime-color-scheme\", "
         concatenated_names="$concatenated_names \"theme\": \"Packages/tinted_theming/$name.sublime-theme\""
       concatenated_names="$concatenated_names }"
     concatenated_names="$concatenated_names },"
