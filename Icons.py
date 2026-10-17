@@ -40,13 +40,11 @@ MSG = """\
 
 def is_installed():
     pkgctrl_settings = sublime.load_settings(PKGCTRL_SETTINGS)
-    print("Icons: is_installed `{}` ...".format(pkgctrl_settings))
 
     return ICONS_PACKAGE in set(pkgctrl_settings.get("installed_packages", []))
 
 
 def on_navigate(href):
-    print("Icons: on_navigate `{}` ...".format(href))
     if href.startswith("install"):
         install()
     else:
@@ -62,14 +60,15 @@ def install():
 
 
 def hide():
-    print("Icons: hide")
     sublime.active_window().active_view().hide_popup()
 
 
 def plugin_loaded():
-    from package_control import events
-
-    print("Icons: plugin_loaded {} ...".format(ICONS_PACKAGE))
+    try:
+        from package_control import events
+    except ImportError:
+        # Installed without Package Control, e.g. by cloning the repo
+        return
 
     if events.install(THEME_NAME) and not is_installed():
         window = sublime.active_window()
