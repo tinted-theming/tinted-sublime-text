@@ -7,7 +7,7 @@ base16-color-scheme:
     supported-systems: [base16]
 
 base16-widget:
-    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.stTheme"
+    filename: "widgets/Widget - {{scheme-system}}-{{scheme-slug}}.stTheme"
     supported-systems: [base16]
 
 base24-sublime-theme: 
@@ -19,15 +19,15 @@ base24-color-scheme:
     supported-systems: [base24]
 
 base24-widget:
-    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.stTheme"
+    filename: "widgets/Widget - {{scheme-system}}-{{scheme-slug}}.stTheme"
     supported-systems: [base24]
 
 basex-widget-settings:
-    filename: "widgets/{{scheme-system}}-{{scheme-slug}}.sublime-settings"
+    filename: "widgets/Widget - {{scheme-system}}-{{scheme-slug}}.sublime-settings"
     supported-systems: [base16, base24]
 
 tinted8-widget-settings:
-    filename: "widgets/{{scheme.system}}-{{scheme.slug}}.sublime-settings"
+    filename: "widgets/Widget - {{scheme.system}}-{{scheme.slug}}.sublime-settings"
     supported-systems: [tinted8]
     supports:
       tinted8-styling: ">=0.2.0"
@@ -48,7 +48,7 @@ tinted8-color-scheme:
       tinted8-builder: ">=0.2.0"
 
 tinted8-widget:
-    filename: "widgets/{{scheme.system}}-{{scheme.slug}}.stTheme"
+    filename: "widgets/Widget - {{scheme.system}}-{{scheme.slug}}.stTheme"
     supported-systems: [tinted8]
     supports:
       tinted8-styling: ">=0.2.0"
