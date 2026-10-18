@@ -7,11 +7,11 @@
     "invisibles": "#696c7799",
     "caret": "#c18401",
     "block_caret": "#c1840199",
-    "line_highlight": "#fafafa19",
+    "line_highlight": "#f0f0f1",
 
     "accent": "#c18401",
 
-    "popup_css": "html, body {\n background-color: #a0a1a7;\n color: #696c77;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #a0a1a7;\n --mdpopups-link: #4078f2;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(64, 120, 242, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #f0f0f1;\n color: #383a42;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #f0f0f1;\n --mdpopups-link: #4078f2;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(64, 120, 242, 0.7);\n }",
 
     "gutter": "#fafafa",
     "gutter_foreground": "#a0a1a7cc",
@@ -23,7 +23,7 @@
 
     "selection": "#4078f226",
     "selection_border":
-    "4078f226",
+    "#4078f226",
     "selection_border_width": "1",
     "inactive_selection": "#4078f211",
     "inactive_selection_border": "#4078f211",
@@ -251,7 +251,7 @@
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#c594c5"
+      "foreground": "#a626a4"
     },
     {
       "name": "Ruby class methods",
@@ -278,7 +278,7 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "696c7799"
+      "#696c7799"
     },
     {
       "name": "Search Results Match Nums",

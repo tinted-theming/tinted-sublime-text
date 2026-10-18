@@ -7,11 +7,11 @@
     "invisibles": "#a7adba99",
     "caret": "#fac863",
     "block_caret": "#fac86399",
-    "line_highlight": "#1b2b34",
+    "line_highlight": "#343d46",
 
     "accent": "#fac863",
 
-    "popup_css": "html, body {\n background-color: #65737e;\n color: #a7adba;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #65737e;\n --mdpopups-link: #6699cc;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(102, 153, 204, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #343d46;\n color: #c0c5ce;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #343d46;\n --mdpopups-link: #6699cc;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(102, 153, 204, 0.7);\n }",
 
     "gutter": "#1b2b34",
     "gutter_foreground": "#65737e66",
@@ -23,7 +23,7 @@
 
     "selection": "#6699cc4c",
     "selection_border":
-    "6699cc4c",
+    "#6699cc4c",
     "selection_border_width": "1",
     "inactive_selection": "#6699cc21",
     "inactive_selection_border": "#6699cc21",
@@ -278,7 +278,7 @@
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "a7adba8c"
+      "#a7adba8c"
     },
     {
       "name": "Search Results Match Nums",

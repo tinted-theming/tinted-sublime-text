@@ -7,11 +7,11 @@
     "invisibles": "#9f9d9699",
     "caret": "#4385be",
     "block_caret": "#4385be99",
-    "line_highlight": "#fffcf019",
+    "line_highlight": "#f2f0e5",
 
     "accent": "#4385be",
 
-    "popup_css": "html, body {\n background-color: #fffcf0;\n color: #403e3c;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #f2f0e5;\n --mdpopups-link: #205ea6;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(32, 94, 166, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #fffcf0;\n color: #403e3c;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #f2f0e5;\n --mdpopups-link: #205ea6;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(32, 94, 166, 0.7);\n }",
 
     "gutter": "#fffcf0",
     "gutter_foreground": "#9f9d96cc",
@@ -22,7 +22,7 @@
     "line_diff_deleted": "#af3029b2",
 
     "selection": "#879a3926",
-    "selection_border": "879a3926",
+    "selection_border": "#879a3926",
     "inactive_selection": "#879a3911",
     "inactive_selection_border": "#879a3911",
     "selection_border_width": "1",
@@ -99,17 +99,17 @@
     {
       "name": "Storage",
       "scope": "storage, storage.type.keyword",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
     {
       "name": "Keyword",
       "scope": "keyword",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
     {
       "name": "Java keyword fixes",
       "scope": "source.java meta.class.java meta.class.identifier.java storage.type.java",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
 
 
@@ -139,12 +139,12 @@
     {
       "name": "JavaScript/TypeScript interpolation punctuation",
       "scope": "punctuation.definition.template-expression",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
     {
       "name": "Ruby interpolation punctuation",
       "scope": "punctuation.section.interpolation",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
 
     {
@@ -160,7 +160,7 @@
     {
       "name": "Lambda arrow",
       "scope": "storage.type.function",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
     {
       "name": "Java primitive variable types",
@@ -231,35 +231,35 @@
     {
       "name": "Library class/type",
       "scope": "support.type, support.class, source.go storage.type",
-      "foreground": "#"
+      "foreground": "#205ea6"
     },
 
 
     {
       "name": "Decorators/Annotation",
       "scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
-      "foreground": "#"
+      "foreground": "#a02f6f"
     },
 
     {
       "name": "Invalid",
       "scope": "invalid",
-      "foreground": "#f2f0e5"
+      "foreground": "#af3029"
     },
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#c594c5"
+      "foreground": "#5e409d"
     },
     {
       "name": "Ruby class methods",
       "scope": "source.ruby variable.other.readwrite",
-      "foreground": "#"
+      "foreground": "#ad8301"
     },
     {
       "name": "CSs tag names",
       "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-      "foreground": "#"
+      "foreground": "#205ea6"
     },
     {
       "name": "CSS browser prefix",
@@ -270,7 +270,7 @@
       "name": "CSS Properties",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#"
+      "foreground": "#205ea6"
     },
     {
       "name": "Search Results Nums",
@@ -280,27 +280,27 @@
     {
       "name": "Search Results Match Nums",
       "scope": "constant.numeric.line-number.match",
-      "foreground": "#ffffff"
+      "foreground": "#bc5215"
     },
     {
       "name": "Search Results Lines",
       "scope": "entity.name.filename.find-in-files",
-      "foreground": "#"
+      "foreground": "#66800b"
     },
     {
       "scope": "message.error",
-      "foreground": "#f2f0e5"
+      "foreground": "#af3029"
     },
     {
       "name": "Markup Heading",
       "scope": "markup.heading, markup.heading entity.name",
       "font_style": "bold",
-      "foreground": "#"
+      "foreground": "#66800b"
     },
     {
       "name": "Markup Links",
       "scope": "markup.underline.link, string.other.link",
-      "foreground": "#"
+      "foreground": "#205ea6"
     },
     {
       "name": "Markup Italic",
@@ -339,13 +339,13 @@
     {
       "name": "Markup Blockquote",
       "scope": "markup.quote",
-      "foreground": "#",
+      "foreground": "#24837b",
       "font_style": "italic"
     },
     {
       "name": "Markup List Bullet",
       "scope": "markup.list punctuation.definition.list.begin",
-      "foreground": "#"
+      "foreground": "#ad8301"
     },
     {
       "name": "Markup Added",
@@ -365,13 +365,13 @@
     {
       "name": "Markup Strike",
       "scope": "markup.strike",
-      "foreground": "#"
+      "foreground": "#a02f6f"
     },
     {
       "name": "Markup Table",
       "scope": "markup.table",
       "background": "#403e3c0f",
-      "foreground": "#"
+      "foreground": "#205ea6"
     },
     {
       "name": "Markup Raw Inline",

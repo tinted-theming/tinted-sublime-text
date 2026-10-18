@@ -11,7 +11,7 @@
 
     "accent": "#689d6a",
 
-    "popup_css": "html, body {\n background-color: #1d2021;\n color: #ebdbb2;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #1d2021;\n --mdpopups-link: #689d6a;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(104, 157, 106, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #1d2021;\n color: #ebdbb2;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #1d2021;\n --mdpopups-link: #689d6a;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(104, 157, 106, 0.7);\n }",
 
     "gutter": "#282828",
     "gutter_foreground": "#e3c67d",
@@ -255,7 +255,7 @@
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#c594c5"
+      "foreground": "#b16286"
     },
     {
       "name": "Ruby class methods",
