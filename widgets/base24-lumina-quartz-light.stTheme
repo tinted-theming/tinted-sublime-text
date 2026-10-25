@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>author</key>
+  <string>Razik Ikhlef (https://github.com/RazikSF)</string>
+  <key>colorSpaceName</key>
+  <string>sRGB</string>
+  <key>name</key>
+  <string>Lumina Quartz Light</string>
+  <key>semanticClass</key>
+  <string>tinted_theming.lumina-quartz-light</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#d3d4d6</string>
+        <key>caret</key>
+        <string>#7e3861</string>
+        <key>foreground</key>
+        <string>#404246</string>
+        <key>invisibles</key>
+        <string>#85868766</string>
+        <key>lineHighlight</key>
+        <string>#eff0f219</string>
+        <key>inactiveSelection</key>
+        <string>#005e7911</string>
+        <key>selection</key>
+        <string>#005e7926</string>
+        <key>selectionBorder</key>
+        <string>#005e7926</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comments</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#d3d4d699</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword, storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#eeeff0</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constant</string>
+      <key>scope</key>
+      <string>constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#21528e</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#207f4f</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Escape</string>
+      <key>scope</key>
+      <string>constant.character.escape</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#037393</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>

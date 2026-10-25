@@ -82,7 +82,7 @@
     {
       "name": "Variable",
       "scope": "variable",
-      "foreground": "#a99f8d"
+      "foreground": "#e7dcc6"
     },
     {
       "name": "Member Variable",
@@ -124,12 +124,12 @@
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#a99f8db2"
+      "foreground": "#e7dcc6b2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#a99f8d"
+      "foreground": "#e7dcc6"
     },
     {
       "name": "Accessor",

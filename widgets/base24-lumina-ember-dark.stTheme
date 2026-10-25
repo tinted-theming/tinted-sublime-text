@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>author</key>
+  <string>Razik Ikhlef (https://github.com/RazikSF)</string>
+  <key>colorSpaceName</key>
+  <string>sRGB</string>
+  <key>name</key>
+  <string>Lumina Ember Dark</string>
+  <key>semanticClass</key>
+  <string>tinted_theming.lumina-ember-dark</string>
+  <key>settings</key>
+  <array>
+    <dict>
+      <key>settings</key>
+      <dict>
+        <key>background</key>
+        <string>#35312d</string>
+        <key>caret</key>
+        <string>#ffc1f9</string>
+        <key>foreground</key>
+        <string>#e0d8cb</string>
+        <key>invisibles</key>
+        <string>#706b6699</string>
+        <key>lineHighlight</key>
+        <string>#211e1aff</string>
+        <key>inactiveSelection</key>
+        <string>#90e9f421</string>
+        <key>selection</key>
+        <string>#90e9f44c</string>
+        <key>selectionBorder</key>
+        <string>#90e9f44c</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Comments</string>
+      <key>scope</key>
+      <string>comment</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string>italic</string>
+        <key>foreground</key>
+        <string>#35312d8c</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Keyword</string>
+      <key>scope</key>
+      <string>keyword, storage</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#15120f</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Constant</string>
+      <key>scope</key>
+      <string>constant</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#99d4ff</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>String</string>
+      <key>scope</key>
+      <string>string</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#90d6b4</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Escape</string>
+      <key>scope</key>
+      <string>constant.character.escape</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#77cfd9</string>
+      </dict>
+    </dict>
+  </array>
+</dict>
+</plist>
