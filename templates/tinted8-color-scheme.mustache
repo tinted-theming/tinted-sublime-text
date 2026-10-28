@@ -2,42 +2,42 @@
   "name": "{{scheme.name}}",
 
   "globals": {
-    "background": "#{{ui.global.background.normal.hex}}",
-    "foreground": "#{{ui.global.foreground.normal.hex}}",
-    "invisibles": "#{{ui.whitespace.foreground.hex}}99",
-    "caret": "#{{ui.cursor.normal.background.hex}}",
-    "block_caret": "#{{ui.cursor.normal.background.hex}}99",
-    "line_highlight": "#{{ui.highlight.line.background.hex}}",
+    "background": "#{{ui.global.normal.background.default.hex}}",
+    "foreground": "#{{ui.global.normal.foreground.default.hex}}",
+    "invisibles": "#{{ui.whitespace.foreground.default.hex}}99",
+    "caret": "#{{ui.cursor.normal.background.default.hex}}",
+    "block_caret": "#{{ui.cursor.normal.background.default.hex}}99",
+    "line_highlight": "#{{ui.highlight.line.background.default.hex}}",
 
-    "accent": "#{{ui.accent.normal.hex}}",
+    "accent": "#{{ui.accent.normal.default.hex}}",
 
-    "popup_css": "html, body {\n background-color: #{{ui.tooltip.background.hex}};\n color: #{{ui.tooltip.foreground.hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{ui.tooltip.background.hex}};\n --mdpopups-link: #{{ui.link.normal.foreground.hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{ui.link.normal.foreground.rgb.r}}, {{ui.link.normal.foreground.rgb.g}}, {{ui.link.normal.foreground.rgb.b}}, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #{{ui.tooltip.background.default.hex}};\n color: #{{ui.tooltip.foreground.default.hex}};\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #{{ui.tooltip.background.default.hex}};\n --mdpopups-link: #{{ui.link.normal.foreground.default.hex}};\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba({{ui.link.normal.foreground.default.rgb.r}}, {{ui.link.normal.foreground.default.rgb.g}}, {{ui.link.normal.foreground.default.rgb.b}}, 0.7);\n }",
 
-    "gutter": "#{{ui.gutter.background.hex}}",
-    "gutter_foreground": "#{{ui.gutter.foreground.hex}}",
+    "gutter": "#{{ui.gutter.background.default.hex}}",
+    "gutter_foreground": "#{{ui.gutter.foreground.default.hex}}",
 
     "line_diff_width": "2",
-    "line_diff_added": "#{{ui.status.success.hex}}b2",
-    "line_diff_modified": "#{{ui.status.info.hex}}b2",
-    "line_diff_deleted": "#{{ui.status.error.hex}}b2",
+    "line_diff_added": "#{{ui.status.success.default.hex}}b2",
+    "line_diff_modified": "#{{ui.status.info.default.hex}}b2",
+    "line_diff_deleted": "#{{ui.status.error.default.hex}}b2",
 
-    "selection": "#{{ui.selection.background.hex}}",
-    "selection_border": "#{{ui.selection.background.hex}}",
+    "selection": "#{{ui.selection.background.default.hex}}",
+    "selection_border": "#{{ui.selection.background.default.hex}}",
     "selection_border_width": "1",
-    "inactive_selection": "#{{ui.selection.inactive-background.hex}}",
-    "inactive_selection_border": "#{{ui.selection.inactive-background.hex}}",
+    "inactive_selection": "#{{ui.selection.inactive.background.default.hex}}",
+    "inactive_selection_border": "#{{ui.selection.inactive.background.default.hex}}",
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
-    "highlight": "#{{ui.highlight.text.background.hex}}66",
-    "find_highlight": "#{{ui.highlight.search.foreground.hex}}",
-    "find_highlight_foreground": "#{{ui.global.background.normal.hex}}",
+    "highlight": "#{{ui.highlight.text.background.default.hex}}66",
+    "find_highlight": "#{{ui.highlight.search.foreground.default.hex}}",
+    "find_highlight_foreground": "#{{ui.global.normal.background.default.hex}}",
 
-    "guide": "#{{ui.indent-guide.background.hex}}33",
-    "active_guide": "#{{ui.indent-guide.active-background.hex}}7f",
-    "stack_guide": "#{{ui.indent-guide.background.hex}}66",
+    "guide": "#{{ui.indent-guide.background.default.hex}}33",
+    "active_guide": "#{{ui.indent-guide.active.background.default.hex}}7f",
+    "stack_guide": "#{{ui.indent-guide.background.default.hex}}66",
 
-    "shadow": "#{{ui.global.background.dark.hex}}4c",
+    "shadow": "#{{ui.global.dark.background.default.hex}}4c",
     "shadow_width": "3"
   },
 
@@ -57,12 +57,12 @@
     {
       "name": "Regular Expressions",
       "scope": "string.regexp",
-      "foreground": "#{{syntax.string.regexp.hex}}"
+      "foreground": "#{{syntax.string.regexp.default.hex}}"
     },
     {
       "name": "Escape Characters",
       "scope": "constant.character.escape, constant.other",
-      "foreground": "#{{syntax.constant.character.escape.hex}}"
+      "foreground": "#{{syntax.constant.character.escape.default.hex}}"
     },
 
 
@@ -74,12 +74,12 @@
     {
       "name": "Built-in constants",
       "scope": "constant.language",
-      "foreground": "#{{syntax.constant.language.hex}}"
+      "foreground": "#{{syntax.constant.language.default.hex}}"
     },
     {
       "name": "Constants",
       "scope": "meta.constant, entity.name.constant",
-      "foreground": "#{{syntax.constant.other.hex}}"
+      "foreground": "#{{syntax.constant.other.default.hex}}"
     },
 
 
@@ -91,13 +91,13 @@
     {
       "name": "Member Variable",
       "scope": "variable.member",
-      "foreground": "#{{syntax.variable.other.property.hex}}"
+      "foreground": "#{{syntax.variable.other.object.property.default.hex}}"
     },
     {
       "name": "Language variable",
       "scope": "variable.language",
       "font_style": "italic",
-      "foreground": "#{{syntax.variable.language.hex}}"
+      "foreground": "#{{syntax.variable.language.default.hex}}"
     },
 
 
@@ -121,19 +121,19 @@
     {
       "name": "Operators",
       "scope": "keyword.operator",
-      "foreground": "#{{syntax.keyword.operator.hex}}"
+      "foreground": "#{{syntax.keyword.operator.default.hex}}"
     },
 
 
     {
       "name": "Separators like ; or ,",
       "scope": "punctuation.separator, punctuation.terminator",
-      "foreground": "#{{syntax.punctuation.separator.hex}}b2"
+      "foreground": "#{{syntax.punctuation.separator.default.hex}}b2"
     },
     {
       "name": "Punctuation",
       "scope": "punctuation.section",
-      "foreground": "#{{syntax.punctuation.section.hex}}"
+      "foreground": "#{{syntax.punctuation.section.default.hex}}"
     },
     {
       "name": "Accessor",
@@ -144,12 +144,12 @@
     {
       "name": "JavaScript/TypeScript interpolation punctuation",
       "scope": "punctuation.definition.template-expression",
-      "foreground": "#{{syntax.string.interpolated.hex}}"
+      "foreground": "#{{syntax.string.interpolated.default.hex}}"
     },
     {
       "name": "Ruby interpolation punctuation",
       "scope": "punctuation.section.interpolation",
-      "foreground": "#{{syntax.string.interpolated.hex}}"
+      "foreground": "#{{syntax.string.interpolated.default.hex}}"
     },
 
     {
@@ -160,13 +160,13 @@
     {
       "name": "Inherited class type",
       "scope": "entity.other.inherited-class",
-      "foreground": "#{{syntax.entity.other.inherited-class.hex}}"
+      "foreground": "#{{syntax.entity.other.inherited-class.default.hex}}"
     },
 
     {
       "name": "Lambda arrow",
       "scope": "storage.type.function",
-      "foreground": "#{{syntax.storage.type.hex}}"
+      "foreground": "#{{syntax.storage.type.default.hex}}"
     },
     {
       "name": "Java primitive variable types",
@@ -183,7 +183,7 @@
     {
       "name": "Function arguments",
       "scope": "variable.parameter, meta.parameter",
-      "foreground": "#{{syntax.variable.parameter.hex}}"
+      "foreground": "#{{syntax.variable.parameter.default.hex}}"
     },
     {
       "name": "Function call",
@@ -214,17 +214,17 @@
     {
       "name": "Tag",
       "scope": "entity.name.tag, meta.tag.sgml",
-      "foreground": "#{{syntax.entity.name.tag.hex}}"
+      "foreground": "#{{syntax.entity.name.tag.default.hex}}"
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "#{{syntax.entity.name.tag.hex}}7f"
+      "foreground": "#{{syntax.entity.name.tag.default.hex}}7f"
     },
     {
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
-      "foreground": "#{{syntax.entity.other.attribute-name.hex}}"
+      "foreground": "#{{syntax.entity.other.attribute-name.default.hex}}"
     },
 
 
@@ -232,19 +232,19 @@
       "name": "Library constant",
       "scope": "support.constant",
       "font_style": "italic",
-      "foreground": "#{{syntax.support.constant.hex}}"
+      "foreground": "#{{syntax.support.constant.default.hex}}"
     },
     {
       "name": "Library class/type",
       "scope": "support.type, support.class, source.go storage.type",
-      "foreground": "#{{syntax.support.type.hex}}"
+      "foreground": "#{{syntax.support.type.default.hex}}"
     },
 
 
     {
       "name": "Decorators/annotation",
       "scope": "meta.decorator variable.other, meta.decorator punctuation.decorator, storage.type.annotation, variable.annotation, punctuation.definition.annotation",
-      "foreground": "#{{syntax.meta.annotation.hex}}"
+      "foreground": "#{{syntax.meta.annotation.default.hex}}"
     },
 
     {
@@ -265,29 +265,29 @@
     {
       "name": "CSS tag names",
       "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-      "foreground": "#{{syntax.entity.name.tag.hex}}"
+      "foreground": "#{{syntax.entity.name.tag.default.hex}}"
     },
     {
       "name": "CSS browser prefix",
       "scope": "source.css support.type, source.sass support.type, source.scss support.type, source.less support.type, source.stylus support.type",
-      "foreground": "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
+      "foreground": "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
     },
     {
       "name": "CSS Properties",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#{{syntax.support.type.hex}}"
+      "foreground": "#{{syntax.support.type.default.hex}}"
     },
     {
       "name": "Search Results Nums",
       "scope": "constant.numeric.line-number.find-in-files - match",
       "foreground":
-      "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
+      "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
     },
     {
       "name": "Search Results Match Nums",
       "scope": "constant.numeric.line-number.match",
-      "foreground": "#{{ui.accent.normal.hex}}"
+      "foreground": "#{{ui.accent.normal.default.hex}}"
     },
     {
       "name": "Search Results Lines",
@@ -296,30 +296,30 @@
     },
     {
       "scope": "message.error",
-      "foreground": "#{{ui.status.error.hex}}"
+      "foreground": "#{{ui.status.error.default.hex}}"
     },
     {
       "name": "Markup heading",
       "scope": "markup.heading, markup.heading entity.name",
       "font_style": "bold",
-      "foreground": "#{{syntax.markup.heading.hex}}"
+      "foreground": "#{{syntax.markup.heading.default.hex}}"
     },
     {
       "name": "Markup links",
       "scope": "markup.underline.link, string.other.link",
-      "foreground": "#{{syntax.markup.link.hex}}"
+      "foreground": "#{{syntax.markup.link.default.hex}}"
     },
     {
       "name": "Markup Italic",
       "scope": "markup.italic",
       "font_style": "italic",
-      "foreground": "#{{syntax.markup.italic.hex}}"
+      "foreground": "#{{syntax.markup.italic.default.hex}}"
     },
     {
       "name": "Markup Bold",
       "scope": "markup.bold",
       "font_style": "bold",
-      "foreground": "#{{syntax.markup.bold.hex}}"
+      "foreground": "#{{syntax.markup.bold.default.hex}}"
     },
     {
       "name": "Markup Bold/italic",
@@ -329,24 +329,24 @@
     {
       "name": "Markup Code",
       "scope": "markup.raw",
-      "background": "#{{ui.global.foreground.dark.hex}}05"
+      "background": "#{{ui.global.dark.foreground.default.hex}}05"
     },
     {
       "name": "Markup Code Inline",
       "scope": "markup.raw.inline",
-      "background": "#{{ui.global.foreground.dark.hex}}0f"
+      "background": "#{{ui.global.dark.foreground.default.hex}}0f"
     },
     {
       "name": "Markdown Separator",
       "scope": "meta.separator",
       "font_style": "bold",
-      "background": "#{{ui.global.foreground.dark.hex}}0f",
-      "foreground": "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
+      "background": "#{{ui.global.dark.foreground.default.hex}}0f",
+      "foreground": "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
     },
     {
       "name": "Markup Blockquote",
       "scope": "markup.quote",
-      "foreground": "#{{syntax.markup.quote.hex}}",
+      "foreground": "#{{syntax.markup.quote.default.hex}}",
       "font_style": "italic"
     },
     {
@@ -357,45 +357,45 @@
     {
       "name": "Markup added",
       "scope": "markup.inserted",
-      "foreground": "#{{syntax.markup.inserted.hex}}"
+      "foreground": "#{{syntax.markup.inserted.default.hex}}"
     },
     {
       "name": "Markup modified",
       "scope": "markup.changed",
-      "foreground": "#{{syntax.markup.changed.hex}}"
+      "foreground": "#{{syntax.markup.changed.default.hex}}"
     },
     {
       "name": "Markup removed",
       "scope": "markup.deleted",
-      "foreground": "#{{syntax.markup.deleted.hex}}"
+      "foreground": "#{{syntax.markup.deleted.default.hex}}"
     },
     {
       "name": "Markup Strike",
       "scope": "markup.strike",
-      "foreground": "#{{ui.deprecated.hex}}"
+      "foreground": "#{{ui.deprecated.default.hex}}"
     },
     {
       "name": "Markup Table",
       "scope": "markup.table",
-      "background": "#{{ui.global.foreground.dark.hex}}0f",
-      "foreground": "#{{syntax.entity.name.tag.hex}}"
+      "background": "#{{ui.global.dark.foreground.default.hex}}0f",
+      "foreground": "#{{syntax.entity.name.tag.default.hex}}"
     },
     {
       "name": "Markup Raw Inline",
       "scope": "text.html.markdown markup.inline.raw",
-      "foreground": "#{{syntax.markup.raw.hex}}"
+      "foreground": "#{{syntax.markup.raw.default.hex}}"
     },
     {
       "name": "Markdown - Line Break",
       "scope": "text.html.markdown meta.dummy.line-break",
-      "background": "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}",
-      "foreground": "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
+      "background": "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}",
+      "foreground": "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
     },
     {
       "name": "Markdown - Raw Block Fenced",
       "scope": "punctuation.definition.markdown",
-      "background": "#{{ui.global.foreground.dark.hex}}",
-      "foreground": "#{{ui.global.foreground.dark.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
+      "background": "#{{ui.global.dark.foreground.default.hex}}",
+      "foreground": "#{{ui.global.dark.foreground.default.hex}}{{#option.is-dark-variant}}8c{{/option.is-dark-variant}}{{^option.is-dark-variant}}99{{/option.is-dark-variant}}"
     }
   ]
 }
