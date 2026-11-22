@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
   <key>author</key>
-  <string>Zachary Weiss (https://github.com/zacharyweiss)</string>
+  <string>Neal McKee (https://github.com/nealmckee/penumbra)</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>name</key>
@@ -16,21 +16,21 @@
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#bebebe</string>
+        <string>#b4b1ad</string>
         <key>caret</key>
-        <string>#8d9741</string>
+        <string>#958a1c</string>
         <key>foreground</key>
-        <string>#8f8f8f</string>
+        <string>#a19f9d</string>
         <key>invisibles</key>
-        <string>#bebebe66</string>
+        <string>#b4b1ad66</string>
         <key>lineHighlight</key>
-        <string>#fff7ed19</string>
+        <string>#dfd9d019</string>
         <key>inactiveSelection</key>
-        <string>#5794d011</string>
+        <string>#0082b511</string>
         <key>selection</key>
-        <string>#5794d026</string>
+        <string>#0082b526</string>
         <key>selectionBorder</key>
-        <string>#5794d026</string>
+        <string>#0082b526</string>
       </dict>
     </dict>
     <dict>
@@ -43,7 +43,7 @@
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#8f8f8f99</string>
+        <string>#a19f9d99</string>
       </dict>
     </dict>
     <dict>
@@ -54,7 +54,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ba823a</string>
+        <string>#b4763e</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#9481cc</string>
+        <string>#7177b0</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#47a477</string>
+        <string>#509259</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#00a2af</string>
+        <string>#008a87</string>
       </dict>
     </dict>
   </array>

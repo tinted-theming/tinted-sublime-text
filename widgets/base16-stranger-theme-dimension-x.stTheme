@@ -18,7 +18,7 @@
         <key>background</key>
         <string>#9a7c7c</string>
         <key>caret</key>
-        <string>#bca89f</string>
+        <string>#d19a66</string>
         <key>foreground</key>
         <string>#b8a5a5</string>
         <key>invisibles</key>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#e06c75</string>
+        <string>#ff55aa</string>
       </dict>
     </dict>
     <dict>
@@ -76,7 +76,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#8b7355</string>
+        <string>#8fae7e</string>
       </dict>
     </dict>
     <dict>
@@ -87,7 +87,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#d19a66</string>
+        <string>#7fb5b0</string>
       </dict>
     </dict>
   </array>

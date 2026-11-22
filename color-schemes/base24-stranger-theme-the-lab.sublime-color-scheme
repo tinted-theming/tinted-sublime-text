@@ -5,13 +5,13 @@
     "background": "#1a1d26",
     "foreground": "#e0e5ec",
     "invisibles": "#b0b5bc99",
-    "caret": "#9df9ff",
-    "block_caret": "#9df9ff99",
+    "caret": "#cf2be7",
+    "block_caret": "#cf2be799",
     "line_highlight": "#2e313a",
 
-    "accent": "#9df9ff",
+    "accent": "#cf2be7",
 
-    "popup_css": "html, body {\n background-color: #1a1d26;\n color: #e0e5ec;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #2e313a;\n --mdpopups-link: #b10dc9;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(177, 13, 201, 0.7);\n }",
+    "popup_css": "html, body {\n background-color: #1a1d26;\n color: #e0e5ec;\n --mdpopups-font-mono: 'PragmataPro Mono Liga', 'sf mono', Consolas, 'Liberation Mono', Menlo, Courier, monospace;\n --mdpopups-bg: #2e313a;\n --mdpopups-link: #7fdbff;\n }\n body {\n padding: 1px 3px;\n }\n a {\n color: rgba(127, 219, 255, 0.7);\n }",
 
     "gutter": "#1a1d26",
     "gutter_foreground": "#b0b5bc66",
@@ -29,8 +29,8 @@
     "selection_corner_style": "round",
     "selection_corner_radius": "4",
 
-    "highlight": "#9df9ff66",
-    "find_highlight": "#9df9ff",
+    "highlight": "#cf2be766",
+    "find_highlight": "#cf2be7",
     "find_highlight_foreground": "#1a1d26",
 
     "guide": "#b0b5bc33",
@@ -64,17 +64,17 @@
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "foreground": "#9df9ff"
+      "foreground": "#cf2be7"
     },
     {
       "name": "Built-in constants",
       "scope": "constant.language",
-      "foreground": "#9df9ff"
+      "foreground": "#cf2be7"
     },
     {
       "name": "Constants",
       "scope": "meta.constant, entity.name.constant",
-      "foreground": "#cf2be7"
+      "foreground": "#9df9ff"
     },
 
 
@@ -92,7 +92,7 @@
       "name": "Language variable",
       "scope": "variable.language",
       "font_style": "italic",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
 
 
@@ -150,12 +150,12 @@
     {
       "name": "Types fixes",
       "scope": "source.java storage.type, source.haskell storage.type, source.c storage.type, source.zig storage.type",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Inherited class type",
       "scope": "entity.other.inherited-class",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Lambda arrow",
@@ -165,7 +165,7 @@
     {
       "name": "Java primitive variable types",
       "scope": "source.java storage.type.primitive",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
 
 
@@ -177,7 +177,7 @@
     {
       "name": "Function arguments",
       "scope": "variable.parameter, meta.parameter",
-      "foreground": "#cf2be7"
+      "foreground": "#9df9ff"
     },
     {
       "name": "Function call",
@@ -201,19 +201,19 @@
     {
       "name": "Entity name",
       "scope": "entity.name, source.js meta.function-call.constructor variable.type",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
 
 
     {
       "name": "Tag",
       "scope": "entity.name.tag, meta.tag.sgml",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Tag start/end",
       "scope": "punctuation.definition.tag.end, punctuation.definition.tag.begin, punctuation.definition.tag",
-      "foreground": "#b10dc97f"
+      "foreground": "#7fdbff7f"
     },
     {
       "name": "Tag attribute",
@@ -231,7 +231,7 @@
     {
       "name": "Library class/type",
       "scope": "support.type, support.class, source.go storage.type",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
 
 
@@ -249,7 +249,7 @@
     {
       "name": "diff.header",
       "scope": "meta.diff, meta.diff.header",
-      "foreground": "#7fdbff"
+      "foreground": "#b10dc9"
     },
     {
       "name": "Ruby class methods",
@@ -259,7 +259,7 @@
     {
       "name": "CSs tag names",
       "scope": "source.css entity.name.tag, source.sass entity.name.tag, source.scss entity.name.tag, source.less entity.name.tag, source.stylus entity.name.tag",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "CSS browser prefix",
@@ -270,7 +270,7 @@
       "name": "CSS Properties",
       "scope": "support.type.property-name",
       "font_style": "normal",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Search Results Nums",
@@ -300,7 +300,7 @@
     {
       "name": "Markup Links",
       "scope": "markup.underline.link, string.other.link",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Markup Italic",
@@ -371,7 +371,7 @@
       "name": "Markup Table",
       "scope": "markup.table",
       "background": "#e0e5ec0f",
-      "foreground": "#b10dc9"
+      "foreground": "#7fdbff"
     },
     {
       "name": "Markup Raw Inline",

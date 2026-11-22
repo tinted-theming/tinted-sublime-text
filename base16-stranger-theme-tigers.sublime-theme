@@ -291,7 +291,7 @@
   {
     "class": "vcs_status_badge",
     "attributes": ["modified"],
-    "layer0.tint": "#b294bb66"
+    "layer0.tint": "#81a2be66"
   },
   {
     "class": "vcs_status_badge",
@@ -652,7 +652,7 @@
   },
   {
     "class": "quick_panel_detail_label",
-    "link_color": "#b294bb"
+    "link_color": "#81a2be"
   },
 
 
@@ -829,24 +829,24 @@
   {
     "class": "kind_container kind_markup",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_markup" }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
   {
     "class": "kind_container kind_namespace",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_namespace" }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
   {
     "class": "kind_container kind_navigation",
@@ -873,13 +873,13 @@
   {
     "class": "kind_container kind_type",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_type" }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
   {
     "class": "kind_container kind_variable",
@@ -939,35 +939,35 @@
   {
     "class": "kind_container kind_color_cyanish",
     "layer0.opacity": 1,
+    "layer1.tint": "#8abeb7",
+    "layer2.tint": "#8abeb7"
+  },
+  {
+    "class": "kind_label",
+    "parents": [{ "class": "kind_container kind_color_cyanish" }],
+    "color": "#8abeb7"
+  },
+  {
+    "class": "kind_container kind_color_bluish",
+    "layer0.opacity": 1,
     "layer1.tint": "#81a2be",
     "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
-    "parents": [{ "class": "kind_container kind_color_cyanish" }],
+    "parents": [{ "class": "kind_container kind_color_bluish" }],
     "color": "#81a2be"
   },
   {
-    "class": "kind_container kind_color_bluish",
+    "class": "kind_container kind_color_purplish",
     "layer0.opacity": 1,
     "layer1.tint": "#b294bb",
     "layer2.tint": "#b294bb"
   },
   {
     "class": "kind_label",
-    "parents": [{ "class": "kind_container kind_color_bluish" }],
-    "color": "#b294bb"
-  },
-  {
-    "class": "kind_container kind_color_purplish",
-    "layer0.opacity": 1,
-    "layer1.tint": "#ff7f2a",
-    "layer2.tint": "#ff7f2a"
-  },
-  {
-    "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_purplish" }],
-    "color": "#ff7f2a"
+    "color": "#b294bb"
   },
   {
     "class": "kind_container kind_color_pinkish",
@@ -1548,7 +1548,7 @@
   {
     "class": "label_control",
     "parents": [{ "class": "button_control", "attributes": ["hover"] }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
 
 

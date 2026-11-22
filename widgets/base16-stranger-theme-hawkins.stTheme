@@ -26,11 +26,11 @@
         <key>lineHighlight</key>
         <string>#40362cff</string>
         <key>inactiveSelection</key>
-        <string>#b48ead21</string>
+        <string>#81a1c121</string>
         <key>selection</key>
-        <string>#b48ead4c</string>
+        <string>#81a1c14c</string>
         <key>selectionBorder</key>
-        <string>#b48ead4c</string>
+        <string>#81a1c14c</string>
       </dict>
     </dict>
     <dict>
@@ -65,7 +65,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#d4a574</string>
+        <string>#b48ead</string>
       </dict>
     </dict>
     <dict>

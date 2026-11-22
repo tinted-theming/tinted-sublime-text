@@ -162,7 +162,7 @@
     "class": "close_button",
     "attributes": ["hover"],
     "layer0.opacity": 1.0,
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -177,7 +177,7 @@
     "layer1.opacity": 1,
 
     "layer2.texture": "tinted_theming/assets/folder-open.png",
-    "layer2.tint": "#ff9d48",
+    "layer2.tint": "#d0b2d9",
     "layer2.opacity": 0.0
   },
   {
@@ -189,7 +189,7 @@
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer1.tint": "#ff9d48"
+    "layer1.tint": "#d0b2d9"
   },
   {
     "class": "icon_folder",
@@ -219,7 +219,7 @@
   {
     "class": "icon_folder",
     "parents": [{ "class": "tree_row", "attributes": ["selected"] }],
-    "layer1.tint": "#ff9d48"
+    "layer1.tint": "#d0b2d9"
   },
 
 
@@ -243,7 +243,7 @@
       "loop": true,
       "frame_time": 0.075
     },
-    "layer1.tint": "#ff9d48",
+    "layer1.tint": "#d0b2d9",
 
     "layer0.opacity": 0.0,
     "content_margin": [8, 8]
@@ -264,12 +264,12 @@
   {
     "class": "icon_folder_dup",
     "parents": [{ "class": "tree_row", "attributes": ["hover"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
   {
     "class": "icon_folder_dup",
     "parents": [{ "class": "tree_row", "attributes": ["expanded"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -380,7 +380,7 @@
   {
     "class": "tab_control", "attributes": ["selected"],
     "settings": ["!ui_separator"],
-    "layer0.tint": "#ff9d48",
+    "layer0.tint": "#d0b2d9",
     "layer0.opacity": 1.0
   },
   {
@@ -401,7 +401,7 @@
   {
     "class": "tab_control", "attributes": ["hover"],
     "settings": ["!ui_separator"],
-    "layer0.tint": "#ff9d48",
+    "layer0.tint": "#d0b2d9",
     "layer0.opacity": 1.0
   },
   {
@@ -432,7 +432,7 @@
     "settings": ["highlight_modified_tabs"],
     "font.italic": true,
     "attributes": ["dirty"],
-    "fg": "#ff9d48"
+    "fg": "#d0b2d9"
   },
   {
     "class": "tab_label",
@@ -472,7 +472,7 @@
     "class": "tab_close_button",
     "settings": ["show_tab_close_buttons", "highlight_modified_tabs"],
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
   {
     "class": "tab_close_button",
@@ -493,7 +493,7 @@
     "parents": [{ "class": "tab_control", "attributes": ["selected", "dirty"] }],
     "layer0.opacity": 0,
     "layer1.opacity": 1.0,
-    "layer1.tint": "#ff9d48"
+    "layer1.tint": "#d0b2d9"
   },
   {
     "class": "tab_close_button",
@@ -514,7 +514,7 @@
   {
     "class": "scroll_tabs_left_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -528,7 +528,7 @@
   {
     "class": "scroll_tabs_right_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
   {
@@ -542,7 +542,7 @@
   {
     "class": "show_tabs_dropdown_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -695,7 +695,7 @@
   {
     "class": "fold_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
   {
     "class": "fold_button_control",
@@ -758,9 +758,9 @@
   {
     "class": "auto_complete_label",
     "fg": "#ffffff",
-    "match_fg": "#ff9d48",
+    "match_fg": "#d0b2d9",
     "selected_fg": "#ffffff",
-    "selected_match_fg": "#ff9d48",
+    "selected_match_fg": "#d0b2d9",
     "fg_blend": true
   },
   {
@@ -825,19 +825,19 @@
   {
     "class": "kind_container kind_markup",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_markup" }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
   {
     "class": "kind_container kind_namespace",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
@@ -869,8 +869,8 @@
   {
     "class": "kind_container kind_type",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
@@ -935,8 +935,8 @@
   {
     "class": "kind_container kind_color_cyanish",
     "layer0.opacity": 1,
-    "layer1.tint": "#81a2be",
-    "layer2.tint": "#81a2be"
+    "layer1.tint": "#8abeb7",
+    "layer2.tint": "#8abeb7"
   },
   {
     "class": "kind_label",
@@ -946,19 +946,19 @@
   {
     "class": "kind_container kind_color_bluish",
     "layer0.opacity": 1,
-    "layer1.tint": "#b294bb",
-    "layer2.tint": "#b294bb"
+    "layer1.tint": "#81a2be",
+    "layer2.tint": "#81a2be"
   },
   {
     "class": "kind_label",
     "parents": [{ "class": "kind_container kind_color_bluish" }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
   {
     "class": "kind_container kind_color_purplish",
     "layer0.opacity": 1,
-    "layer1.tint": "#d0b2d9",
-    "layer2.tint": "#d0b2d9"
+    "layer1.tint": "#9fc0dc",
+    "layer2.tint": "#9fc0dc"
   },
   {
     "class": "kind_label",
@@ -1061,7 +1061,7 @@
   {
     "class": "panel_close_button",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1093,7 +1093,7 @@
   {
     "class": "panel_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1138,7 +1138,7 @@
 
   {
     "class": "progress_gauge_control",
-    "layer0.tint": "#ff9d48",
+    "layer0.tint": "#d0b2d9",
     "layer0.opacity": 1.0,
     "content_margin": [0, 6]
   },
@@ -1339,7 +1339,7 @@
   {
     "class": "dropdown_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1348,7 +1348,7 @@
     "class": "button_control",
     "content_margin": [15, 9, 15, 10],
     "min_size": [60, 0],
-    "layer0.tint": "#ff9d48",
+    "layer0.tint": "#d0b2d9",
     "layer0.texture": "tinted_theming/assets/input-bg.png",
     "layer0.inner_margin": [10, 8],
     "layer0.opacity": 0
@@ -1380,7 +1380,7 @@
   {
     "class": "icon_regex",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1394,7 +1394,7 @@
   {
     "class": "icon_case",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1408,7 +1408,7 @@
   {
     "class": "icon_whole_word",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1422,7 +1422,7 @@
   {
     "class": "icon_wrap",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1436,7 +1436,7 @@
   {
     "class": "icon_in_selection",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1450,7 +1450,7 @@
   {
     "class": "icon_highlight",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1464,7 +1464,7 @@
   {
     "class": "icon_preserve_case",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1478,7 +1478,7 @@
   {
     "class": "icon_context",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1492,7 +1492,7 @@
   {
     "class": "icon_use_buffer",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
   {
@@ -1505,7 +1505,7 @@
   {
     "class": "icon_use_gitignore",
     "parents": [{ "class": "icon_button_control", "attributes": ["selected"] }],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
   {
@@ -1518,7 +1518,7 @@
   {
     "class": "sidebar_button_control",
     "attributes": ["hover"],
-    "layer0.tint": "#ff9d48"
+    "layer0.tint": "#d0b2d9"
   },
 
 
@@ -1544,13 +1544,13 @@
   {
     "class": "label_control",
     "parents": [{ "class": "button_control", "attributes": ["hover"] }],
-    "color": "#b294bb"
+    "color": "#81a2be"
   },
 
 
   {
     "class": "title_label_control",
-    "color": "#ff9d48"
+    "color": "#d0b2d9"
   },
 
 
